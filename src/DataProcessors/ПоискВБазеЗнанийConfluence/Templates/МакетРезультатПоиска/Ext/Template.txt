@@ -1,0 +1,16 @@
+﻿<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
+    <meta charset="UTF-8">
+</head>
+
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 14px; margin: 0; padding: 0; width: 100%">
+    <div style="margin-top: 20px; opacity: 1;">
+        <ul style="margin-top: 0;">
+        	[[DATA]]
+        </ul>
+    </div>
+</body>
+
+</html>

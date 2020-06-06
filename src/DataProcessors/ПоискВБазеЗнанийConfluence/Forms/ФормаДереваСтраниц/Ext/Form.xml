@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаВыбрать" id="30">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.Выбрать</CommandName>
+				<ExtendedTooltip name="ФормаВыбратьРасширеннаяПодсказка" id="31"/>
+			</Button>
+			<ButtonGroup name="ФормаГруппаДеревоСтатей" id="50">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма группа дерево статей</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма группа дерево статей</v8:content>
+					</v8:item>
+				</ToolTip>
+				<CommandSource>Item.ДеревоСтатей</CommandSource>
+				<ExtendedTooltip name="ФормаГруппаДеревоСтатейРасширеннаяПодсказка" id="51"/>
+			</ButtonGroup>
+			<Button name="ДеревоСтатейОбновитьДерево" id="28">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОбновитьДерево</CommandName>
+				<ExtendedTooltip name="ДеревоСтатейОбновитьДеревоРасширеннаяПодсказка" id="29"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаБазаЗнанийПользователь" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа база знаний пользователь</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа база знаний пользователь</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаБазаЗнанийПользовательРасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<InputField name="БазаЗнаний" id="4">
+					<DataPath>Объект.БазаЗнаний</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="БазаЗнанийКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="БазаЗнанийРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Пользователь" id="7">
+					<DataPath>Объект.Пользователь</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="ПользовательКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="9"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПроверитьНастройкуДоступа" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа проверить настройку доступа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа проверить настройку доступа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>AlwaysHorizontal</Group>
+			<VerticalAlign>Center</VerticalAlign>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>web:LightYellow</BackColor>
+			<ExtendedTooltip name="ГруппаПроверитьНастройкуДоступаРасширеннаяПодсказка" id="36"/>
+			<ChildItems>
+				<PictureDecoration name="ДекорацияОшибкаПроверкиДоступа" id="37">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Декорация ошибка проверки доступа</v8:content>
+						</v8:item>
+					</Title>
+					<Picture>
+						<xr:Ref>StdPicture.Stop</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="ДекорацияОшибкаПроверкиДоступаКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ДекорацияОшибкаПроверкиДоступаРасширеннаяПодсказка" id="39"/>
+				</PictureDecoration>
+				<LabelDecoration name="ДекорацияПроверитьНастройкуДоступа" id="40">
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Необходимо выполнить проверку настройки доступа.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияПроверитьНастройкуДоступаКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ДекорацияПроверитьНастройкуДоступаРасширеннаяПодсказка" id="42"/>
+				</LabelDecoration>
+				<Button name="ОткрытьНастройкиДоступа" id="43">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.ОткрытьНастройкиДоступа</CommandName>
+					<ExtendedTooltip name="ОткрытьНастройкиДоступаРасширеннаяПодсказка" id="44"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ПространствоПредставление" id="1">
+			<DataPath>ПространствоПредставление</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="ПространствоПредставлениеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПространствоПредставлениеРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<Table name="ДеревоСтатей" id="12">
+			<Representation>Tree</Representation>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<Header>false</Header>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ДеревоСтатей</DataPath>
+			<ContextMenu name="ДеревоСтатейКонтекстноеМеню" id="13"/>
+			<AutoCommandBar name="ДеревоСтатейКоманднаяПанель" id="14">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ДеревоСтатейРасширеннаяПодсказка" id="15"/>
+			<SearchStringAddition name="ДеревоСтатейСтрокаПоиска" id="16">
+				<AdditionSource>
+					<Item>ДеревоСтатей</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоСтатейСтрокаПоискаКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="ДеревоСтатейСтрокаПоискаРасширеннаяПодсказка" id="18"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДеревоСтатейСостояниеПросмотра" id="19">
+				<AdditionSource>
+					<Item>ДеревоСтатей</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоСтатейСостояниеПросмотраКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="ДеревоСтатейСостояниеПросмотраРасширеннаяПодсказка" id="21"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДеревоСтатейУправлениеПоиском" id="22">
+				<AdditionSource>
+					<Item>ДеревоСтатей</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоСтатейУправлениеПоискомКонтекстноеМеню" id="23"/>
+				<ExtendedTooltip name="ДеревоСтатейУправлениеПоискомРасширеннаяПодсказка" id="24"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">ДеревоСтатейВыбор</Event>
+				<Event name="BeforeExpand">ДеревоСтатейПередРазворачиванием</Event>
+			</Events>
+			<ChildItems>
+				<CheckBoxField name="ДеревоСтатейПометка" id="32">
+					<DataPath>ДеревоСтатей.Пометка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ThreeState>true</ThreeState>
+					<ContextMenu name="ДеревоСтатейПометкаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ДеревоСтатейПометкаРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">ДеревоСтатейПометкаПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<ColumnGroup name="ДеревоСтатейГруппаПредставлениеОписание" id="45">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дерево статей группа представление описание</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дерево статей группа представление описание</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДеревоСтатейГруппаПредставлениеОписаниеРасширеннаяПодсказка" id="46"/>
+					<ChildItems>
+						<InputField name="ДеревоСтатейПредставление" id="25">
+							<DataPath>ДеревоСтатей.Представление</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДеревоСтатейПредставлениеКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ДеревоСтатейПредставлениеРасширеннаяПодсказка" id="27"/>
+						</InputField>
+						<InputField name="ДеревоСтатейОписание" id="47">
+							<DataPath>ДеревоСтатей.Описание</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoCellHeight>true</AutoCellHeight>
+							<TextColor>web:DarkGray</TextColor>
+							<Font ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+							<ContextMenu name="ДеревоСтатейОписаниеКонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="ДеревоСтатейОписаниеРасширеннаяПодсказка" id="49"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПоискВБазеЗнанийConfluence</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ПространствоПредставление" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пространство</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПространствоКлюч" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пространство ключ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПространствоДомашняяСтраница" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пространство домашняя страница</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДеревоСтатей" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дерево статей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Представление" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Считано" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Считано</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Данные" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные</v8:content>
+						</v8:item>
+					</Title>
+					<Type/>
+				</Column>
+				<Column name="Идентификатор" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификатор</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Пометка" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пометка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Описание" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ПометкаЗначений" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пометка значений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДоступПроверен" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доступ проверен</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОбновитьДерево" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьДерево</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="Выбрать" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ChooseValue</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Выбрать</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОткрытьНастройкиДоступа" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть настройки доступа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть настройки доступа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьНастройкиДоступа</Action>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="ПространствоКлюч">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ПространствоПредставление">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ПространствоДомашняяСтраница">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ПометкаЗначений">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="БазаЗнаний">
+			<Type>
+				<v8:Type>cfg:CatalogRef.БазыЗнанийConfluence</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="Пользователь">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="МножественныйВыбор">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<KeyParameter>true</KeyParameter>
+		</Parameter>
+		<Parameter name="ЗакрыватьПриВыборе">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<KeyParameter>true</KeyParameter>
+		</Parameter>
+	</Parameters>
+</Form>

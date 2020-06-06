@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<CommandBarLocation>None</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<ReportResult xsi:type="xs:decimal">3</ReportResult>
+	<DetailsData xsi:type="xs:decimal">0</DetailsData>
+	<ReportFormType>Main</ReportFormType>
+	<AutoShowState>ShowOnComposition</AutoShowState>
+	<ReportResultViewMode>Auto</ReportResultViewMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnSaveDataInSettingsAtServer">ПриСохраненииДанныхВНастройкахНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОсновная" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОсновнаяРасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<InputField name="Документ" id="1">
+					<DataPath>Отчет.Документ</DataPath>
+					<Wrap>false</Wrap>
+					<ChoiceButton>true</ChoiceButton>
+					<OpenButton>false</OpenButton>
+					<ContextMenu name="ДокументКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ДокументРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<RadioButtonField name="СпособВывода" id="7">
+					<DataPath>СпособВыводаОтчета</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выводить</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalAlign>Right</HorizontalAlign>
+					<RadioButtonType>Auto</RadioButtonType>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>по вертикали</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">60c460bf-f075-470f-a4d9-1a4eadfe5873.0918b7fd-e772-488e-835e-da72d4f5d4d1</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>по горизонтали</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">60c460bf-f075-470f-a4d9-1a4eadfe5873.3c22e092-ffc7-464a-aa5c-adb803813b6f</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="СпособВыводаКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="СпособВыводаРасширеннаяПодсказка" id="19"/>
+				</RadioButtonField>
+				<Button name="Сформировать" id="14">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Сформировать</CommandName>
+					<ExtendedTooltip name="СформироватьРасширеннаяПодсказка" id="20"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="16">
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>true</VerticalStretch>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="21"/>
+			<ChildItems>
+				<SpreadSheetDocumentField name="ТабличныйДокумент" id="3">
+					<DataPath>ТабличныйДокумент</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<Height>80</Height>
+					<VerticalScrollBar>true</VerticalScrollBar>
+					<HorizontalScrollBar>true</HorizontalScrollBar>
+					<SelectionShowMode>WhenActive</SelectionShowMode>
+					<ContextMenu name="ТабличныйДокументКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="ТабличныйДокументРасширеннаяПодсказка" id="22"/>
+				</SpreadSheetDocumentField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Отчет" id="1">
+			<Type>
+				<v8:Type>cfg:ReportObject.ДвиженияДокументаПТБ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТабличныйДокумент" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Табличный документ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СпособВыводаОтчета" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Способ вывода отчета</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтчетСформирован" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет сформирован</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Сформировать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GenerateReport</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СформироватьВыполнить</Action>
+			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

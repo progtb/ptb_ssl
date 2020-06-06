@@ -1,0 +1,30 @@
+﻿            <li style="display: flex; flex-direction: column; padding: 10px 0px;">
+                <div style="display: flex; flex-direction: column; padding: 0px; overflow: hidden;">
+                    <div style="display: flex; -webkit-box-align: center; align-items: center;">
+                        <span style="height: 24px; width: 24px; color: currentColor; display: inline-block; line-height: 1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" focusable="false" role="presentation">
+                                <path fill="#2684FF" fill-rule="evenodd" d="M3 0h18a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V3a3 3 0 0 1 3-3zm1 18c0 .556.446 1 .995 1h8.01c.54 0 .995-.448.995-1 0-.556-.446-1-.995-1h-8.01c-.54 0-.995.448-.995 1zm0-4c0 .556.448 1 1 1h14c.555 0 1-.448 1-1 0-.556-.448-1-1-1H5c-.555 0-1 .448-1 1zm0-4c0 .556.448 1 1 1h14c.555 0 1-.448 1-1 0-.556-.448-1-1-1H5c-.555 0-1 .448-1 1zm0-4c0 .556.448 1 1 1h14c.555 0 1-.448 1-1 0-.556-.448-1-1-1H5c-.555 0-1 .448-1 1z"></path>
+                            </svg>
+                        </span>
+                        <div style="-webkit-box-flex: 1; flex-grow: 1; padding: 0px 0px 0px 10px; overflow: hidden;">
+                            <div style="display: flex; white-space: nowrap; text-overflow: ellipsis; padding-bottom: 2px; margin-top: 2px; line-height: 10px;">
+                                <div style="white-space: nowrap; text-overflow: ellipsis;overflow: hidden;">
+                                    <a style="text-decoration: none;" href="[[PageLink]]">
+                                        <span>[[PageTitle]]</span>
+                                    </a>
+                                </div>
+                                <div style="flex-shrink: 0; -webkit-box-flex: 1; flex-grow: 1; text-align: left; margin-left: 4px; margin-top: -1px; height: 16px; display: flex;"></div>
+                            </div>
+                            <div style="color: rgb(165, 173, 186); font-size: 11px; line-height: 14px; margin: 0px;">
+                                <a style="color: rgb(165, 173, 186); text-decoration: none;" href="[[SpaceLink]]">[[SpaceTitle]]</a>
+                                <span style="display: inline-block; text-align: center; width: 11px; padding: 0px 2px;color: rgb(165, 173, 186); font-size: 11px; line-height: 14px;"> · </span>
+                                <span>Обновлено</span>
+                                <time datetime="[[DateTimeU]]" title="[[DateTimeTitle]]">[[DateTimeText]]</time>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="-webkit-box-flex: 1; flex-grow: 1; overflow-wrap: break-word; overflow: hidden; padding: 4px 0px 0px 34px;">
+                        <p>[[PageText]]</p>
+                    </div>
+                </div>
+            </li>

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<Customizable>false</Customizable>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаВвестиЗначениеЗаполнения" id="51">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ВвестиЗначениеЗаполнения</CommandName>
+				<ExtendedTooltip name="ФормаВвестиЗначениеЗаполненияРасширеннаяПодсказка" id="52"/>
+			</Button>
+			<Button name="ФормаОтмена" id="49">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Cancel</CommandName>
+				<ExtendedTooltip name="ФормаОтменаРасширеннаяПодсказка" id="50"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Колонка" id="53">
+			<DataPath>Колонка</DataPath>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выберите колонку для установки значений</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ListChoiceMode>true</ListChoiceMode>
+			<TextEdit>false</TextEdit>
+			<ContextMenu name="КолонкаКонтекстноеМеню" id="54"/>
+			<ExtendedTooltip name="КолонкаРасширеннаяПодсказка" id="55"/>
+			<Events>
+				<Event name="ChoiceProcessing">КолонкаОбработкаВыбора</Event>
+			</Events>
+		</InputField>
+		<Table name="ЗначенияСтрокКолонки" id="28">
+			<Representation>List</Representation>
+			<ReadOnly>true</ReadOnly>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<HeightInTableRows>5</HeightInTableRows>
+			<Header>false</Header>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>ЗначенияСтрокКолонки</DataPath>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ЗначенияСтрокКолонкиКонтекстноеМеню" id="29"/>
+			<AutoCommandBar name="ЗначенияСтрокКолонкиКоманднаяПанель" id="30">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ЗначенияСтрокКолонкиРасширеннаяПодсказка" id="31"/>
+			<SearchStringAddition name="ЗначенияСтрокКолонкиСтрокаПоиска" id="56">
+				<AdditionSource>
+					<Item>ЗначенияСтрокКолонки</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗначенияСтрокКолонкиСтрокаПоискаКонтекстноеМеню" id="57"/>
+				<ExtendedTooltip name="ЗначенияСтрокКолонкиСтрокаПоискаРасширеннаяПодсказка" id="58"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ЗначенияСтрокКолонкиСостояниеПросмотра" id="59">
+				<AdditionSource>
+					<Item>ЗначенияСтрокКолонки</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗначенияСтрокКолонкиСостояниеПросмотраКонтекстноеМеню" id="60"/>
+				<ExtendedTooltip name="ЗначенияСтрокКолонкиСостояниеПросмотраРасширеннаяПодсказка" id="61"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ЗначенияСтрокКолонкиУправлениеПоиском" id="62">
+				<AdditionSource>
+					<Item>ЗначенияСтрокКолонки</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ЗначенияСтрокКолонкиУправлениеПоискомКонтекстноеМеню" id="63"/>
+				<ExtendedTooltip name="ЗначенияСтрокКолонкиУправлениеПоискомРасширеннаяПодсказка" id="64"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">ЗначенияСтрокКолонкиВыбор</Event>
+			</Events>
+			<ChildItems>
+				<InputField name="ЗначенияСтрокКолонкиЗначение" id="41">
+					<DataPath>ЗначенияСтрокКолонки.Значение</DataPath>
+					<SkipOnInput>true</SkipOnInput>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>5</Width>
+					<ContextMenu name="ЗначенияСтрокКолонкиЗначениеКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ЗначенияСтрокКолонкиЗначениеРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="ЗначенияСтрокКолонкиИндексВыделеннойСтроки" id="44">
+					<DataPath>ЗначенияСтрокКолонки.ИндексВыделеннойСтроки</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЗначенияСтрокКолонкиИндексВыделеннойСтрокиКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ЗначенияСтрокКолонкиИндексВыделеннойСтрокиРасширеннаяПодсказка" id="46"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="ЗначениеДляЗаполнения" id="23">
+			<DataPath>ЗначениеДляЗаполнения</DataPath>
+			<DefaultItem>true</DefaultItem>
+			<ContextMenu name="ЗначениеДляЗаполненияКонтекстноеМеню" id="24"/>
+			<ExtendedTooltip name="ЗначениеДляЗаполненияРасширеннаяПодсказка" id="25"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ЗначенияСтрокКолонки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значения строк колонки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Значение" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</Title>
+					<Type/>
+				</Column>
+				<Column name="ИндексВыделеннойСтроки" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Индекс</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Колонка" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Колонка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗначениеДляЗаполнения" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение для заполнения</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВвестиЗначениеЗаполнения" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ввести значение в строках</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ввести значение заполнения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВвестиЗначениеЗаполнения</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="МассивДанныхТаблицы">
+			<Type/>
+			<KeyParameter>true</KeyParameter>
+		</Parameter>
+		<Parameter name="ДанныеТекущейСтроки">
+			<Type/>
+			<KeyParameter>true</KeyParameter>
+		</Parameter>
+	</Parameters>
+</Form>

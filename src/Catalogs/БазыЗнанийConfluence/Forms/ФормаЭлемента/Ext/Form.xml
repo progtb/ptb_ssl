@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаКодИспользоватьПоУмолчанию" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа код использовать по умолчанию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа код использовать по умолчанию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКодИспользоватьПоУмолчаниюРасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<CheckBoxField name="ИспользоватьПоУмолчанию" id="12">
+					<DataPath>Объект.ИспользоватьПоУмолчанию</DataPath>
+					<TitleLocation>Right</TitleLocation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИспользоватьПоУмолчаниюКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="ИспользоватьПоУмолчаниюРасширеннаяПодсказка" id="14"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="АдресСервера" id="7">
+			<DataPath>Объект.АдресСервера</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>https://mybase.atlassian.net</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="АдресСервераКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="АдресСервераРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="ГруппаЕдинаяАвторизация" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Единая авторизация</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа единая авторизация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЕдинаяАвторизацияРасширеннаяПодсказка" id="16"/>
+			<ChildItems>
+				<CheckBoxField name="ЕдинаяАвторизация" id="17">
+					<DataPath>Объект.ЕдинаяАвторизация</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЕдинаяАвторизацияКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ЕдинаяАвторизацияРасширеннаяПодсказка" id="19"/>
+					<Events>
+						<Event name="OnChange">ЕдинаяАвторизацияПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<InputField name="ПользовательАвторизации" id="20">
+					<DataPath>Объект.ПользовательАвторизации</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Единая авторизация предполагает, что доступ к базе знаний будет выполняться под одним логином и паролем, независимо от текущего пользователя программы. При этом все права будут соответствовать данному логину.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<ContextMenu name="ПользовательАвторизацииКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ПользовательАвторизацииРасширеннаяПодсказка" id="22"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.БазыЗнанийConfluence</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

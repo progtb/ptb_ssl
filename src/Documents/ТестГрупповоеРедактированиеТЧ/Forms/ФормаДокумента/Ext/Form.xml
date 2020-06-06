@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Сумма" id="49">
+			<DataPath>Объект.Сумма</DataPath>
+			<ContextMenu name="СуммаКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="51"/>
+		</InputField>
+		<UsualGroup name="Группа1" id="26">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="27"/>
+			<ChildItems>
+				<UsualGroup name="Группа2" id="28">
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="29"/>
+				</UsualGroup>
+				<Table name="ТаблицаОбъекта" id="7">
+					<Representation>List</Representation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<DataPath>Объект.ТаблицаОбъекта</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ТаблицаОбъектаКонтекстноеМеню" id="8"/>
+					<AutoCommandBar name="ТаблицаОбъектаКоманднаяПанель" id="9"/>
+					<ExtendedTooltip name="ТаблицаОбъектаРасширеннаяПодсказка" id="10"/>
+					<SearchStringAddition name="ТаблицаОбъектаСтрокаПоиска" id="11">
+						<AdditionSource>
+							<Item>ТаблицаОбъекта</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаОбъектаСтрокаПоискаКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="ТаблицаОбъектаСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ТаблицаОбъектаСостояниеПросмотра" id="14">
+						<AdditionSource>
+							<Item>ТаблицаОбъекта</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаОбъектаСостояниеПросмотраКонтекстноеМеню" id="15"/>
+						<ExtendedTooltip name="ТаблицаОбъектаСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ТаблицаОбъектаУправлениеПоиском" id="17">
+						<AdditionSource>
+							<Item>ТаблицаОбъекта</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ТаблицаОбъектаУправлениеПоискомКонтекстноеМеню" id="18"/>
+						<ExtendedTooltip name="ТаблицаОбъектаУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="ChoiceProcessing">ТаблицаОбъектаОбработкаВыбора</Event>
+						<Event name="OnActivateCell">ТаблицаОбъектаПриАктивизацииЯчейки</Event>
+					</Events>
+					<ChildItems>
+						<LabelField name="ТаблицаОбъектаНомерСтроки" id="20">
+							<DataPath>Объект.ТаблицаОбъекта.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТаблицаОбъектаНомерСтрокиКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="ТаблицаОбъектаНомерСтрокиРасширеннаяПодсказка" id="22"/>
+						</LabelField>
+						<InputField name="ТРеквизит1" id="46">
+							<DataPath>Объект.ТаблицаОбъекта.Реквизит1</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТРеквизит1КонтекстноеМеню" id="47"/>
+							<ExtendedTooltip name="ТРеквизит1РасширеннаяПодсказка" id="48"/>
+						</InputField>
+						<InputField name="Цена" id="23">
+							<DataPath>Объект.ТаблицаОбъекта.Цена</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЦенаКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="ЦенаРасширеннаяПодсказка" id="25"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<Table name="Дерево6" id="30">
+					<Representation>Tree</Representation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<DataPath>Дерево</DataPath>
+					<ContextMenu name="Дерево6КонтекстноеМеню" id="31"/>
+					<AutoCommandBar name="Дерево6КоманднаяПанель" id="32"/>
+					<ExtendedTooltip name="Дерево6РасширеннаяПодсказка" id="33"/>
+					<SearchStringAddition name="Дерево6СтрокаПоиска" id="34">
+						<AdditionSource>
+							<Item>Дерево6</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Дерево6СтрокаПоискаКонтекстноеМеню" id="35"/>
+						<ExtendedTooltip name="Дерево6СтрокаПоискаРасширеннаяПодсказка" id="36"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="Дерево6СостояниеПросмотра" id="37">
+						<AdditionSource>
+							<Item>Дерево6</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="Дерево6СостояниеПросмотраКонтекстноеМеню" id="38"/>
+						<ExtendedTooltip name="Дерево6СостояниеПросмотраРасширеннаяПодсказка" id="39"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="Дерево6УправлениеПоиском" id="40">
+						<AdditionSource>
+							<Item>Дерево6</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="Дерево6УправлениеПоискомКонтекстноеМеню" id="41"/>
+						<ExtendedTooltip name="Дерево6УправлениеПоискомРасширеннаяПодсказка" id="42"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="OnActivateCell">ДеревоПриАктивизацииЯчейки</Event>
+					</Events>
+					<ChildItems>
+						<InputField name="Дерево1" id="43">
+							<DataPath>Дерево.а</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="Дерево1КонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="Дерево1РасширеннаяПодсказка" id="45"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ТестГрупповоеРедактированиеТЧ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+			<Columns>
+				<AdditionalColumns table="Объект.ТаблицаОбъекта">
+					<Column name="Реквизит1" id="1">
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>10</v8:Digits>
+								<v8:FractionDigits>0</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+		<Attribute name="Дерево" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дерево</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="а" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>А</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаОК" id="25">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.StandardCommand.OK</CommandName>
+				<ExtendedTooltip name="ФормаОКРасширеннаяПодсказка" id="26"/>
+			</Button>
+			<Button name="ФормаОтмена" id="27">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Cancel</CommandName>
+				<ExtendedTooltip name="ФормаОтменаРасширеннаяПодсказка" id="28"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаВладелецПрограммногоПродукта" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация-пользователь</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа владелец программного продукта</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаВладелецПрограммногоПродуктаРасширеннаяПодсказка" id="33"/>
+			<ChildItems>
+				<InputField name="Владелец_Организация" id="34">
+					<DataPath>Владелец_Организация</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Организация</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					<AutoMarkIncomplete>true</AutoMarkIncomplete>
+					<ContextMenu name="Владелец_ОрганизацияКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="Владелец_ОрганизацияРасширеннаяПодсказка" id="36"/>
+				</InputField>
+				<InputField name="МодераторСообщений" id="10">
+					<DataPath>МодераторСообщений</DataPath>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Если модератор не заполнен, то сообщения пользователей будут отправляться напрямую разработчику</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ContextMenu name="МодераторСообщенийКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="МодераторСообщенийРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="ОсновныеДанные_РегистрационныйНомерПрограммы" id="29">
+					<DataPath>ОсновныеДанные_РегистрационныйНомерПрограммы</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рег. номер программы</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Необходимо запросить у разработчика</v8:content>
+						</v8:item>
+					</ToolTip>
+					<AutoMarkIncomplete>true</AutoMarkIncomplete>
+					<ContextMenu name="ОсновныеДанные_РегистрационныйНомерПрограммыКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ОсновныеДанные_РегистрационныйНомерПрограммыРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<UsualGroup name="ГруппаОтветственный" id="81">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ответственное лицо</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа ответственный</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="ГруппаОтветственныйРасширеннаяПодсказка" id="82"/>
+					<ChildItems>
+						<InputField name="Владелец_ОтветственноеЛицо" id="37">
+							<DataPath>Владелец_ОтветственноеЛицо</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ответственное лицо</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Владелец_ОтветственноеЛицоКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="Владелец_ОтветственноеЛицоРасширеннаяПодсказка" id="39"/>
+						</InputField>
+						<InputField name="Владелец_Телефон" id="40">
+							<DataPath>Владелец_Телефон</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Телефон</v8:content>
+								</v8:item>
+							</Title>
+							<Width>30</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="Владелец_ТелефонКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="Владелец_ТелефонРасширеннаяПодсказка" id="42"/>
+						</InputField>
+						<InputField name="ОсновныеДанные_АдресЭлектроннойПочты" id="78">
+							<DataPath>ОсновныеДанные_АдресЭлектроннойПочты</DataPath>
+							<Width>30</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ОсновныеДанные_АдресЭлектроннойПочтыКонтекстноеМеню" id="79"/>
+							<ExtendedTooltip name="ОсновныеДанные_АдресЭлектроннойПочтыРасширеннаяПодсказка" id="80"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПодключениекВебСервисуАСУСО" id="46">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки подключения к веб-сервису АСУСО</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подключениек веб сервису АСУСО</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаПодключениекВебСервисуАСУСОРасширеннаяПодсказка" id="47"/>
+			<ChildItems>
+				<InputField name="ПараметрыПодключенияКСервисуАСУСО_Адрес" id="19">
+					<DataPath>ПараметрыПодключенияКСервисуАСУСО_Адрес</DataPath>
+					<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					<AutoMarkIncomplete>true</AutoMarkIncomplete>
+					<ContextMenu name="ПараметрыПодключенияКСервисуАСУСО_АдресКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ПараметрыПодключенияКСервисуАСУСО_АдресРасширеннаяПодсказка" id="21"/>
+				</InputField>
+				<UsualGroup name="ГруппаЛогинПароль" id="74">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа логин пароль</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа логин пароль</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЛогинПарольРасширеннаяПодсказка" id="75"/>
+					<ChildItems>
+						<InputField name="ПараметрыПодключенияКСервисуАСУСО_Логин" id="16">
+							<DataPath>ПараметрыПодключенияКСервисуАСУСО_Логин</DataPath>
+							<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="ПараметрыПодключенияКСервисуАСУСО_ЛогинКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ПараметрыПодключенияКСервисуАСУСО_ЛогинРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="ПараметрыПодключенияКСервисуАСУСО_Пароль" id="13">
+							<DataPath>ПараметрыПодключенияКСервисуАСУСО_Пароль</DataPath>
+							<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+							<PasswordMode>true</PasswordMode>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="ПараметрыПодключенияКСервисуАСУСО_ПарольКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ПараметрыПодключенияКСервисуАСУСО_ПарольРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<Button name="ПроверкаПодключенияКВебСервису" id="83">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ПроверкаПодключенияКВебСервису</CommandName>
+							<ExtendedTooltip name="ПроверкаПодключенияКВебСервисуРасширеннаяПодсказка" id="84"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаИспользованиеКонфигурации" id="48">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные об использовании конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа использование конфигурации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаИспользованиеКонфигурацииРасширеннаяПодсказка" id="49"/>
+			<ChildItems>
+				<InputField name="ОсновныеДанные_ВариантИспользованияКонфигурации" id="71">
+					<DataPath>ОсновныеДанные_ВариантИспользованияКонфигурации</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вариант использования конфигурации</v8:content>
+						</v8:item>
+					</Title>
+					<DropListButton>true</DropListButton>
+					<TextEdit>false</TextEdit>
+					<ChoiceListButton>true</ChoiceListButton>
+					<ContextMenu name="ОсновныеДанные_ВариантИспользованияКонфигурацииКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="ОсновныеДанные_ВариантИспользованияКонфигурацииРасширеннаяПодсказка" id="73"/>
+				</InputField>
+				<InputField name="ОсновныеДанные_ВариантИБПредприятия" id="50">
+					<DataPath>ОсновныеДанные_ВариантИБПредприятия</DataPath>
+					<DropListButton>true</DropListButton>
+					<TextEdit>false</TextEdit>
+					<ChoiceListButton>true</ChoiceListButton>
+					<ContextMenu name="ОсновныеДанные_ВариантИБПредприятияКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ОсновныеДанные_ВариантИБПредприятияРасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<CheckBoxField name="ОсновныеДанные_НаличиеТерминальногоДоступа" id="56">
+					<DataPath>ОсновныеДанные_НаличиеТерминальногоДоступа</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использование терминального сервера</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОсновныеДанные_НаличиеТерминальногоДоступаКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ОсновныеДанные_НаличиеТерминальногоДоступаРасширеннаяПодсказка" id="58"/>
+				</CheckBoxField>
+				<CheckBoxField name="ОсновныеДанные_НаличиеРаспределенныхИБ" id="59">
+					<DataPath>ОсновныеДанные_НаличиеРаспределенныхИБ</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использование распределенных ИБ</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОсновныеДанные_НаличиеРаспределенныхИБКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ОсновныеДанные_НаличиеРаспределенныхИБРасширеннаяПодсказка" id="61"/>
+				</CheckBoxField>
+				<CheckBoxField name="ОсновныеДанные_НаличиеВебРасширения" id="62">
+					<DataPath>ОсновныеДанные_НаличиеВебРасширения</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наличие веб-расширения</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОсновныеДанные_НаличиеВебРасширенияКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="ОсновныеДанные_НаличиеВебРасширенияРасширеннаяПодсказка" id="64"/>
+				</CheckBoxField>
+				<InputField name="ОсновныеДанные_КоличествоЛицензий" id="65">
+					<DataPath>ОсновныеДанные_КоличествоЛицензий</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество лицензий</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОсновныеДанные_КоличествоЛицензийКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="ОсновныеДанные_КоличествоЛицензийРасширеннаяПодсказка" id="67"/>
+				</InputField>
+				<InputField name="ОсновныеДанные_КоличествоПользователей" id="68">
+					<DataPath>ОсновныеДанные_КоличествоПользователей</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество одновременно работающих пользователей</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОсновныеДанные_КоличествоПользователейКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="ОсновныеДанные_КоличествоПользователейРасширеннаяПодсказка" id="70"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ПараметрыПодключенияКСервисуАСУСО_Адрес" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес веб-сервиса АСУСО</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ПараметрыПодключенияКСервисуАСУСО_Логин" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логин</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ПараметрыПодключенияКСервисуАСУСО_Пароль" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="МодераторСообщений" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Модератор сообщений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОсновныеДанные_РегистрационныйНомерПрограммы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистрационный номер программы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="Владелец_Организация" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Владелец организация</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="Владелец_ОтветственноеЛицо" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Владелец ответственное лицо</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="Владелец_Телефон" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Владелец телефон</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>50</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="Владелец_Факс" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Владелец факс</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>50</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОсновныеДанные_ВариантИспользованияКонфигурации" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вариант использования конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОсновныеДанные_ВариантИБПредприятия" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основные данные вариант ИБПредприятия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОсновныеДанные_НаличиеРаспределенныхИБ" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основные данные наличие распределенных ИБ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОсновныеДанные_НаличиеТерминальногоДоступа" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основные данные наличие терминального доступа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОсновныеДанные_НаличиеВебРасширения" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основные данные наличие веб расширения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОсновныеДанные_КоличествоЛицензий" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основные данные количество лицензий</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОсновныеДанные_КоличествоПользователей" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основные данные количество пользователей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ОсновныеДанные_АдресЭлектроннойПочты" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>E-mail</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>50</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПроверкаПодключенияКВебСервису" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверка подключения к веб сервису</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверка подключения к веб сервису</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверкаПодключенияКВебСервису</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>
