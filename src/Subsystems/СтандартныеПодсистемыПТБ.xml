@@ -19,11 +19,12 @@
 		<ChildObjects>
 			<Subsystem>БазоваяФункциональность</Subsystem>
 			<Subsystem>ГрупповоеРедактированиеТабличныхЧастей</Subsystem>
-			<Subsystem>ДлительныеОперации</Subsystem>
 			<Subsystem>ИнтеграцияConfluence</Subsystem>
+			<Subsystem>ДлительныеОперации</Subsystem>
 			<Subsystem>ИнтернетСервисы</Subsystem>
 			<Subsystem>ПомощникЗаполнения</Subsystem>
 			<Subsystem>ТестированиеРолей</Subsystem>
+			<Subsystem>ИнтеграцияSlack</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>
