@@ -17,15 +17,14 @@
 			<Content/>
 		</Properties>
 		<ChildObjects>
-			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>БазоваяФункциональность</Subsystem>
 			<Subsystem>ГрупповоеРедактированиеТабличныхЧастей</Subsystem>
-			<Subsystem>ИнтеграцияConfluence</Subsystem>
 			<Subsystem>ДлительныеОперации</Subsystem>
+			<Subsystem>ИнтеграцияConfluence</Subsystem>
+			<Subsystem>ИнтеграцияSlack</Subsystem>
 			<Subsystem>ИнтернетСервисы</Subsystem>
 			<Subsystem>ПомощникЗаполнения</Subsystem>
 			<Subsystem>ТестированиеРолей</Subsystem>
-			<Subsystem>ИнтеграцияSlack</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

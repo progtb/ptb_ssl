@@ -24,6 +24,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыПТБ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСФормамиПТБ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСФормамиПТБКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПараметрыПлатформыКлиентСервер</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

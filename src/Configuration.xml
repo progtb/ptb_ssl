@@ -210,10 +210,10 @@
 			<Language>Русский</Language>
 			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>МодульАСУСО</Subsystem>
-			<Subsystem>Тест</Subsystem>
-			<Subsystem>СтандартныеПодсистемыПТБ</Subsystem>
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
+			<Subsystem>СтандартныеПодсистемыПТБ</Subsystem>
+			<Subsystem>Тест</Subsystem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
 			<StyleItem>ГруппаВариантовОтчетовЦвет</StyleItem>
 			<StyleItem>ГруппаВариантовОтчетовЦвет82</StyleItem>
@@ -539,7 +539,6 @@
 			<CommonModule>АдминистрированиеКластераRAS</CommonModule>
 			<CommonModule>АдминистрированиеКластераRASКлиентСервер</CommonModule>
 			<CommonModule>АдминистрированиеКластераКлиентСервер</CommonModule>
-			<CommonModule>АдминистрированиеПТБКлиентСервер</CommonModule>
 			<CommonModule>АдресныйКлассификатор</CommonModule>
 			<CommonModule>АдресныйКлассификаторКлиент</CommonModule>
 			<CommonModule>АдресныйКлассификаторПовтИсп</CommonModule>
@@ -639,6 +638,7 @@
 			<CommonModule>ОтчетыКлиентСервер</CommonModule>
 			<CommonModule>ОтчетыПереопределяемый</CommonModule>
 			<CommonModule>ОтчетыСервер</CommonModule>
+			<CommonModule>ПараметрыПлатформыКлиентСервер</CommonModule>
 			<CommonModule>ПодключаемыеКоманды</CommonModule>
 			<CommonModule>ПодключаемыеКомандыВызовСервера</CommonModule>
 			<CommonModule>ПодключаемыеКомандыКлиент</CommonModule>
