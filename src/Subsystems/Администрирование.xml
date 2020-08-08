@@ -53,8 +53,8 @@
 		</Properties>
 		<ChildObjects>
 			<Subsystem>ИнтеграцияConfluence</Subsystem>
-			<Subsystem>МодульАСУСО</Subsystem>
 			<Subsystem>ИнтернетСервисы</Subsystem>
+			<Subsystem>МодульАСУСО</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

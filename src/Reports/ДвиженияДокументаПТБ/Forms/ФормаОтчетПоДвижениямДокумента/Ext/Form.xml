@@ -43,7 +43,6 @@
 					<DefaultButton>true</DefaultButton>
 					<SkipOnInput>false</SkipOnInput>
 					<CommandName>Form.Command.Сформировать</CommandName>
-					<BackColor>auto</BackColor>
 					<ExtendedTooltip name="КнопкаСформироватьРасширеннаяПодсказка" id="11"/>
 				</Button>
 				<RadioButtonField name="СпособВыводаОтчета" id="7">
