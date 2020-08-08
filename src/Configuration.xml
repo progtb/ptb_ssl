@@ -240,6 +240,8 @@
 			<StyleItem>ЦветФонаПредупреждения</StyleItem>
 			<CommonPicture>GoogleMaps</CommonPicture>
 			<CommonPicture>Skype</CommonPicture>
+			<CommonPicture>Slack16</CommonPicture>
+			<CommonPicture>Slack32</CommonPicture>
 			<CommonPicture>БыстрыеНастройкиОтчета</CommonPicture>
 			<CommonPicture>БыстрыйДоступ</CommonPicture>
 			<CommonPicture>БыстрыйДоступДобавить</CommonPicture>
@@ -581,6 +583,10 @@
 			<CommonModule>ИнтеграцияConfluenceВызовСервераПовтИсп</CommonModule>
 			<CommonModule>ИнтеграцияConfluenceКлиентСервер</CommonModule>
 			<CommonModule>ИнтеграцияConfluenceПереопределяемый</CommonModule>
+			<CommonModule>ИнтеграцияSlack</CommonModule>
+			<CommonModule>ИнтеграцияSlackКлиентСервер</CommonModule>
+			<CommonModule>ИнтеграцияSlackПереопределяемый</CommonModule>
+			<CommonModule>ИнтеграцияSlackСлужебный</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСП</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСПКлиент</CommonModule>
 			<CommonModule>ИнтеграцияСТехнологиейСервиса</CommonModule>
@@ -752,6 +758,7 @@
 			<XDTOPackage>АдресныйКлассификатор</XDTOPackage>
 			<XDTOPackage>КонтактнаяИнформация</XDTOPackage>
 			<WebService>InterfaceVersion</WebService>
+			<HTTPService>SlackConnector</HTTPService>
 			<EventSubscription>ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</EventSubscription>
 			<EventSubscription>ВариантыОтчетовПриУдаленииПользователя</EventSubscription>
 			<EventSubscription>ВключитьРегламентноеЗаданиеПриИзмененииФункциональнойОпции</EventSubscription>
@@ -970,6 +977,7 @@
 			<Enum>ВариантыПубликацииДополнительныхОтчетовИОбработок</Enum>
 			<Enum>ВариантыСжатияTIFF</Enum>
 			<Enum>ВидыДополнительныхОтчетовИОбработок</Enum>
+			<Enum>ВидыНастроекИнтеграцииSlack</Enum>
 			<Enum>ВидыСообщенийВТехническуюПоддержку</Enum>
 			<Enum>ДействияСФайламиПоДвойномуЩелчку</Enum>
 			<Enum>ДоступныеПериодыОтчета</Enum>
@@ -1017,6 +1025,7 @@
 			<DataProcessor>ЖурналРегистрации</DataProcessor>
 			<DataProcessor>ЗагрузкаКлассификатораБанков</DataProcessor>
 			<DataProcessor>ЗаменаИОбъединениеЭлементов</DataProcessor>
+			<DataProcessor>НастройкаИнтеграцииSlack</DataProcessor>
 			<DataProcessor>НастройкиПользователей</DataProcessor>
 			<DataProcessor>НерекомендуемаяВерсияПлатформы</DataProcessor>
 			<DataProcessor>ПанельАдминистрированияБСП</DataProcessor>
@@ -1056,6 +1065,7 @@
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<InformationRegister>НастройкиВариантовОтчетов</InformationRegister>
 			<InformationRegister>НастройкиИнтеграцииConfluence</InformationRegister>
+			<InformationRegister>НастройкиИнтеграцииSlack</InformationRegister>
 			<InformationRegister>НастройкиКомандПечати</InformationRegister>
 			<InformationRegister>НастройкиОчисткиФайлов</InformationRegister>
 			<InformationRegister>НастройкиСинхронизацииФайлов</InformationRegister>
