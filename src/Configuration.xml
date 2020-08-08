@@ -539,6 +539,7 @@
 			<CommonModule>АдминистрированиеКластераRAS</CommonModule>
 			<CommonModule>АдминистрированиеКластераRASКлиентСервер</CommonModule>
 			<CommonModule>АдминистрированиеКластераКлиентСервер</CommonModule>
+			<CommonModule>АдминистрированиеПТБКлиентСервер</CommonModule>
 			<CommonModule>АдресныйКлассификатор</CommonModule>
 			<CommonModule>АдресныйКлассификаторКлиент</CommonModule>
 			<CommonModule>АдресныйКлассификаторПовтИсп</CommonModule>
