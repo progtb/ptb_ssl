@@ -252,13 +252,13 @@
 			<StyleItem>ПросроченныеДанныеЦвет</StyleItem>
 			<StyleItem>РезультатУспехЦвет</StyleItem>
 			<StyleItem>СкрытыйВариантОтчетаЦвет</StyleItem>
+			<StyleItem>ЦветФонаГруппыПомощникЗаполнения</StyleItem>
 			<StyleItem>ТекстЗапрещеннойЯчейкиЦвет</StyleItem>
 			<StyleItem>УдаленныйРеквизитФон</StyleItem>
 			<StyleItem>ФайлЗанятыйТекущимПользователем</StyleItem>
 			<StyleItem>ФонУправляющегоПоля</StyleItem>
 			<StyleItem>ЦветРазделаПанелиФункций</StyleItem>
 			<StyleItem>ЦветТекстаНевыбраннойКартинки</StyleItem>
-			<StyleItem>ЦветФонаГруппыПомощникЗаполнения</StyleItem>
 			<StyleItem>ЦветФонаПредупреждения</StyleItem>
 			<CommonPicture>GoogleMaps</CommonPicture>
 			<CommonPicture>Skype</CommonPicture>
