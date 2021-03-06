@@ -22,6 +22,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.JSON</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьИнтернетСервисы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетСервисыПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияВыполненияHTTPЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетСервисыПереопределяемый</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ПрогТехБизнес</Vendor>
-			<Version>1.0.3.5</Version>
+			<Version>1.0.3.6</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -225,7 +225,7 @@
 			<ModalityUseMode>UseWithWarnings</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_14</CompatibilityMode>
+			<CompatibilityMode>Version8_3_12</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
@@ -252,13 +252,13 @@
 			<StyleItem>ПросроченныеДанныеЦвет</StyleItem>
 			<StyleItem>РезультатУспехЦвет</StyleItem>
 			<StyleItem>СкрытыйВариантОтчетаЦвет</StyleItem>
+			<StyleItem>ЦветФонаГруппыПомощникЗаполнения</StyleItem>
 			<StyleItem>ТекстЗапрещеннойЯчейкиЦвет</StyleItem>
 			<StyleItem>УдаленныйРеквизитФон</StyleItem>
 			<StyleItem>ФайлЗанятыйТекущимПользователем</StyleItem>
 			<StyleItem>ФонУправляющегоПоля</StyleItem>
 			<StyleItem>ЦветРазделаПанелиФункций</StyleItem>
 			<StyleItem>ЦветТекстаНевыбраннойКартинки</StyleItem>
-			<StyleItem>ЦветФонаГруппыПомощникЗаполнения</StyleItem>
 			<StyleItem>ЦветФонаПредупреждения</StyleItem>
 			<CommonPicture>GoogleMaps</CommonPicture>
 			<CommonPicture>Skype</CommonPicture>
@@ -615,6 +615,7 @@
 			<CommonModule>ИнтеграцияСТехнологиейСервисаКлиент</CommonModule>
 			<CommonModule>ИнтернетСервисы</CommonModule>
 			<CommonModule>ИнтернетСервисыКлиентСервер</CommonModule>
+			<CommonModule>ИнтернетСервисыПереопределяемый</CommonModule>
 			<CommonModule>ИнтернетСервисыПовтИсп</CommonModule>
 			<CommonModule>ЛокализацияКлиент</CommonModule>
 			<CommonModule>ЛокализацияКлиентСервер</CommonModule>
@@ -1081,6 +1082,7 @@
 			<InformationRegister>ИдентификаторыБазыЗнанийConfluence</InformationRegister>
 			<InformationRegister>ИдентификаторыОбъектовВерсийРасширений</InformationRegister>
 			<InformationRegister>ИсторияАдресныхОбъектов</InformationRegister>
+			<InformationRegister>ИсторияВыполненияHTTPЗапросов</InformationRegister>
 			<InformationRegister>ИсторияИзмененияОбъектов</InformationRegister>
 			<InformationRegister>КодировкиФайлов</InformationRegister>
 			<InformationRegister>КэшПрограммныхИнтерфейсов</InformationRegister>
