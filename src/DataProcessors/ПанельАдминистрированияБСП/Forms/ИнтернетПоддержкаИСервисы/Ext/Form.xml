@@ -25,12 +25,6 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаЗаголовок" id="1580">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Заголовок</v8:content>
-				</v8:item>
-			</Title>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаЗаголовокExtendedTooltip" id="1600"/>
@@ -48,12 +42,6 @@
 					<ExtendedTooltip name="ОписаниеРазделаРасширеннаяПодсказка" id="1601"/>
 				</LabelDecoration>
 				<CommandBar name="ГруппаСправка" id="1583">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Справка</v8:content>
-						</v8:item>
-					</Title>
 					<ExtendedTooltip name="ГруппаСправкаExtendedTooltip" id="1603"/>
 					<ChildItems>
 						<Button name="Справка" id="1584">
@@ -81,12 +69,6 @@
 			<ChildItems>
 				<UsualGroup name="ГруппаПодключениеИПП" id="1724">
 					<EnableContentChange>true</EnableContentChange>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Подключение ИПП</v8:content>
-						</v8:item>
-					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -135,23 +117,11 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаНастройкиИППКолонки" id="1731">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Настройки ИПП колонки</v8:content>
-						</v8:item>
-					</Title>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаНастройкиИППКолонкиРасширеннаяПодсказка" id="1732"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаНастройкиИППЛеваяКолонка" id="1733">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Настройки Интернет-поддержки левая колонка</v8:content>
-								</v8:item>
-							</Title>
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
@@ -168,12 +138,6 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаНастройкиИПППраваяКолонка" id="1737">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Настройки Интернет-поддержки правая колонка</v8:content>
-								</v8:item>
-							</Title>
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
@@ -194,139 +158,14 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ГруппаАдресныйКлассификатор" id="1605">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Адресный классификатор</v8:content>
-				</v8:item>
-			</Title>
-			<Group>Vertical</Group>
-			<Behavior>Collapsible</Behavior>
-			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
-			<Representation>NormalSeparation</Representation>
-			<ExtendedTooltip name="ГруппаАдресныйКлассификаторРасширеннаяПодсказка" id="1606"/>
-			<ChildItems>
-				<UsualGroup name="ГруппаАдресныйКлассификаторНастройки" id="1854">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Адресный классификатор настройки</v8:content>
-						</v8:item>
-					</Title>
-					<TitleFont ref="sys:DefaultGUIFont" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-					<Group>Horizontal</Group>
-					<Representation>NormalSeparation</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаАдресныйКлассификаторНастройкиРасширеннаяПодсказка" id="1855"/>
-					<ChildItems>
-						<UsualGroup name="ГруппаАдресныйКлассификаторПраваяКолонка" id="1856">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Адресный классификатор правая колонка</v8:content>
-								</v8:item>
-							</Title>
-							<Width>43</Width>
-							<HorizontalStretch>false</HorizontalStretch>
-							<Group>Vertical</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаАдресныйКлассификаторПраваяКолонкаРасширеннаяПодсказка" id="1857"/>
-							<ChildItems>
-								<Button name="РегистрСведенийАдресныеОбъектыАвторизацияНаСайтеПоддержкиПользователей" id="1858">
-									<Type>Hyperlink</Type>
-									<CommandName>InformationRegister.АдресныеОбъекты.Command.ПодключитьИнтернетПоддержку</CommandName>
-									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<ExtendedTooltip name="РегистрСведенийАдресныеОбъектыАвторизацияНаСайтеПоддержкиПользователейРасширеннаяПодсказка" id="1859">
-										<AutoMaxWidth>false</AutoMaxWidth>
-										<Title formatted="false">
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Для автоподбора и проверки адресов необходимо подключиться к интернет-поддержке пользователей.
-</v8:content>
-											</v8:item>
-										</Title>
-									</ExtendedTooltip>
-								</Button>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="ГруппаКомандАдресныйКлассификатор" id="1872">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Команд адресный классификатор</v8:content>
-								</v8:item>
-							</Title>
-							<Group>Horizontal</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаКомандАдресныйКлассификаторРасширеннаяПодсказка" id="1873"/>
-							<ChildItems>
-								<UsualGroup name="АдресныйКлассификаторЛеваяКолонка" id="1874">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Адресный классификатор левая колонка</v8:content>
-										</v8:item>
-									</Title>
-									<Width>43</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<Group>Vertical</Group>
-									<Representation>None</Representation>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="АдресныйКлассификаторЛеваяКолонкаРасширеннаяПодсказка" id="1875"/>
-									<ChildItems>
-										<Button name="РегистрСведенийАдресныеОбъектыЗагрузитьАдресныйКлассификатор" id="1876">
-											<Type>Hyperlink</Type>
-											<CommandName>InformationRegister.АдресныеОбъекты.Command.ЗагрузитьАдресныйКлассификатор</CommandName>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Загрузить классификатор</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<ExtendedTooltip name="РегистрСведенийАдресныеОбъектыЗагрузитьАдресныйКлассификаторРасширеннаяПодсказка" id="1877">
-												<AutoMaxWidth>false</AutoMaxWidth>
-												<Title formatted="false">
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Для экономии трафика при автоподборе и проверке адресов, а также при работе без доступа к Интернету возможно загружать и обновлять адресные сведения в программу. Требуется до 2 Гб места на диске.</v8:content>
-													</v8:item>
-												</Title>
-											</ExtendedTooltip>
-										</Button>
-										<Button name="РегистрСведенийАдресныеОбъектыОчиститьАдресныйКлассификатор" id="1878">
-											<Type>Hyperlink</Type>
-											<CommandName>InformationRegister.АдресныеОбъекты.Command.ОчиститьАдресныйКлассификатор</CommandName>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Очистить адресные сведения</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<ExtendedTooltip name="РегистрСведенийАдресныеОбъектыОчиститьАдресныйКлассификаторРасширеннаяПодсказка" id="1879">
-												<AutoMaxWidth>false</AutoMaxWidth>
-											</ExtendedTooltip>
-										</Button>
-									</ChildItems>
-								</UsualGroup>
-							</ChildItems>
-						</UsualGroup>
-					</ChildItems>
-				</UsualGroup>
-			</ChildItems>
-		</UsualGroup>
 		<UsualGroup name="ГруппаКлассификаторы" id="1637">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Классификатор банков, загрузка курсов валют</v8:content>
+					<v8:content>Классификаторы и курсы валют</v8:content>
 				</v8:item>
 			</Title>
+			<Group>AlwaysHorizontal</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
 			<ControlRepresentation>Picture</ControlRepresentation>
@@ -334,64 +173,246 @@
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаКлассификаторыExtendedTooltip" id="1638"/>
 			<ChildItems>
-				<UsualGroup name="ГруппаЗагрузитьКлассификаторБанков" id="1639">
+				<UsualGroup name="БИПГруппаОбновлениеКлассификаторов" id="1898">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Загрузить классификатор банков</v8:content>
+							<v8:content>Обновление классификаторов</v8:content>
 						</v8:item>
 					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
-					<Representation>None</Representation>
+					<Behavior>Collapsible</Behavior>
+					<Collapsed>true</Collapsed>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<Representation>NormalSeparation</Representation>
+					<ChildItemsWidth>Equal</ChildItemsWidth>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаЗагрузитьКлассификаторБанковExtendedTooltip" id="1640"/>
+					<ExtendedTooltip name="БИПГруппаОбновлениеКлассификаторовРасширеннаяПодсказка" id="1899"/>
 					<ChildItems>
-						<Button name="СправочникКлассификаторБанковРФЗагрузкаКлассификатораБанковРФ" id="1641">
+						<Button name="БИПОбновлениеКлассификаторов" id="1900">
 							<Type>Hyperlink</Type>
-							<CommandName>DataProcessor.ЗагрузкаКлассификатораБанков.Command.ЗагрузкаКлассификатораБанков</CommandName>
+							<CommandName>Form.Command.БИПОбновлениеКлассификаторов</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обновление классификаторов</v8:content>
+								</v8:item>
+							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<ExtendedTooltip name="СправочникКлассификаторБанковРФЗагрузкаКлассификатораБанковРФРасширеннаяПодсказка" id="1642">
-								<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedTooltip name="БИПОбновлениеКлассификаторовРасширеннаяПодсказка" id="1901">
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Загрузка классификатора банков РФ с Портала 1С:ИТС или диска 1С:ИТС.</v8:content>
+										<v8:content>Обновление классификаторов из файла на локальном диске, в сетевом каталоге или загрузка с Портала 1С:ИТС.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
 						</Button>
+						<UsualGroup name="ГруппаНастройкаОбновления" id="1902">
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкаОбновленияРасширеннаяПодсказка" id="1903"/>
+							<ChildItems>
+								<RadioButtonField name="БИПВариантОбновленияКлассификаторов" id="1904">
+									<DataPath>БИПВариантОбновленияКлассификаторов</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Автоматическое обновление классификаторов</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Top</TitleLocation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ColumnsCount>1</ColumnsCount>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Отключено</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">0</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>По расписанию через Интернет</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">1</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>По расписанию из файла</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">2</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="БИПВариантОбновленияКлассификаторовКонтекстноеМеню" id="1905"/>
+									<ExtendedTooltip name="БИПВариантОбновленияКлассификаторовРасширеннаяПодсказка" id="1906"/>
+									<Events>
+										<Event name="OnChange">БИПВариантОбновленияКлассификаторовПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<UsualGroup name="ГруппаКлассификаторыПредупреждения" id="1907">
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаКлассификаторыПредупрежденияРасширеннаяПодсказка" id="1908"/>
+									<ChildItems>
+										<LabelDecoration name="БИПДекорацияСдвиг" id="1909">
+											<Height>2</Height>
+											<ContextMenu name="БИПДекорацияСдвигКонтекстноеМеню" id="1910"/>
+											<ExtendedTooltip name="БИПДекорацияСдвигРасширеннаяПодсказка" id="1911"/>
+										</LabelDecoration>
+										<LabelDecoration name="БИПДекорацияОбновлениеКлассификаторовНеВыполняется" id="1912">
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>&lt;link ываывавыа&gt;Подключите &lt;/&gt;Интернет-поддержку пользователей</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="БИПДекорацияОбновлениеКлассификаторовНеВыполняетсяКонтекстноеМеню" id="1913"/>
+											<ExtendedTooltip name="БИПДекорацияОбновлениеКлассификаторовНеВыполняетсяРасширеннаяПодсказка" id="1914"/>
+											<Events>
+												<Event name="URLProcessing">БИПДекорацияОбновлениеКлассификаторовНеВыполняетсяОбработкаНавигационнойСсылки</Event>
+											</Events>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="БИПФайлКлассификаторов" id="1915">
+							<DataPath>БИПФайлКлассификаторов</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ChoiceButton>true</ChoiceButton>
+							<ContextMenu name="БИПФайлКлассификаторовКонтекстноеМеню" id="1916"/>
+							<ExtendedTooltip name="БИПФайлКлассификаторовРасширеннаяПодсказка" id="1917"/>
+							<Events>
+								<Event name="OnChange">БИПФайлКлассификаторовПриИзменении</Event>
+								<Event name="StartChoice">БИПФайлКлассификаторовНачалоВыбора</Event>
+							</Events>
+						</InputField>
+						<LabelDecoration name="ДекорацияРасписаниеОбновленияКлассификаторов" id="1918">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Height>1</Height>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настроить расписание</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="ДекорацияРасписаниеОбновленияКлассификаторовКонтекстноеМеню" id="1919"/>
+							<ExtendedTooltip name="ДекорацияРасписаниеОбновленияКлассификаторовРасширеннаяПодсказка" id="1920"/>
+							<Events>
+								<Event name="Click">ДекорацияРасписаниеОбновленияКлассификаторовНажатие</Event>
+							</Events>
+						</LabelDecoration>
 					</ChildItems>
 				</UsualGroup>
-				<UsualGroup name="ГруппаОбработкаЗагрузкаКурсовВалют" id="1643">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Обработка загрузка курсов валют</v8:content>
-						</v8:item>
-					</Title>
-					<Width>43</Width>
-					<HorizontalStretch>false</HorizontalStretch>
+				<UsualGroup name="КлассификаторыБСП" id="1896">
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаОбработкаЗагрузкаКурсовВалютExtendedTooltip" id="1644"/>
+					<ExtendedTooltip name="КлассификаторыБСПРасширеннаяПодсказка" id="1897"/>
 					<ChildItems>
-						<Button name="ОбработкаЗагрузкаКурсовВалютОткрыть" id="1645">
-							<Type>Hyperlink</Type>
-							<CommandName>0</CommandName>
-							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-							<ExtendedTooltip name="ОбработкаЗагрузкаКурсовВалютОткрытьРасширеннаяПодсказка" id="1646">
-								<AutoMaxWidth>false</AutoMaxWidth>
-								<Title formatted="false">
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Загрузка курсов выбранных валют за указанный период с Портала 1С:ИТС.</v8:content>
-									</v8:item>
-								</Title>
-							</ExtendedTooltip>
-						</Button>
+						<UsualGroup name="АдресныйКлассификаторНастройки" id="1874">
+							<Width>43</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="АдресныйКлассификаторНастройкиРасширеннаяПодсказка" id="1875"/>
+							<ChildItems>
+								<Button name="РегистрСведенийАдресныеОбъектыЗагрузитьАдресныйКлассификатор" id="1876">
+									<Type>Hyperlink</Type>
+									<CommandName>0:be42c5c6-b604-4180-a3d7-24b2348c8d5e</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Загрузка адресного классификатора</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<ExtendedTooltip name="РегистрСведенийАдресныеОбъектыЗагрузитьАдресныйКлассификаторРасширеннаяПодсказка" id="1877">
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Для экономии трафика при автоподборе и проверке адресов, а также при работе без доступа к Интернету возможно загружать и обновлять адресные сведения в программу. Требуется до 2 Гб места на диске.</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+								</Button>
+								<Button name="РегистрСведенийАдресныеОбъектыОчиститьАдресныйКлассификатор" id="1878">
+									<Type>Hyperlink</Type>
+									<CommandName>0:6fd083fe-a132-4f63-b38f-4891004aca8a</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Очистка адресных сведений</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<ExtendedTooltip name="РегистрСведенийАдресныеОбъектыОчиститьАдресныйКлассификаторРасширеннаяПодсказка" id="1879">
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Очистка адресного классификатора.</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаОбработкаЗагрузкаКурсовВалют" id="1643">
+							<Width>43</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаОбработкаЗагрузкаКурсовВалютExtendedTooltip" id="1644"/>
+							<ChildItems>
+								<Button name="ОбработкаЗагрузкаКурсовВалютОткрыть" id="1645">
+									<Type>Hyperlink</Type>
+									<CommandName>0</CommandName>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<ExtendedTooltip name="ОбработкаЗагрузкаКурсовВалютОткрытьРасширеннаяПодсказка" id="1646">
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Загрузка курсов выбранных валют за указанный период с Портала 1С:ИТС.</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -414,12 +435,6 @@
 			<ChildItems>
 				<UsualGroup name="ГруппаВключениеНовостей" id="1746">
 					<EnableContentChange>true</EnableContentChange>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Включение новостей</v8:content>
-						</v8:item>
-					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -455,12 +470,6 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаНастройкиНовостей" id="1751">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Настройки новостей</v8:content>
-						</v8:item>
-					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
@@ -496,23 +505,11 @@
 			<ExtendedTooltip name="БИПГруппаОбновлениеПрограммыРасширеннаяПодсказка" id="1756"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаОбновлениеКолонки" id="1757">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Обновление колонки</v8:content>
-						</v8:item>
-					</Title>
 					<Representation>NormalSeparation</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОбновлениеКолонкиРасширеннаяПодсказка" id="1758"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаОбновлениеЛеваяКолонка" id="1759">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Обновление левая колонка</v8:content>
-								</v8:item>
-							</Title>
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
@@ -529,12 +526,6 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаОбновлениеПраваяКолонка" id="1763">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Обновление правая колонка</v8:content>
-								</v8:item>
-							</Title>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
@@ -542,12 +533,6 @@
 							<ExtendedTooltip name="ГруппаОбновлениеПраваяКолонкаРасширеннаяПодсказка" id="1764"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаОткрытьОписаниеИзмененийСистемы" id="1765">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Открыть описание изменений системы</v8:content>
-										</v8:item>
-									</Title>
 									<HorizontalStretch>false</HorizontalStretch>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
@@ -578,12 +563,6 @@
 				</UsualGroup>
 				<UsualGroup name="ГруппаОбновлениеПрограммы_Настройки" id="1772">
 					<EnableContentChange>true</EnableContentChange>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Обновление программы настройки</v8:content>
-						</v8:item>
-					</Title>
 					<TitleTextColor>style:FormTextColor</TitleTextColor>
 					<TitleFont ref="style:NormalTextFont" kind="StyleItem"/>
 					<Width>80</Width>
@@ -646,12 +625,6 @@
 							</Events>
 						</RadioButtonField>
 						<UsualGroup name="ГруппаРасписаниеПроверкиОбновлений" id="1777">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Расписание проверки обновлений</v8:content>
-								</v8:item>
-							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
@@ -690,12 +663,6 @@
 				</UsualGroup>
 				<UsualGroup name="ГруппаОбновлениеПрограммыИсправления" id="1884">
 					<EnableContentChange>true</EnableContentChange>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Обновление программы Исправления</v8:content>
-						</v8:item>
-					</Title>
 					<TitleTextColor>style:FormTextColor</TitleTextColor>
 					<TitleFont ref="style:NormalTextFont" kind="StyleItem"/>
 					<Width>80</Width>
@@ -707,12 +674,6 @@
 					<ExtendedTooltip name="ГруппаОбновлениеПрограммыИсправленияРасширеннаяПодсказка" id="1885"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаНастройкаИсправленияПатчи" id="1886">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Настройка исправления патчи</v8:content>
-								</v8:item>
-							</Title>
 							<Width>43</Width>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
@@ -759,23 +720,11 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаОбновлениеИОписаниеИзмененийВтораяСтрока" id="1785">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Обновление и описание изменений вторая строка</v8:content>
-						</v8:item>
-					</Title>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОбновлениеИОписаниеИзмененийВтораяСтрокаРасширеннаяПодсказка" id="1786"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаОтложеннаяОбработкаДанных" id="1787">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Отложенная обработка данных</v8:content>
-								</v8:item>
-							</Title>
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
@@ -799,12 +748,6 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаДетализироватьОбновлениеИБВЖурналеРегистрации" id="1791">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Детализировать обновление ИБ в журнале регистрации</v8:content>
-								</v8:item>
-							</Title>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
@@ -852,44 +795,6 @@
 				</LabelField>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="БИПГруппаОбновлениеКлассификаторов" id="1880">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Обновление классификаторов</v8:content>
-				</v8:item>
-			</Title>
-			<Width>86</Width>
-			<HorizontalStretch>false</HorizontalStretch>
-			<Group>Vertical</Group>
-			<Behavior>Collapsible</Behavior>
-			<Collapsed>true</Collapsed>
-			<ControlRepresentation>Picture</ControlRepresentation>
-			<Representation>NormalSeparation</Representation>
-			<ChildItemsWidth>Equal</ChildItemsWidth>
-			<ExtendedTooltip name="БИПГруппаОбновлениеКлассификаторовРасширеннаяПодсказка" id="1881"/>
-			<ChildItems>
-				<Button name="БИПОбновлениеКлассификаторов" id="1882">
-					<Type>Hyperlink</Type>
-					<CommandName>Form.Command.БИПОбновлениеКлассификаторов</CommandName>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Обновление классификаторов</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<ExtendedTooltip name="БИПОбновлениеКлассификаторовРасширеннаяПодсказка" id="1883">
-						<Title formatted="false">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Обновление классификаторов из файла на локальном диске, в сетевом каталоге или загрузка с Портала 1С:ИТС.</v8:content>
-							</v8:item>
-						</Title>
-					</ExtendedTooltip>
-				</Button>
-			</ChildItems>
-		</UsualGroup>
 		<UsualGroup name="БИПГруппаПроверкаКонтрагентов" id="1804">
 			<Visible>false</Visible>
 			<Title>
@@ -906,12 +811,6 @@
 			<ExtendedTooltip name="БИПГруппаПроверкаКонтрагентовРасширеннаяПодсказка" id="1805"/>
 			<ChildItems>
 				<UsualGroup name="ЛеваяКолонкаПервойГруппы" id="1806">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Левая колонка первой группы</v8:content>
-						</v8:item>
-					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -936,7 +835,7 @@
 								<Title formatted="true">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>&lt;color #807a59&gt;Включение автоматической проверки может замедлить открытие документов на медленных компьютерах. Для таких компьютеров рекомендуется использовать &lt;/&gt;&lt;color #807a59&gt;ручную&lt;/&gt;&lt;color #807a59&gt; проверку&lt;/&gt;&lt;color #807a59&gt; по кнопке в подменю "Еще".&lt;/&gt;
+										<v8:content>&lt;color #807A59&gt;Включение автоматической проверки может замедлить открытие документов на медленных компьютерах. Для таких компьютеров рекомендуется использовать &lt;/&gt;&lt;color #807A59&gt;ручную&lt;/&gt;&lt;color #807A59&gt; проверку&lt;/&gt;&lt;color #807A59&gt; по кнопке в подменю "Еще".&lt;/&gt;
 &lt;link e1cib/app/Обработка.ИнструкцияПоИспользованиюПроверкиКонтрагента&gt;Подробнее о сервисе&lt;/&gt;</v8:content>
 									</v8:item>
 								</Title>
@@ -948,12 +847,6 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ПраваяКолонкаПервойГруппы" id="1811">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Правая колонка первой группы</v8:content>
-						</v8:item>
-					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -1037,6 +930,7 @@
 					<v8:content>Обсуждения</v8:content>
 				</v8:item>
 			</Title>
+			<Group>AlwaysHorizontal</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
 			<ControlRepresentation>Picture</ControlRepresentation>
@@ -1044,12 +938,6 @@
 			<ExtendedTooltip name="ГруппаОбсужденияРасширеннаяПодсказка" id="1819"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаПодключениеОбсуждений" id="1820">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Подключение обсуждений</v8:content>
-						</v8:item>
-					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -1058,6 +946,7 @@
 					<ExtendedTooltip name="ГруппаПодключениеОбсужденийРасширеннаяПодсказка" id="1821"/>
 					<ChildItems>
 						<LabelDecoration name="СостояниеПодключенияОбсуждений" id="1822">
+							<Visible>false</Visible>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1091,6 +980,20 @@
 						</LabelDecoration>
 					</ChildItems>
 				</UsualGroup>
+				<Button name="ОбсужденияНастроитьИнтеграциюСВнешнимиСистемами" id="1939">
+					<Type>Hyperlink</Type>
+					<Height>2</Height>
+					<CommandName>Form.Command.ОбсужденияНастроитьИнтеграциюСВнешнимиСистемами</CommandName>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<ExtendedTooltip name="ОбсужденияНастроитьИнтеграциюСВнешнимиСистемамиРасширеннаяПодсказка" id="1940">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Получать и отправлять сообщения в мессенджеры. Например в Telegram, VK.</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаИнтеграцияВызовОнлайнПоддержки" id="1694">
@@ -1108,12 +1011,6 @@
 			<ExtendedTooltip name="ГруппаИнтеграцияВызовОнлайнПоддержкиРасширеннаяПодсказка" id="1695"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаРазрешениеНаВызовОнлайнПоддержки" id="1696">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Разрешение на вызов онлайн поддержки</v8:content>
-						</v8:item>
-					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -1148,12 +1045,6 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаНастройкаОнлайнПоддержки" id="1701">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Настройка онлайн поддержки</v8:content>
-						</v8:item>
-					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -1163,7 +1054,7 @@
 					<ChildItems>
 						<Button name="НастройкаОнлайнПоддержки" id="1703">
 							<Type>Hyperlink</Type>
-							<CommandName>0</CommandName>
+							<CommandName>Form.Command.НастройкаОнлайнПоддержки</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="НастройкаОнлайнПоддержкиРасширеннаяПодсказка" id="1704">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -1194,12 +1085,6 @@
 			<ExtendedTooltip name="ГруппаСклоненияРасширеннаяПодсказка" id="1706"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаРазрешениеСклонения" id="1707">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Разрешение склонения</v8:content>
-						</v8:item>
-					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -1211,7 +1096,7 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Склонять с помощью сервиса «Морфер»</v8:content>
+									<v8:content>Использовать альтернативный сервис склонения «Морфер»</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -1223,7 +1108,8 @@
 								<Title formatted="true">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Разрешить использование сервиса склонения &lt;link http://www.morpher.ru&gt;Морфер&lt;/&gt; для получения представлений объектов в падежах (требуется подключение к Интернет).</v8:content>
+										<v8:content>Разрешить использование внешнего сервиса &lt;link http://www.morpher.ru&gt;Морфер&lt;/&gt; для получения альтернативного варианта склонения представлений объектов в падежах (требуется подключение к Интернет).
+Если внешний сервис не используется, склонение представлений выполняется с применением встроенных возможностей программы.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -1234,12 +1120,6 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаНастройкаСклонения" id="1712">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Настройка склонения</v8:content>
-						</v8:item>
-					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -1287,13 +1167,6 @@
 			<ExtendedTooltip name="ГруппаЦентрМониторингаРасширеннаяПодсказка" id="1664"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаРазрешитьОтправлятьДанные" id="1665">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Настройка автоматической отправки сведений об использовании программы</v8:content>
-						</v8:item>
-					</Title>
-					<TitleFont ref="sys:DefaultGUIFont" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
@@ -1314,12 +1187,6 @@
 							<ExtendedTooltip name="ДекорацияПояснениеРасширеннаяПодсказка" id="1669"/>
 						</LabelDecoration>
 						<UsualGroup name="ГруппаПереключатель" id="1670">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Переключатель</v8:content>
-								</v8:item>
-							</Title>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПереключательРасширеннаяПодсказка" id="1671"/>
@@ -1358,12 +1225,6 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаНастройкиОтправкиОтчетовОбОшибках" id="1842">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Переключатель</v8:content>
-								</v8:item>
-							</Title>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНастройкиОтправкиОтчетовОбОшибкахРасширеннаяПодсказка" id="1843"/>
@@ -1388,12 +1249,6 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаОтправитьКонтактнуюИнформацию" id="1847">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Переключатель</v8:content>
-								</v8:item>
-							</Title>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтправитьКонтактнуюИнформациюРасширеннаяПодсказка" id="1848"/>
@@ -1419,12 +1274,6 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаСтороннему" id="1832">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Переключатель</v8:content>
-						</v8:item>
-					</Title>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСтороннемуРасширеннаяПодсказка" id="1833"/>
@@ -1464,12 +1313,6 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаОтправкиДанныхНастройкаРесурсаОбщая" id="1678">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Отправки данных настройка ресурса общая</v8:content>
-						</v8:item>
-					</Title>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОтправкиДанныхНастройкаРесурсаОбщаяРасширеннаяПодсказка" id="1679"/>
@@ -1496,12 +1339,6 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаЗапретитьОтправлятьДанные" id="1686">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Запретить отправлять данные</v8:content>
-						</v8:item>
-					</Title>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаЗапретитьОтправлятьДанныеРасширеннаяПодсказка" id="1687"/>
@@ -1554,12 +1391,6 @@
 			<ExtendedTooltip name="ГруппаВнешниеКомпонентыРасширеннаяПодсказка" id="1717"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаУправлениеВнешнимиКомпонентами" id="1718">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Управление внешними компонентами</v8:content>
-						</v8:item>
-					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -1582,6 +1413,104 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Настройка автообновления внешних компонент сторонних поставщиков, подключенных к программе.</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="БИПГруппаИнтеграцияСПлатежнымиСистемами" id="1921">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интеграция с платежными системами</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<Representation>NormalSeparation</Representation>
+			<ExtendedTooltip name="БИПГруппаИнтеграцияСПлатежнымиСистемамиРасширеннаяПодсказка" id="1922"/>
+			<ChildItems>
+				<Button name="БИПНастройкаИнтеграцииСПлатежнымиСистемами" id="1923">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.БИПНастройкаИнтеграцииСПлатежнымиСистемами</CommandName>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<ExtendedTooltip name="БИПНастройкаИнтеграцииСПлатежнымиСистемамиРасширеннаяПодсказка" id="1924">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настройка подключения и обмена данными с платежными системами.</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="БИПГруппаИнтеграцияСКоннект" id="1925">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1С-Коннект</v8:content>
+				</v8:item>
+			</Title>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<Representation>NormalSeparation</Representation>
+			<ExtendedTooltip name="БИПГруппаИнтеграцияСКоннектРасширеннаяПодсказка" id="1926"/>
+			<ChildItems>
+				<UsualGroup name="БИПГруппаСервисКоннект" id="1927">
+					<Width>43</Width>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="БИПГруппаСервисКоннектРасширеннаяПодсказка" id="1928"/>
+					<ChildItems>
+						<CheckBoxField name="БИПИнтеграцияСКоннект" id="1929">
+							<DataPath>БИПИнтеграцияСКоннект</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="БИПИнтеграцияСКоннектКонтекстноеМеню" id="1930"/>
+							<ExtendedTooltip name="БИПИнтеграцияСКоннектРасширеннаяПодсказка" id="1931">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Корпоративный чат с возможностью звонить, передавать файлы и удаленно подключаться к компьютеру. Оперативная поддержка пользователей программ 1С.</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+							<Events>
+								<Event name="OnChange">БИПИнтеграцияСКоннектПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="БИПГруппаНастройкаКоннект" id="1932">
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="БИПГруппаНастройкаКоннектРасширеннаяПодсказка" id="1933"/>
+					<ChildItems>
+						<Button name="БИПНастройкаИнтеграцииСКоннект" id="1934">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.БИПНастройкаИнтеграцииСКоннект</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройка интеграции</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<ExtendedTooltip name="БИПНастройкаИнтеграцииСКоннектРасширеннаяПодсказка" id="1935">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Настройка запуска приложения на этом компьютере.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
@@ -1657,12 +1586,6 @@
 			</Type>
 		</Attribute>
 		<Attribute name="БИПДанныеАутентификации" id="20">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Данные аутентификации</v8:content>
-				</v8:item>
-			</Title>
 			<Type/>
 		</Attribute>
 		<Attribute name="БИПИспользоватьСервисСПАРКРиски" id="21">
@@ -1708,34 +1631,16 @@
 			</Type>
 		</Attribute>
 		<Attribute name="ОбрабатыватьНастройкиБИП" id="25">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Обрабатывать настройки БИП</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ЦентрМониторингаИдентификаторЗадания" id="26">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Центр мониторинга идентификатор задания</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>v8:UUID</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ЦентрМониторингаАдресРезультатаЗадания" id="27">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Центр мониторинга адрес результата задания</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -1751,6 +1656,63 @@
 					<v8:content>Загружать и устанавливать исправления (патчи) автоматически</v8:content>
 				</v8:item>
 			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="БИПФайлКлассификаторов" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>БИП Файл классификаторов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="БИПВариантОбновленияКлассификаторов" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>БИП Вариант обновления классификаторов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="БИПВариантОбновленияКлассификаторовПредыдущееЗначение" id="4">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="БИПИнтеграцияСКоннект" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сервис 1С-Коннект</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбсужденияПодключены" id="29">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
@@ -1875,6 +1837,55 @@
 				</v8:item>
 			</Title>
 			<Action>БИПОбновлениеКлассификаторов</Action>
+		</Command>
+		<Command name="БИПНастройкаИнтеграцииСПлатежнымиСистемами" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка интеграции</v8:content>
+				</v8:item>
+			</Title>
+			<Action>БИПНастройкаИнтеграцииСПлатежнымиСистемами</Action>
+		</Command>
+		<Command name="НастройкаОнлайнПоддержки" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка онлайн-поддержки</v8:content>
+				</v8:item>
+			</Title>
+			<Action>НастройкаОнлайнПоддержки</Action>
+		</Command>
+		<Command name="БИПНастройкаИнтеграцииСКоннект" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка интеграции с 1С-Коннект</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка интеграции с 1С-Коннект</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>БИПНастройкаИнтеграцииСКоннект</Action>
+		</Command>
+		<Command name="ОбсужденияНастроитьИнтеграциюСВнешнимиСистемами" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщения из других программ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настроить получение и отправку сообщений в другие мессенджеры. Например в Telegram, VK</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбсужденияНастроитьИнтеграциюСВнешнимиСистемами</Action>
+			<Representation>Text</Representation>
 		</Command>
 	</Commands>
 </Form>

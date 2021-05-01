@@ -21,13 +21,13 @@
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>CommonForm.ФормаОтчета</DefaultForm>
+			<DefaultForm/>
 			<AuxiliaryForm/>
 			<MainDataCompositionSchema>Report.ПрогрессОтложенногоОбновления.Template.ОсновнаяСхемаКомпоновкиДанных</MainDataCompositionSchema>
-			<DefaultSettingsForm>CommonForm.ФормаНастроекОтчета</DefaultSettingsForm>
+			<DefaultSettingsForm/>
 			<AuxiliarySettingsForm/>
-			<DefaultVariantForm>CommonForm.ФормаВариантаОтчета</DefaultVariantForm>
-			<VariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</VariantsStorage>
+			<DefaultVariantForm/>
+			<VariantsStorage/>
 			<SettingsStorage/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ExtendedPresentation/>

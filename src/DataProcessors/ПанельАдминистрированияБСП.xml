@@ -30,7 +30,6 @@
 		<ChildObjects>
 			<Form>ИнтернетПоддержкаИСервисы</Form>
 			<Form>НастройкиПользователейИПрав</Form>
-			<Form>НастройкиРаботыСФайлами</Form>
 			<Form>Обслуживание</Form>
 			<Form>ОбщиеНастройки</Form>
 			<Form>Органайзер</Form>
@@ -161,32 +160,6 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Синхронизация данных с другими программами
 и организация совместной работы в распределенной информационной базе.</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Picture/>
-					<Shortcut/>
-					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
-				</Properties>
-			</Command>
-			<Command uuid="ef257b20-da10-4cda-8b9d-7de2d68a2f71">
-				<Properties>
-					<Name>НастройкиРаботыСФайлами</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Настройки работы с файлами</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Group>NavigationPanelOrdinary</Group>
-					<CommandParameterType/>
-					<ParameterUseMode>Single</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
-					<Representation>Auto</Representation>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Настройка параметров загрузки, хранения и обработки файлов.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture/>

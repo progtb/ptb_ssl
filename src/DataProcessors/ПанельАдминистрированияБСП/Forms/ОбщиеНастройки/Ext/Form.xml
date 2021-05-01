@@ -24,12 +24,6 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаЗаголовок" id="1762">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Заголовок</v8:content>
-				</v8:item>
-			</Title>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаЗаголовокExtendedTooltip" id="1829"/>
@@ -47,12 +41,6 @@
 					<ExtendedTooltip name="ОписаниеРазделаExtendedTooltip" id="1830"/>
 				</LabelDecoration>
 				<CommandBar name="ГруппаСправка" id="1765">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Справка</v8:content>
-						</v8:item>
-					</Title>
 					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 					<ExtendedTooltip name="ГруппаСправкаExtendedTooltip" id="1832"/>
 					<ChildItems>
@@ -66,12 +54,6 @@
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаНастройкиПрограммы" id="612">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Настройки программы</v8:content>
-				</v8:item>
-			</Title>
 			<Group>Vertical</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
@@ -92,44 +74,11 @@
 						<Event name="OnChange">ЗаголовокПрограммыПриИзменении</Event>
 					</Events>
 				</InputField>
-				<UsualGroup name="ГруппаЧасовойПоясПрограммы" id="1696">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Часовой пояс программы</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ГруппаЧасовойПоясПрограммыExtendedTooltip" id="1836">
-						<Title formatted="false">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Часовой пояс, в котором ведется учет в программе. Даты всех документов и других данных вводятся и хранятся в этом часовом поясе. </v8:content>
-							</v8:item>
-						</Title>
-					</ExtendedTooltip>
-					<ChildItems>
-						<InputField name="ЧасовойПоясПрограммы" id="1693">
-							<DataPath>ЧасовойПоясПрограммы</DataPath>
-							<HorizontalStretch>false</HorizontalStretch>
-							<ListChoiceMode>true</ListChoiceMode>
-							<TextEdit>false</TextEdit>
-							<EditTextUpdate>OnValueChange</EditTextUpdate>
-							<ContextMenu name="ЧасовойПоясПрограммыКонтекстноеМеню" id="1694"/>
-							<ExtendedTooltip name="ЧасовойПоясПрограммыExtendedTooltip" id="1837"/>
-							<Events>
-								<Event name="OnChange">ЧасовойПоясПрограммыПриИзменении</Event>
-							</Events>
-						</InputField>
-						<Button name="ВремяТекущегоСеанса" id="2061">
-							<Type>Hyperlink</Type>
-							<CommandName>CommonCommand.ВремяТекущегоСеанса</CommandName>
-							<ExtendedTooltip name="ВремяТекущегоСеансаРасширеннаяПодсказка" id="2062"/>
-						</Button>
-					</ChildItems>
-				</UsualGroup>
+				<Button name="РегиональныеНастройки" id="2094">
+					<Type>Hyperlink</Type>
+					<CommandName>Form.Command.РегиональныеНастройки</CommandName>
+					<ExtendedTooltip name="РегиональныеНастройкиРасширеннаяПодсказка" id="2095"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаПубликацияИнформационнойБазы" id="2038">
@@ -246,12 +195,6 @@
 					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="2060"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаОткрытьПараметрыПроксиСервера" id="1524">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Открыть параметры прокси сервера</v8:content>
-								</v8:item>
-							</Title>
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
@@ -261,7 +204,7 @@
 							<ChildItems>
 								<Button name="ОткрытьПараметрыПроксиСервера" id="1686">
 									<Type>Hyperlink</Type>
-									<CommandName>CommonForm.ПараметрыПроксиСервера.StandardCommand.Open</CommandName>
+									<CommandName>100:4399c19a-ddba-42e9-88b4-c5c28abad237</CommandName>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -282,12 +225,6 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаНастройкаИспользованияПрофилейБезопасности" id="1934">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Настройка использования профилей безопасности</v8:content>
-								</v8:item>
-							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -320,12 +257,6 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаНастройкаПроксиСервераНаСервереНедоступнаПриИспользованииПрофилейБезопасности" id="1941">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Настройка прокси сервера на сервере недоступна при использовании профилей безопасности</v8:content>
-						</v8:item>
-					</Title>
 					<Representation>NormalSeparation</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаНастройкаПроксиСервераНаСервереНедоступнаПриИспользованииПрофилейБезопасностиРасширеннаяПодсказка" id="1942"/>
@@ -380,13 +311,13 @@
 			<ChildItems>
 				<Button name="ОткрытьВидыКонтактнойИнформации" id="1640">
 					<Type>Hyperlink</Type>
-					<CommandName>0</CommandName>
+					<CommandName>0:782cb93d-36e6-4923-b2b6-75caa3459cd6</CommandName>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<ExtendedTooltip name="ОткрытьВидыКонтактнойИнформацииExtendedTooltip" id="1866">
 						<Title formatted="false">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Классификация контактной информации различных объектов системы, например, партнеров, контрагентов, сотрудников и т.д.</v8:content>
+								<v8:content>Классификация адресов, телефонов и другой контактной информации у введенных в программе объектов, например, партнеров, контрагентов, сотрудников и т.д.</v8:content>
 							</v8:item>
 						</Title>
 					</ExtendedTooltip>
@@ -408,12 +339,6 @@
 			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыИСведенияExtendedTooltip" id="1846"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаИспользоватьДополнительныеРеквизитыИСведения" id="1802">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Использовать дополнительные реквизиты и сведения</v8:content>
-						</v8:item>
-					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -443,85 +368,9 @@
 								<Event name="OnChange">ИспользоватьДополнительныеРеквизитыИСведенияПриИзменении</Event>
 							</Events>
 						</CheckBoxField>
-						<UsualGroup name="ГруппаДополнительныеРеквизитыИСведенияПрочиеНастройки" id="1807">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Дополнительные реквизиты и сведения прочие настройки</v8:content>
-								</v8:item>
-							</Title>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаДополнительныеРеквизитыИСведенияПрочиеНастройкиExtendedTooltip" id="1850"/>
-							<ChildItems>
-								<LabelDecoration name="Декорация1" id="2035">
-									<Width>1</Width>
-									<ContextMenu name="Декорация1КонтекстноеМеню" id="2036"/>
-									<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="2037"/>
-								</LabelDecoration>
-								<UsualGroup name="Группа7" id="2033">
-									<Group>Vertical</Group>
-									<Representation>None</Representation>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="2034"/>
-									<ChildItems>
-										<CheckBoxField name="ИспользоватьОбщиеДополнительныеЗначения" id="1812">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Реквизиты и сведения с общим списком значений </v8:content>
-												</v8:item>
-											</Title>
-											<TitleLocation>Right</TitleLocation>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Разрешить добавление реквизитов, у которых общий список значений с другими реквизитами.</v8:content>
-												</v8:item>
-											</ToolTip>
-											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
-											<ContextMenu name="ИспользоватьОбщиеДополнительныеЗначенияКонтекстноеМеню" id="1813"/>
-											<ExtendedTooltip name="ИспользоватьОбщиеДополнительныеЗначенияExtendedTooltip" id="1854"/>
-											<Events>
-												<Event name="OnChange">ИспользоватьДополнительныеРеквизитыИСведенияПриИзменении</Event>
-											</Events>
-										</CheckBoxField>
-										<CheckBoxField name="ИспользоватьОбщиеДополнительныеРеквизитыИСведения" id="1816">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Общие реквизиты и сведения</v8:content>
-												</v8:item>
-											</Title>
-											<TitleLocation>Right</TitleLocation>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Разрешить добавление реквизитов сразу к нескольким объектам программы одновременно.</v8:content>
-												</v8:item>
-											</ToolTip>
-											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-											<CheckBoxType>Auto</CheckBoxType>
-											<ContextMenu name="ИспользоватьОбщиеДополнительныеРеквизитыИСведенияКонтекстноеМеню" id="1817"/>
-											<ExtendedTooltip name="ИспользоватьОбщиеДополнительныеРеквизитыИСведенияExtendedTooltip" id="1856"/>
-											<Events>
-												<Event name="OnChange">ИспользоватьДополнительныеРеквизитыИСведенияПриИзменении</Event>
-											</Events>
-										</CheckBoxField>
-									</ChildItems>
-								</UsualGroup>
-							</ChildItems>
-						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаДополнительныеРеквизитыИлиСведения" id="1820">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Дополнительные реквизиты или сведения</v8:content>
-						</v8:item>
-					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -531,12 +380,6 @@
 					<ExtendedTooltip name="ГруппаДополнительныеРеквизитыИлиСведенияExtendedTooltip" id="1858"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаДополнительныеРеквизиты" id="1821">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Дополнительные реквизиты</v8:content>
-								</v8:item>
-							</Title>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -544,7 +387,7 @@
 							<ChildItems>
 								<Button name="ДополнительныеРеквизиты" id="2051">
 									<Type>Hyperlink</Type>
-									<CommandName>0</CommandName>
+									<CommandName>Form.Command.ДополнительныеРеквизиты</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ДополнительныеРеквизитыРасширеннаяПодсказка" id="2052">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -560,12 +403,6 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаДополнительныеСведения" id="1825">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Дополнительные сведения</v8:content>
-								</v8:item>
-							</Title>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -573,7 +410,7 @@
 							<ChildItems>
 								<Button name="ДополнительныеСведения" id="2053">
 									<Type>Hyperlink</Type>
-									<CommandName>0</CommandName>
+									<CommandName>Form.Command.ДополнительныеСведения</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ДополнительныеСведенияРасширеннаяПодсказка" id="2054">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -607,12 +444,6 @@
 			<ExtendedTooltip name="ГруппаВерсионированиеРасширеннаяПодсказка" id="2064"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаИспользоватьВерсионированиеОбъектов" id="2065">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Использовать версионирование объектов</v8:content>
-						</v8:item>
-					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -661,12 +492,6 @@
 			<ExtendedTooltip name="ГруппаУправлениеПолнотекстовымПоискомРасширеннаяПодсказка" id="2075"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаПолнотекстовыйПоиск" id="2092">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа полнотекстовый поиск</v8:content>
-						</v8:item>
-					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -712,12 +537,6 @@
 			<ExtendedTooltip name="ГруппаЭлектроннаяПодписьИШифрованиеРасширеннаяПодсказка" id="1950"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаИспользоватьЭлектроннуюПодписьИШифрование" id="1951">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Использовать электронную подпись и шифрование</v8:content>
-						</v8:item>
-					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -726,12 +545,6 @@
 					<ExtendedTooltip name="ГруппаИспользоватьЭлектроннуюПодписьИШифрованиеРасширеннаяПодсказка" id="1952"/>
 					<ChildItems>
 						<UsualGroup name="ГоризонтальнаяГруппа" id="1953">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Горизонтальная группа</v8:content>
-								</v8:item>
-							</Title>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -779,12 +592,6 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаНастройкиЭлектроннойПодписиИШифрования" id="1964">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Настройки электронной подписи и шифрования</v8:content>
-						</v8:item>
-					</Title>
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
@@ -810,6 +617,91 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="ГруппаУдалениеПомеченных" id="2096">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удаление помеченных объектов</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="2097"/>
+			<ChildItems>
+				<UsualGroup name="Группа2" id="2111">
+					<Width>43</Width>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка3" id="2112"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаРегламентноеУдалениеПомеченных" id="2101">
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка1" id="2102">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выполнять удаление помеченных объектов по расписанию</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+							<ChildItems>
+								<CheckBoxField name="УдалениеПомеченныхИспользование" id="2098">
+									<DataPath>УдалениеПомеченныхИспользование</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Автоматически удалять помеченные</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="КонтекстноеМеню" id="2099"/>
+									<ExtendedTooltip name="РасширеннаяПодсказка" id="2100"/>
+									<Events>
+										<Event name="OnChange">УдалениеПомеченныхИспользованиеПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<Button name="НастроитьРасписание" id="2103">
+									<Type>Hyperlink</Type>
+									<CommandName>Form.Command.НастроитьРасписание</CommandName>
+									<ExtendedTooltip name="НастроитьРасписаниеРасширеннаяПодсказка" id="2104"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПросмотрПомеченныхНаУдаление" id="2109">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Открыть рабочее место для удаления помеченных</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка2" id="2110"/>
+					<ChildItems>
+						<Button name="ПосмотретьПомеченныеНаУдаление" id="2105">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ПосмотретьПомеченныеНаУдаление</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Посмотреть помеченные на удаление</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ПосмотретьРасширеннаяПодсказка" id="2106"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="НаборКонстант" id="1">
@@ -818,24 +710,8 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>НаборКонстант.ИзвлекатьТекстыФайловНаСервере</Field>
 				<Field>НаборКонстант.ИспользоватьРазделениеПоОбластямДанных</Field>
 			</UseAlways>
-		</Attribute>
-		<Attribute name="ЧасовойПоясПрограммы" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Часовой пояс</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
 		</Attribute>
 		<Attribute name="ИспользоватьПолнотекстовыйПоиск" id="6">
 			<Title>
@@ -858,6 +734,17 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Хранить историю изменений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="УдалениеПомеченныхИспользование" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удаление помеченных использование</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -905,6 +792,69 @@
 				</v8:item>
 			</ToolTip>
 			<Action>НастроитьХранениеИсторииИзменений</Action>
+		</Command>
+		<Command name="РегиональныеНастройки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Региональные настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Региональные настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РегиональныеНастройки</Action>
+		</Command>
+		<Command name="ДополнительныеРеквизиты" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные реквизиты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДополнительныеРеквизиты</Action>
+		</Command>
+		<Command name="ДополнительныеСведения" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные сведения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные сведения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДополнительныеСведения</Action>
+		</Command>
+		<Command name="НастроитьРасписание" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настроить расписание</v8:content>
+				</v8:item>
+			</Title>
+			<Action>НастроитьРасписание</Action>
+		</Command>
+		<Command name="ПосмотретьПомеченныеНаУдаление" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Посмотреть помеченные на удаление</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ПосмотретьПомеченныеНаУдаление</Action>
 		</Command>
 	</Commands>
 </Form>

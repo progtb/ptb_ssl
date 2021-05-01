@@ -18,11 +18,8 @@
 			<Comment/>
 			<Type>
 				<v8:Type>cfg:ConstantValueManager.НеИспользоватьРазделениеПоОбластямДанных</v8:Type>
-				<v8:Type>cfg:ConstantValueManager.ИсточникДанныхАдресногоКлассификатора</v8:Type>
-				<v8:Type>cfg:ConstantValueManager.ХранитьФайлыВТомахНаДиске</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.ИспользоватьВнешнихПользователей</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.ЭтоАвтономноеРабочееМесто</v8:Type>
-				<v8:Type>cfg:ConstantValueManager.ИспользоватьДополнительныеОтчетыИОбработки</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.ИспользоватьРазделениеПоОбластямДанных</v8:Type>
 				<v8:Type>cfg:ConstantValueManager.ИспользоватьГруппыПользователей</v8:Type>
 			</Type>

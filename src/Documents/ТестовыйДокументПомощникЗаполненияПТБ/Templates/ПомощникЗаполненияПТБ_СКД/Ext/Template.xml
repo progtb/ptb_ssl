@@ -7,22 +7,22 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Банк</dataPath>
-			<field>Банк</field>
+			<dataPath>ОбъектМетаданных</dataPath>
+			<field>ОбъектМетаданных</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Банк</v8:content>
+					<v8:content>Объект метаданных</v8:content>
 				</v8:item>
 			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	Банки.Ссылка КАК Банк
+	Объекты.Ссылка КАК ОбъектМетаданных
 ИЗ
-	Справочник.КлассификаторБанков КАК Банки
+	Справочник.ИдентификаторыОбъектовМетаданных КАК Объекты
 ГДЕ
-	НЕ Банки.ПометкаУдаления</query>
+	НЕ Объекты.ПометкаУдаления</query>
 	</dataSet>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
