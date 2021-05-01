@@ -46,6 +46,11 @@
 			<ContextMenu name="НаименованиеПолное_КонтекстноеМеню" id="6"/>
 			<ExtendedTooltip name="НаименованиеПолноеExtendedTooltip" id="16"/>
 		</InputField>
+		<InputField name="МеждународноеНаименование" id="23">
+			<DataPath>Объект.МеждународноеНаименование</DataPath>
+			<ContextMenu name="МеждународноеНаименованиеКонтекстноеМеню" id="24"/>
+			<ExtendedTooltip name="МеждународноеНаименованиеРасширеннаяПодсказка" id="25"/>
+		</InputField>
 		<UsualGroup name="ГруппаАльфаКодов" id="12">
 			<Title>
 				<v8:item>
@@ -98,4 +103,15 @@
 			<SavedData>true</SavedData>
 		</Attribute>
 	</Attributes>
+	<Parameters>
+		<Parameter name="Заголовок">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+	</Parameters>
 </Form>

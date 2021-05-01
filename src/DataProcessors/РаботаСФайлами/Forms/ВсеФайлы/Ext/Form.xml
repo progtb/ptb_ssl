@@ -53,6 +53,19 @@
 						<CommandName>Form.Command.Освободить</CommandName>
 						<ExtendedTooltip name="ФормаОсвободитьРасширеннаяПодсказка" id="93"/>
 					</Button>
+					<Button name="ФормаСохранитьКак" id="59">
+						<Type>CommandBarButton</Type>
+						<SkipOnInput>false</SkipOnInput>
+						<CommandName>Form.Command.СохранитьКак</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сохранить как...</v8:content>
+							</v8:item>
+						</Title>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ФормаСохранитьКакРасширеннаяПодсказка" id="94"/>
+					</Button>
 				</ChildItems>
 			</ButtonGroup>
 			<ButtonGroup name="ФормаГлобальныеКоманды" id="122">
@@ -74,35 +87,17 @@
 				</Title>
 				<ExtendedTooltip name="ФормаГруппаКомандДополнительныеРасширеннаяПодсказка" id="133"/>
 				<ChildItems>
-					<Button name="ФормаИзменить82" id="126">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.ОткрытьСвойстваФайла</CommandName>
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Открыть карточку</v8:content>
-							</v8:item>
-						</Title>
-						<ExtendedTooltip name="ФормаИзменить82РасширеннаяПодсказка" id="127"/>
-					</Button>
 					<Button name="ФормаУстановитьПометкуУдаления" id="128">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ПометитьНаУдаление</CommandName>
 						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 						<ExtendedTooltip name="ФормаУстановитьПометкуУдаленияРасширеннаяПодсказка" id="129"/>
 					</Button>
-					<Button name="ФормаСохранитьКак" id="59">
+					<Button name="ФормаУдалить" id="157">
 						<Type>CommandBarButton</Type>
-						<SkipOnInput>false</SkipOnInput>
-						<CommandName>Form.Command.СохранитьКак</CommandName>
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Сохранить как...</v8:content>
-							</v8:item>
-						</Title>
+						<CommandName>Form.Command.Удалить</CommandName>
 						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-						<ExtendedTooltip name="ФормаСохранитьКакРасширеннаяПодсказка" id="94"/>
+						<ExtendedTooltip name="ФормаУдалитьРасширеннаяПодсказка" id="158"/>
 					</Button>
 				</ChildItems>
 			</ButtonGroup>
@@ -123,6 +118,12 @@
 					</Button>
 				</ChildItems>
 			</ButtonGroup>
+			<Button name="ПоказыватьПомеченныеФайлы" id="159">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПоказыватьПомеченныеФайлы</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ПоказыватьПомеченныеФайлыРасширеннаяПодсказка" id="160"/>
+			</Button>
 			<Button name="ПоказыватьСлужебныеФайлы" id="155">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ПоказыватьСлужебныеФайлы</CommandName>
@@ -208,7 +209,7 @@
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Список контекстное меню группа команд основные</v8:content>
+								<v8:content>Контекстное меню группа команд основные</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокКонтекстноеМенюГруппаКомандОсновныеРасширеннаяПодсказка" id="135"/>
@@ -236,21 +237,26 @@
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Список контекстное меню группа команд дополнительные</v8:content>
+								<v8:content>Контекстное меню группа команд дополнительные</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СписокКонтекстноеМенюГруппаКомандДополнительныеРасширеннаяПодсказка" id="137"/>
 						<ChildItems>
-							<Button name="СписокКонтекстноеМенюУстановитьПометкуУдаления" id="130">
-								<Type>CommandBarButton</Type>
-								<CommandName>Form.Command.ПометитьНаУдаление</CommandName>
-								<ExtendedTooltip name="СписокКонтекстноеМенюУстановитьПометкуУдаленияРасширеннаяПодсказка" id="131"/>
-							</Button>
 							<Button name="СписокКонтекстноеМенюСохранитьКак" id="81">
 								<Type>CommandBarButton</Type>
 								<SkipOnInput>false</SkipOnInput>
 								<CommandName>Form.Command.СохранитьКак</CommandName>
 								<ExtendedTooltip name="СписокКонтекстноеМенюСохранитьКакРасширеннаяПодсказка" id="99"/>
+							</Button>
+							<Button name="СписокКонтекстноеМенюУстановитьПометкуУдаления" id="130">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ПометитьНаУдаление</CommandName>
+								<ExtendedTooltip name="СписокКонтекстноеМенюУстановитьПометкуУдаленияРасширеннаяПодсказка" id="131"/>
+							</Button>
+							<Button name="СписокКонтекстноеМенюУдалить" id="161">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.Удалить</CommandName>
+								<ExtendedTooltip name="СписокКонтекстноеМенюУдалитьРасширеннаяПодсказка" id="162"/>
 							</Button>
 						</ChildItems>
 					</ButtonGroup>
@@ -258,7 +264,7 @@
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Список контекстное меню стандартные команды</v8:content>
+								<v8:content>Контекстное меню стандартные команды</v8:content>
 							</v8:item>
 						</Title>
 						<CommandSource>Item.Список</CommandSource>
@@ -328,7 +334,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Список картинка и наименование</v8:content>
+							<v8:content>Картинка и наименование</v8:content>
 						</v8:item>
 					</Title>
 					<Group>InCell</Group>
@@ -470,6 +476,12 @@
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+					</Title>
 					<Width>1</Width>
 					<ContextMenu name="СписокСсылкаКонтекстноеМеню" id="85"/>
 					<ExtendedTooltip name="СписокСсылкаРасширеннаяПодсказка" id="117"/>
@@ -519,7 +531,7 @@
 ИЗ
 	РегистрСведений.СведенияОФайлах КАК СведенияОФайлах
 ГДЕ
-	НЕ СведенияОФайлах.Файл.Ссылка ЕСТЬ NULL </QueryText>
+	НЕ СведенияОФайлах.Файл ЕСТЬ NULL</QueryText>
 				<MainTable>InformationRegister.СведенияОФайлах</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -674,6 +686,42 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказыватьСлужебныеФайлы</Action>
+		</Command>
+		<Command name="ПоказыватьПомеченныеФайлы" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать помеченные файлы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать помеченные файлы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоказыватьПомеченныеФайлы</Action>
+		</Command>
+		<Command name="Удалить" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить данные файла</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.DeleteDirectly</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Удалить</Action>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId xsi:type="xs:string">Список</AssociatedTableElementId>
 		</Command>
 	</Commands>
 </Form>

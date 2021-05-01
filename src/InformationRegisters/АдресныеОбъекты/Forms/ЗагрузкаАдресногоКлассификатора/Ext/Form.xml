@@ -60,16 +60,28 @@
 									</Title>
 									<ExtendedTooltip name="ГруппаУстановитьСнятьФлажкиРасширеннаяПодсказка" id="209"/>
 									<ChildItems>
-										<Button name="СубъектыРФУстановитьФлажки" id="47">
-											<Type>CommandBarButton</Type>
-											<CommandName>Form.Command.УстановитьФлажки</CommandName>
-											<ExtendedTooltip name="СубъектыРФУстановитьФлажкиРасширеннаяПодсказка" id="48"/>
-										</Button>
-										<Button name="СубъектыРФСнятьФлажки" id="49">
-											<Type>CommandBarButton</Type>
-											<CommandName>Form.Command.СнятьФлажки</CommandName>
-											<ExtendedTooltip name="СубъектыРФСнятьФлажкиРасширеннаяПодсказка" id="50"/>
-										</Button>
+										<ButtonGroup name="КнопкиВыбора" id="239">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Выбрать все</v8:content>
+												</v8:item>
+											</Title>
+											<Representation>Compact</Representation>
+											<ExtendedTooltip name="КнопкиВыбораРасширеннаяПодсказка" id="240"/>
+											<ChildItems>
+												<Button name="СубъектыРФУстановитьФлажки" id="47">
+													<Type>CommandBarButton</Type>
+													<CommandName>Form.Command.УстановитьФлажки</CommandName>
+													<ExtendedTooltip name="СубъектыРФУстановитьФлажкиРасширеннаяПодсказка" id="48"/>
+												</Button>
+												<Button name="СубъектыРФСнятьФлажки" id="49">
+													<Type>CommandBarButton</Type>
+													<CommandName>Form.Command.СнятьФлажки</CommandName>
+													<ExtendedTooltip name="СубъектыРФСнятьФлажкиРасширеннаяПодсказка" id="50"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
 									</ChildItems>
 								</CommandBar>
 								<InputField name="Поиск" id="203">
@@ -87,6 +99,7 @@
 									<Events>
 										<Event name="AutoComplete">ПоискАвтоПодбор</Event>
 										<Event name="Clearing">ПоискОчистка</Event>
+										<Event name="TextEditEnd">ПоискОкончаниеВводаТекста</Event>
 									</Events>
 								</InputField>
 								<CommandBar name="ГруппаЕще" id="210">
@@ -100,6 +113,18 @@
 									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 									<ExtendedTooltip name="ГруппаЕщеРасширеннаяПодсказка" id="211"/>
 									<ChildItems>
+										<Button name="СубъектыРФУстановитьФлажки1" id="241">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.УстановитьФлажки</CommandName>
+											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+											<ExtendedTooltip name="СубъектыРФУстановитьФлажки1РасширеннаяПодсказка" id="242"/>
+										</Button>
+										<Button name="СубъектыРФСнятьФлажки1" id="243">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.СнятьФлажки</CommandName>
+											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+											<ExtendedTooltip name="СубъектыРФСнятьФлажки1РасширеннаяПодсказка" id="244"/>
+										</Button>
 										<Button name="СубъектыРФНайти" id="43">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Item.СубъектыРФ.StandardCommand.Find</CommandName>
@@ -208,6 +233,7 @@
 										</CheckBoxField>
 										<InputField name="СубъектыРФКодСубъектаРФ" id="227">
 											<DataPath>СубъектыРФ.КодСубъектаРФ</DataPath>
+											<ReadOnly>true</ReadOnly>
 											<HorizontalAlign>Left</HorizontalAlign>
 											<EditMode>EnterOnInput</EditMode>
 											<FooterHorizontalAlign>Left</FooterHorizontalAlign>
@@ -231,6 +257,7 @@
 										</InputField>
 										<InputField name="СубъектыРФПредставление" id="224">
 											<DataPath>СубъектыРФ.Представление</DataPath>
+											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="СубъектыРФПредставлениеКонтекстноеМеню" id="225"/>
 											<ExtendedTooltip name="СубъектыРФПредставлениеРасширеннаяПодсказка" id="226"/>
@@ -294,7 +321,6 @@
 													<v8:content>ЧН=-</v8:content>
 												</v8:item>
 											</Format>
-											<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 											<ContextMenu name="ВыбраноРегионовДляЗагрузкиКонтекстноеМеню" id="52"/>
 											<ExtendedTooltip name="ВыбраноРегионовДляЗагрузкиРасширеннаяПодсказка" id="53"/>
 										</LabelField>
@@ -375,7 +401,7 @@
 										</LabelField>
 									</ChildItems>
 								</UsualGroup>
-								<UsualGroup name="ГруппаЗагрузкаИзПапки" id="185">
+								<UsualGroup name="ГруппаЗагрузкаИзКаталога" id="185">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -386,7 +412,7 @@
 									<Representation>None</Representation>
 									<United>false</United>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаЗагрузкаИзПапкиРасширеннаяПодсказка" id="186"/>
+									<ExtendedTooltip name="ГруппаЗагрузкаИзКаталогаРасширеннаяПодсказка" id="186"/>
 									<ChildItems>
 										<RadioButtonField name="ДоступныеИсточникиЗагрузкиКаталог" id="187">
 											<DataPath>КодИсточникаЗагрузки</DataPath>
@@ -605,15 +631,34 @@
 									<ContextMenu name="КартинкаУспешноеЗавершениеКонтекстноеМеню" id="96"/>
 									<ExtendedTooltip name="КартинкаУспешноеЗавершениеРасширеннаяПодсказка" id="97"/>
 								</PictureDecoration>
-								<LabelField name="ТекстОписанияЗагрузкиЗавершения" id="98">
-									<DataPath>ТекстОписанияЗагрузки</DataPath>
-									<ReadOnly>true</ReadOnly>
-									<TitleLocation>None</TitleLocation>
-									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-									<GroupVerticalAlign>Center</GroupVerticalAlign>
-									<ContextMenu name="ТекстОписанияЗагрузкиЗавершенияКонтекстноеМеню" id="99"/>
-									<ExtendedTooltip name="ТекстОписанияЗагрузкиЗавершенияРасширеннаяПодсказка" id="100"/>
-								</LabelField>
+								<UsualGroup name="ГруппаНадписиЗавершение" id="233">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Надписи завершение</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаНадписиЗавершениеРасширеннаяПодсказка" id="234"/>
+									<ChildItems>
+										<LabelField name="ТекстОписанияЗагрузкиЗавершения" id="98">
+											<DataPath>ТекстОписанияЗагрузки</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleLocation>None</TitleLocation>
+											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+											<GroupVerticalAlign>Center</GroupVerticalAlign>
+											<ContextMenu name="ТекстОписанияЗагрузкиЗавершенияКонтекстноеМеню" id="99"/>
+											<ExtendedTooltip name="ТекстОписанияЗагрузкиЗавершенияРасширеннаяПодсказка" id="100"/>
+										</LabelField>
+										<Button name="ПроверитьВсеАдреса" id="237">
+											<Type>Hyperlink</Type>
+											<CommandName>Form.Command.ПроверитьВсеАдреса</CommandName>
+											<ExtendedTooltip name="ПроверитьВсеАдресаРасширеннаяПодсказка" id="238"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаКомандЗавершения" id="101">
@@ -776,12 +821,6 @@
 					</Type>
 				</Column>
 				<Column name="Загружено" id="3">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Загружено</v8:content>
-						</v8:item>
-					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -798,12 +837,6 @@
 					</Type>
 				</Column>
 				<Column name="РежимРаботы" id="5">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Режим работы</v8:content>
-						</v8:item>
-					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -845,12 +878,6 @@
 			</Save>
 		</Attribute>
 		<Attribute name="ПредставлениеИсточникаЗагрузки" id="5">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Представление источника загрузки</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
@@ -905,12 +932,6 @@
 			<Type/>
 		</Attribute>
 		<Attribute name="ПредупреждениеПриОткрытии" id="9">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Предупреждение при открытии</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -920,24 +941,12 @@
 			</Type>
 		</Attribute>
 		<Attribute name="ДоступныеИсточникиЗагрузки" id="4">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Доступные источники загрузки</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
 			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
 		<Attribute name="КоличествоОбновлений" id="11">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Количество обновлений</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
@@ -963,23 +972,11 @@
 			</Type>
 		</Attribute>
 		<Attribute name="АутентификацияВыполнена" id="13">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Аутентификация выполнена</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="РежимРаботы" id="14">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Режим работы</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -989,12 +986,6 @@
 			</Type>
 		</Attribute>
 		<Attribute name="ФоновоеЗадание" id="15">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Фоновое задание</v8:content>
-				</v8:item>
-			</Title>
 			<Type/>
 		</Attribute>
 		<Attribute name="ЗагружатьИсториюИзмененийАдресныхОбъектов" id="16">
@@ -1138,6 +1129,21 @@
 			</ToolTip>
 			<Action>ОбновитьКлассификатор</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПроверитьВсеАдреса" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить все адреса...</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить все адреса</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьВсеАдреса</Action>
 		</Command>
 	</Commands>
 </Form>

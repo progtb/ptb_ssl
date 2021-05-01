@@ -21,14 +21,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.ПоставляемыеМакетыПечати</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.ИспользоватьДополнительныеОтчетыИОбработки</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.НомераОтсканированныхФайлов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -57,10 +49,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Constant.ИспользоватьАльтернативныйСерверДляЗагрузкиКлассификатораБанков</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -70,6 +58,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.НастройкиСинхронизацииФайлов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Constant.АдресДляВосстановленияПароляУчетнойЗаписи</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -89,6 +81,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ОбработчикиОбновления</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.СписокЗапрещенныхРасширенийОбластиДанных</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -102,10 +98,6 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.ВерсииРасширений</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.УдалитьБлокировкиСеансовОбластиДанных</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -129,10 +121,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.УдалитьВерсииПодсистем</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Constant.ОтложенноеОбновлениеЗавершеноУспешно</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -146,10 +134,6 @@
 	</Item>
 	<Item>
 		<Metadata>Constant.МаксимальныйРазмерФайла</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -173,7 +157,11 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.НазначениеДополнительныхОбработок</Metadata>
+		<Metadata>Catalog.ВидыКонтактнойИнформации</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.СтраныМира</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -193,15 +181,15 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ПотокиОбновления</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.ПользовательскиеМакетыПечати</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog.ДополнительныеОтчетыИОбработки</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -289,6 +277,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.СвязиАдресныхОбъектов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.НастройкиВариантовОтчетов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -314,6 +306,10 @@
 	</Item>
 	<Item>
 		<Metadata>Constant.СведенияОбОбновленииИБ</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ОбщиеПоставляемыеМакетыПечати</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -373,6 +369,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ОбработчикиОбновленияОбщихДанных</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.РабочиеКаталогиФайлов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -385,11 +385,11 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.БезопасноеХранилищеДанных</Metadata>
+		<Metadata>InformationRegister.ПоставляемыеМакетыПечати</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.СеансыВерсийРасширений</Metadata>
+		<Metadata>InformationRegister.БезопасноеХранилищеДанных</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

@@ -40,14 +40,14 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate.КомпонентаПечатиQRКода</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НастройкиКомандПечати</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.НастройкаКомандПечати</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Пустая</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеПечатьюКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.РедактированиеПечатныхФорм</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеПечатьюСлужебный</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate.ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеПечатьюКлиентПереопределяемый</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПоставляемыеМакетыПечати</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеПечатьюРФ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОбщиеПоставляемыеМакетыПечати</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПоставляемыеМакетыПечати</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

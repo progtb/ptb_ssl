@@ -36,7 +36,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Catalog.ДополнительныеОтчетыИОбработки.StandardCommand.OpenList">
+		<Command name="0:92707138-5004-4378-8477-f909166d319d">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -256,7 +256,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="CommonCommand.ДополнительныеОтчетыАдминистрирование">
+		<Command name="0:19add2bd-eede-4a05-901b-cf8ce49a638f">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -331,7 +331,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="CommonCommand.ДополнительныеОбработкиАдминистрирование">
+		<Command name="0:592f55e1-b004-44ef-878a-6c2016ccbeb0">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -406,7 +406,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.ПереносФайловВТома.Command.ПереносФайловВТома">
+		<Command name="DataProcessor.ПереносФайлов.Command.ПереносФайлов">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -556,7 +556,7 @@
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="Catalog.ДополнительныеОтчетыИОбработки.StandardCommand.OpenList">
+		<Command name="0:92707138-5004-4378-8477-f909166d319d">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -631,7 +631,7 @@
 		<Command name="Catalog.ВариантыОтчетов.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
-		<Command name="Catalog.ДополнительныеОтчетыИОбработки.StandardCommand.OpenList">
+		<Command name="0:92707138-5004-4378-8477-f909166d319d">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
 		<Command name="0:8ce6cc1a-8570-4704-b9a3-44e815b2e753">
@@ -832,7 +832,7 @@
 		<Command name="0:b40d32dd-ac4a-41b4-b009-86cb9cdb3370">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 		</Command>
-		<Command name="CommonCommand.ДополнительныеОбработкиАдминистрирование">
+		<Command name="0:592f55e1-b004-44ef-878a-6c2016ccbeb0">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.ЖурналРегистрации.StandardCommand.Open">
@@ -877,7 +877,7 @@
 		<Command name="CommonForm.ПараметрыПроксиСервера.StandardCommand.Open">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 		</Command>
-		<Command name="DataProcessor.ПереносФайловВТома.Command.ПереносФайловВТома">
+		<Command name="DataProcessor.ПереносФайлов.Command.ПереносФайлов">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.УстановкаОбновлений.StandardCommand.Open">

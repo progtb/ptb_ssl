@@ -18,14 +18,13 @@
 		</Properties>
 		<ChildObjects>
 			<Subsystem>АдресныйКлассификатор</Subsystem>
+			<Subsystem>АнализЖурналаРегистрации</Subsystem>
 			<Subsystem>БазоваяФункциональность</Subsystem>
 			<Subsystem>Банки</Subsystem>
 			<Subsystem>ВариантыОтчетов</Subsystem>
 			<Subsystem>ГрупповоеИзменениеОбъектов</Subsystem>
-			<Subsystem>ДополнительныеОтчетыИОбработки</Subsystem>
 			<Subsystem>ЗавершениеРаботыПользователей</Subsystem>
-			<Subsystem>ЗаполнениеОбъектов</Subsystem>
-			<Subsystem>АнализЖурналаРегистрации</Subsystem>
+			<Subsystem>КонтактнаяИнформация</Subsystem>
 			<Subsystem>НастройкаПорядкаЭлементов</Subsystem>
 			<Subsystem>НастройкиПрограммы</Subsystem>
 			<Subsystem>ОбновлениеВерсииИБ</Subsystem>
@@ -41,7 +40,6 @@
 			<Subsystem>РаботаСФайлами</Subsystem>
 			<Subsystem>РегламентныеЗадания</Subsystem>
 			<Subsystem>СтруктураПодчиненности</Subsystem>
-			<Subsystem>КонтактнаяИнформация</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

@@ -21,6 +21,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -70,6 +71,7 @@
 							<DataPath>Найти</DataPath>
 							<ClearButton>true</ClearButton>
 							<ChooseType>false</ChooseType>
+							<EditTextUpdate>DontUse</EditTextUpdate>
 							<ContextMenu name="НайтиКонтекстноеМеню" id="64"/>
 							<ExtendedTooltip name="НайтиРасширеннаяПодсказка" id="65"/>
 							<Events>
@@ -198,6 +200,34 @@
 				</InputField>
 			</ChildItems>
 		</Table>
+		<UsualGroup name="НавигацияВебСервис" id="83">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Навигация веб сервис</v8:content>
+				</v8:item>
+			</Title>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="НавигацияВебСервисРасширеннаяПодсказка" id="84"/>
+			<ChildItems>
+				<Button name="Предыдущие" id="85">
+					<Type>UsualButton</Type>
+					<Width>3</Width>
+					<CommandName>Form.Command.Предыдущие</CommandName>
+					<ExtendedTooltip name="ПредыдущиеРасширеннаяПодсказка" id="86"/>
+				</Button>
+				<Button name="Следующие" id="87">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Следующие</CommandName>
+					<ExtendedTooltip name="СледующиеРасширеннаяПодсказка" id="88"/>
+				</Button>
+				<LabelDecoration name="Информация" id="89">
+					<ContextMenu name="ИнформацияКонтекстноеМеню" id="90"/>
+					<ExtendedTooltip name="ИнформацияРасширеннаяПодсказка" id="91"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -222,12 +252,6 @@
 			</Type>
 			<Columns>
 				<Column name="Идентификатор" id="1">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Идентификатор</v8:content>
-						</v8:item>
-					</Title>
 					<Type>
 						<v8:Type>v8:UUID</v8:Type>
 					</Type>
@@ -248,34 +272,16 @@
 					</Type>
 				</Column>
 				<Column name="Неактуален" id="3">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Неактуален</v8:content>
-						</v8:item>
-					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Column>
 				<Column name="РегионЗагружен" id="4">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Регион загружен</v8:content>
-						</v8:item>
-					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Column>
 				<Column name="Наименование" id="5">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Наименование</v8:content>
-						</v8:item>
-					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -287,12 +293,6 @@
 			</Columns>
 		</Attribute>
 		<Attribute name="ТипАдреса" id="5">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Тип адреса</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -302,12 +302,6 @@
 			</Type>
 		</Attribute>
 		<Attribute name="Уровень" id="4">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Уровень</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
@@ -318,12 +312,6 @@
 			</Type>
 		</Attribute>
 		<Attribute name="КраткоеПредставлениеОшибки" id="6">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Краткое представление ошибки</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -333,23 +321,11 @@
 			</Type>
 		</Attribute>
 		<Attribute name="Родитель" id="3">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Родитель</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>v8:UUID</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="СкрыватьНеактуальные" id="7">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Скрывать неактуальные</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
@@ -367,6 +343,26 @@
 					<v8:Length>0</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Позиция" id="9">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИспользуетсяВебСервис" id="10">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗакрытьФорму" id="11">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
@@ -390,6 +386,46 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Предыдущие" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предыдущие</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предыдущие</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveLeft</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Предыдущие</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="Следующие" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Следующие</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Следующие</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveRight</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Следующие</Action>
+			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
 	<Parameters>
