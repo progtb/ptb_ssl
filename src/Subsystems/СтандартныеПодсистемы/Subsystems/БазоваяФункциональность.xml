@@ -110,7 +110,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ФорматПустой</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ФорматWord2007</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОтправитьПолучитьПочту</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Enum.ФорматыСохраненияОтчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">bd32a863-3090-432d-89c4-356ba86a0bdc</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.Вопрос</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.СтандартныеПодсистемыВАвтономномРежиме</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЭтоАвтономноеРабочееМесто</xr:Item>

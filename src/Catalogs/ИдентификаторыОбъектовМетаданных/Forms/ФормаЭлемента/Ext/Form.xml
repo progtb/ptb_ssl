@@ -316,7 +316,7 @@
 				</Visible>
 			</Item>
 			<Item>
-				<Command>CommonCommand.ПрисоединенныеФайлы</Command>
+				<Command>0:b8a32c33-4e15-4c21-baab-64a86d44321b</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 				<Visible>

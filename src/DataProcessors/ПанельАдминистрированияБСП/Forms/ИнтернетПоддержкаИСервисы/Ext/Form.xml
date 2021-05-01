@@ -349,7 +349,7 @@
 							<ChildItems>
 								<Button name="РегистрСведенийАдресныеОбъектыЗагрузитьАдресныйКлассификатор" id="1876">
 									<Type>Hyperlink</Type>
-									<CommandName>InformationRegister.АдресныеОбъекты.Command.ЗагрузитьАдресныйКлассификатор</CommandName>
+									<CommandName>0:be42c5c6-b604-4180-a3d7-24b2348c8d5e</CommandName>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -369,7 +369,7 @@
 								</Button>
 								<Button name="РегистрСведенийАдресныеОбъектыОчиститьАдресныйКлассификатор" id="1878">
 									<Type>Hyperlink</Type>
-									<CommandName>InformationRegister.АдресныеОбъекты.Command.ОчиститьАдресныйКлассификатор</CommandName>
+									<CommandName>0:6fd083fe-a132-4f63-b38f-4891004aca8a</CommandName>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>

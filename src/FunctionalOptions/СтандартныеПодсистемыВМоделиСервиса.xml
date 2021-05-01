@@ -12,9 +12,7 @@
 			<Comment/>
 			<Location>Constant.ИспользоватьРазделениеПоОбластямДанных</Location>
 			<PrivilegedGetMode>true</PrivilegedGetMode>
-			<Content>
-				<xr:Object>InformationRegister.БлокировкиСеансовОбластейДанных</xr:Object>
-			</Content>
+			<Content/>
 		</Properties>
 	</FunctionalOption>
 </MetaDataObject>

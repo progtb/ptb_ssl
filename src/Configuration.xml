@@ -237,77 +237,35 @@
 			<Subsystem>СтандартныеПодсистемыПТБ</Subsystem>
 			<Subsystem>Тест</Subsystem>
 			<StyleItem>ВажнаяНадписьШрифт</StyleItem>
-			<StyleItem>ВладелецФайловШрифт</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
-			<StyleItem>ГруппаВариантовОтчетовВажнаяШрифт</StyleItem>
-			<StyleItem>ГруппаВариантовОтчетовОбычнаяШрифт</StyleItem>
-			<StyleItem>ГруппаВариантовОтчетовЦвет</StyleItem>
-			<StyleItem>ГруппаВариантовОтчетовЦвет82</StyleItem>
 			<StyleItem>ДобавленныйРеквизитФон</StyleItem>
 			<StyleItem>ЗаблокированныйРеквизитЦвет</StyleItem>
-			<StyleItem>ЗаголовокГруппировкиОтчетаОДвиженияхДокументаШрифт</StyleItem>
 			<StyleItem>ИзмененноеЗначениеРеквизитаФон</StyleItem>
 			<StyleItem>ИзмененноеЗначениеРеквизитаЦвет</StyleItem>
 			<StyleItem>ИтогиФонГруппы</StyleItem>
-			<StyleItem>КонтактнаяИнформацияСРедактированиемВДиалогеЦвет</StyleItem>
-			<StyleItem>МоиВариантыОтчетовЦвет</StyleItem>
-			<StyleItem>ОбразецНастройкиКолонтитуловЦвет</StyleItem>
-			<StyleItem>ОбразецНастройкиКолонтитуловШрифт</StyleItem>
 			<StyleItem>ОсновнойЭлементСписка</StyleItem>
 			<StyleItem>ПользовательВыбранный</StyleItem>
 			<StyleItem>ПоясняющийОшибкуТекст</StyleItem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<StyleItem>ПросроченныеДанныеЦвет</StyleItem>
-			<StyleItem>РазделВариантовОтчетовШрифт</StyleItem>
 			<StyleItem>РезультатУспехЦвет</StyleItem>
-			<StyleItem>СкрытыйВариантОтчетаЦвет</StyleItem>
 			<StyleItem>ТекстЗапрещеннойЯчейкиЦвет</StyleItem>
 			<StyleItem>УдаленныйРеквизитФон</StyleItem>
-			<StyleItem>ФайлЗанятыйТекущимПользователем</StyleItem>
-			<StyleItem>ФонРезультатовПоиска</StyleItem>
 			<StyleItem>ФонУправляющегоПоля</StyleItem>
 			<StyleItem>ЦветРазделаПанелиФункций</StyleItem>
-			<StyleItem>ЦветТекстаВнимание</StyleItem>
-			<StyleItem>ЦветТекстаНевыбраннойКартинки</StyleItem>
-			<StyleItem>ЦветТекстаОтрицательногоЗначения</StyleItem>
-			<StyleItem>ЦветТекстаПоложительногоЗначения</StyleItem>
-			<StyleItem>ЦветФонаВнимание</StyleItem>
 			<StyleItem>ЦветФонаГруппыПомощникЗаполнения</StyleItem>
-			<StyleItem>ЦветФонаОтрицательногоЗначения</StyleItem>
-			<StyleItem>ЦветФонаПоложительногоЗначения</StyleItem>
 			<StyleItem>ЦветФонаПредупреждения</StyleItem>
-			<CommonPicture>GoogleMaps</CommonPicture>
-			<CommonPicture>Skype</CommonPicture>
 			<CommonPicture>Slack16</CommonPicture>
 			<CommonPicture>Slack32</CommonPicture>
-			<CommonPicture>БыстрыеНастройкиОтчета</CommonPicture>
-			<CommonPicture>БыстрыйДоступ</CommonPicture>
-			<CommonPicture>БыстрыйДоступДобавить</CommonPicture>
-			<CommonPicture>БыстрыйДоступСФлажком</CommonPicture>
-			<CommonPicture>БыстрыйДоступУдалить</CommonPicture>
-			<CommonPicture>ВариантыОтчетовДоступныеВсемПользователям</CommonPicture>
-			<CommonPicture>ВертикальноеПоложениеВерх</CommonPicture>
-			<CommonPicture>ВертикальноеПоложениеНиз</CommonPicture>
-			<CommonPicture>ВертикальноеПоложениеЦентр</CommonPicture>
-			<CommonPicture>ВидСравнения</CommonPicture>
-			<CommonPicture>ВидыКонтактнойИнформации</CommonPicture>
 			<CommonPicture>ВидыОпераций</CommonPicture>
-			<CommonPicture>ВидыСравнения</CommonPicture>
 			<CommonPicture>Вопрос32</CommonPicture>
 			<CommonPicture>ВосклицательныйЗнакКрасный</CommonPicture>
 			<CommonPicture>ВосклицательныйЗнакСерый</CommonPicture>
-			<CommonPicture>ВставитьГруппировкуВыше</CommonPicture>
-			<CommonPicture>ВставитьГруппировкуНиже</CommonPicture>
 			<CommonPicture>ВставитьИзБуфераОбмена</CommonPicture>
-			<CommonPicture>ВставитьКолонкуСлева</CommonPicture>
-			<CommonPicture>ВставитьКолонкуСправа</CommonPicture>
-			<CommonPicture>ВыбратьВариантОтчета</CommonPicture>
-			<CommonPicture>ВыполнитьРегламентноеЗаданиеВручную</CommonPicture>
 			<CommonPicture>ВыравниваниеПоЛевомуКраю</CommonPicture>
 			<CommonPicture>ВыравниваниеПоПравомуКраю</CommonPicture>
 			<CommonPicture>ВыравниваниеПоЦентру</CommonPicture>
 			<CommonPicture>ВыравниваниеПоШирине</CommonPicture>
-			<CommonPicture>ВысотаСтроки</CommonPicture>
 			<CommonPicture>ГраницаВезде</CommonPicture>
 			<CommonPicture>ГраницаВнутри</CommonPicture>
 			<CommonPicture>ГраницаВокруг</CommonPicture>
@@ -315,37 +273,11 @@
 			<CommonPicture>ГраницаСлева</CommonPicture>
 			<CommonPicture>ГраницаСнизу</CommonPicture>
 			<CommonPicture>ГраницаСправа</CommonPicture>
-			<CommonPicture>Группировка</CommonPicture>
 			<CommonPicture>ДлительнаяОперация16</CommonPicture>
 			<CommonPicture>ДлительнаяОперация48</CommonPicture>
-			<CommonPicture>ДобавитьРодительский</CommonPicture>
-			<CommonPicture>ДобавитьЭлементНастроек</CommonPicture>
-			<CommonPicture>ДокументЗаписанКоннекторВерх</CommonPicture>
-			<CommonPicture>ДокументЗаписанКоннекторВерхНиз</CommonPicture>
-			<CommonPicture>ДокументЗаписанКоннекторЛево</CommonPicture>
-			<CommonPicture>ДокументЗаписанКоннекторЛевоВерх</CommonPicture>
-			<CommonPicture>ДокументЗаписанКоннекторЛевоНиз</CommonPicture>
-			<CommonPicture>ДокументЗаписанКоннекторНиз</CommonPicture>
-			<CommonPicture>ДокументПомеченНаУдалениеКоннекторВерх</CommonPicture>
-			<CommonPicture>ДокументПомеченНаУдалениеКоннекторВерхНиз</CommonPicture>
-			<CommonPicture>ДокументПомеченНаУдалениеКоннекторЛево</CommonPicture>
-			<CommonPicture>ДокументПомеченНаУдалениеКоннекторЛевоВерх</CommonPicture>
-			<CommonPicture>ДокументПомеченНаУдалениеКоннекторЛевоНиз</CommonPicture>
-			<CommonPicture>ДокументПомеченНаУдалениеКоннекторНиз</CommonPicture>
-			<CommonPicture>ДокументПроведенКоннекторВерх</CommonPicture>
-			<CommonPicture>ДокументПроведенКоннекторВерхНиз</CommonPicture>
-			<CommonPicture>ДокументПроведенКоннекторЛево</CommonPicture>
-			<CommonPicture>ДокументПроведенКоннекторЛевоВерх</CommonPicture>
-			<CommonPicture>ДокументПроведенКоннекторЛевоНиз</CommonPicture>
-			<CommonPicture>ДокументПроведенКоннекторНиз</CommonPicture>
 			<CommonPicture>ЗавершитьРаботу</CommonPicture>
-			<CommonPicture>ЗавершитьРедактированиеМакета</CommonPicture>
-			<CommonPicture>ЗакончитьРедактированиеФайла</CommonPicture>
-			<CommonPicture>Закрепить</CommonPicture>
-			<CommonPicture>ЗанятьФайл</CommonPicture>
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>ЗаставкаВнешнейОперации</CommonPicture>
-			<CommonPicture>Зашифрован</CommonPicture>
 			<CommonPicture>ЗнакСтоп</CommonPicture>
 			<CommonPicture>ЗначокЗаставкиВнешнейОперации</CommonPicture>
 			<CommonPicture>ЗначокОбновлениеКонфигурацииЧерезИнтернет16</CommonPicture>
@@ -357,108 +289,47 @@
 			<CommonPicture>Информация</CommonPicture>
 			<CommonPicture>Информация32</CommonPicture>
 			<CommonPicture>ИнформацияПоНедоступнымПолям</CommonPicture>
-			<CommonPicture>ИспользованиеМакета</CommonPicture>
-			<CommonPicture>ИспользоватьПользовательскийМакет</CommonPicture>
-			<CommonPicture>ИспользоватьПоставляемыйМакет</CommonPicture>
-			<CommonPicture>ИсторияИзменений</CommonPicture>
 			<CommonPicture>Количество</CommonPicture>
 			<CommonPicture>КоллекцияВариантыВажности</CommonPicture>
 			<CommonPicture>КоллекцияВидыАктивныхПользователей</CommonPicture>
 			<CommonPicture>КоллекцияВидыСобытийЖурналаРегистрации</CommonPicture>
 			<CommonPicture>КоллекцияДляПомеченныхНаУдалениеОбъектов</CommonPicture>
-			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
 			<CommonPicture>КоллекцияПиктограммЭлементов</CommonPicture>
-			<CommonPicture>КоллекцияСкрепка</CommonPicture>
 			<CommonPicture>Комментарий</CommonPicture>
-			<CommonPicture>КоннекторВерхНиз</CommonPicture>
-			<CommonPicture>КоннекторВерхПраво</CommonPicture>
-			<CommonPicture>КоннекторВерхПравоНиз</CommonPicture>
-			<CommonPicture>КоннекторЛевоНизПраво</CommonPicture>
-			<CommonPicture>КоннекторЛевоПраво</CommonPicture>
-			<CommonPicture>КоннекторПравоНиз</CommonPicture>
-			<CommonPicture>КонтактнаяИнформация</CommonPicture>
-			<CommonPicture>КонтактнаяИнформацияНеактуально</CommonPicture>
-			<CommonPicture>КонтактнаяИнформацияПерейтиПоСсылке</CommonPicture>
 			<CommonPicture>КурсивноеНачертание</CommonPicture>
 			<CommonPicture>ЛоготипConfluence</CommonPicture>
 			<CommonPicture>Максимум</CommonPicture>
-			<CommonPicture>МенюДополнительныеФункции</CommonPicture>
 			<CommonPicture>Минимум</CommonPicture>
 			<CommonPicture>НезавершившаясяПроверка</CommonPicture>
 			<CommonPicture>НетГраницы</CommonPicture>
 			<CommonPicture>ОбновитьФайлИзФайлаНаДиске</CommonPicture>
 			<CommonPicture>ОбъединитьЯчейки</CommonPicture>
-			<CommonPicture>ОбычныйДоступСФлажком</CommonPicture>
-			<CommonPicture>ОпубликоватьФайл</CommonPicture>
 			<CommonPicture>Органайзер</CommonPicture>
-			<CommonPicture>ОсвободитьФайл</CommonPicture>
-			<CommonPicture>Отборы</CommonPicture>
-			<CommonPicture>Открепить</CommonPicture>
-			<CommonPicture>ОткрытьВыбранныйФайл</CommonPicture>
-			<CommonPicture>ОткрытьМакет</CommonPicture>
-			<CommonPicture>ОтменитьРедактированиеМакета</CommonPicture>
-			<CommonPicture>ОтправитьSMS</CommonPicture>
 			<CommonPicture>ОтправитьПолучитьПочту</CommonPicture>
 			<CommonPicture>ОтправитьЭлектронноеПисьмо</CommonPicture>
-			<CommonPicture>ОтчетКроссТаблица</CommonPicture>
-			<CommonPicture>ОтчетТаблица</CommonPicture>
-			<CommonPicture>Отчеты</CommonPicture>
-			<CommonPicture>Оформление</CommonPicture>
 			<CommonPicture>Ошибка32</CommonPicture>
 			<CommonPicture>Папка</CommonPicture>
-			<CommonPicture>ПапкаОблачногоСервиса</CommonPicture>
-			<CommonPicture>Папки</CommonPicture>
-			<CommonPicture>ПерейтиВПолноэкранныйРежим</CommonPicture>
-			<CommonPicture>ПереместитьВлевоВверх</CommonPicture>
-			<CommonPicture>ПереместитьВлевоВсе</CommonPicture>
-			<CommonPicture>ПереместитьВправоВниз</CommonPicture>
-			<CommonPicture>ПереместитьГруппировкуВыше</CommonPicture>
-			<CommonPicture>ПереместитьГруппировкуНиже</CommonPicture>
-			<CommonPicture>ПереместитьКолонкуВлево</CommonPicture>
-			<CommonPicture>ПереместитьКолонкуВправо</CommonPicture>
-			<CommonPicture>ПиктограммыДоступаКНастройкамОтчета</CommonPicture>
-			<CommonPicture>ПиктограммыНастроекОтчета</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
-			<CommonPicture>Подменю</CommonPicture>
 			<CommonPicture>ПодменюСервис</CommonPicture>
-			<CommonPicture>ПодписанЗашифрованЗаголовок</CommonPicture>
-			<CommonPicture>ПодписанЗашифрованСостояния</CommonPicture>
 			<CommonPicture>Подсистема</CommonPicture>
 			<CommonPicture>ПодсистемаИнтернетСервисы</CommonPicture>
 			<CommonPicture>Подчеркивание</CommonPicture>
-			<CommonPicture>Позвонить</CommonPicture>
-			<CommonPicture>ПозвонитьИлиОтправитьSMS</CommonPicture>
 			<CommonPicture>ПоказатьОтличия</CommonPicture>
 			<CommonPicture>ПоказатьТолькоВыбранныеРоли</CommonPicture>
 			<CommonPicture>ПолужирноеНачертание</CommonPicture>
 			<CommonPicture>ПользовательБезФотографии</CommonPicture>
-			<CommonPicture>ПользовательскийМакетУдалить</CommonPicture>
-			<CommonPicture>ПоляИСортировки</CommonPicture>
-			<CommonPicture>Пометка</CommonPicture>
-			<CommonPicture>ПредопределенныйЭлемент</CommonPicture>
 			<CommonPicture>Предупреждение</CommonPicture>
 			<CommonPicture>Предупреждение32</CommonPicture>
-			<CommonPicture>ПриложитьФайл</CommonPicture>
 			<CommonPicture>ПримечаниеЖурналаРегистрации</CommonPicture>
 			<CommonPicture>ПрочиеПользовательскиеНастройки</CommonPicture>
 			<CommonPicture>Пустая</CommonPicture>
-			<CommonPicture>РабочийКаталогПоУмолчанию</CommonPicture>
 			<CommonPicture>РазделАдминистрирование</CommonPicture>
 			<CommonPicture>РазделАдминистрирование48</CommonPicture>
 			<CommonPicture>РазорватьСоединение</CommonPicture>
 			<CommonPicture>Рассчитать</CommonPicture>
 			<CommonPicture>РасширениеКонфигурацииИзГлавногоУзла</CommonPicture>
-			<CommonPicture>РедактироватьАдресСайта</CommonPicture>
-			<CommonPicture>РедактироватьМакет</CommonPicture>
-			<CommonPicture>РедактироватьФайл</CommonPicture>
-			<CommonPicture>СдвинутьВверх</CommonPicture>
-			<CommonPicture>СдвинутьВниз</CommonPicture>
-			<CommonPicture>Сканирование</CommonPicture>
 			<CommonPicture>СкопироватьВБуферОбмена</CommonPicture>
 			<CommonPicture>Скрепка</CommonPicture>
-			<CommonPicture>СкрытаяНастройкаОтчета</CommonPicture>
-			<CommonPicture>СортироватьСтрокиПоВозрастанию</CommonPicture>
-			<CommonPicture>СортироватьСтрокиПоУбыванию</CommonPicture>
 			<CommonPicture>СостояниеПользователя01</CommonPicture>
 			<CommonPicture>СостояниеПользователя02</CommonPicture>
 			<CommonPicture>СостояниеПользователя03</CommonPicture>
@@ -476,51 +347,17 @@
 			<CommonPicture>СостоянияРасширенийКонфигурации</CommonPicture>
 			<CommonPicture>СостоянияРасширенийОшибка</CommonPicture>
 			<CommonPicture>СостоянияРасширенийПодключено</CommonPicture>
-			<CommonPicture>СохранитьВариантОтчета</CommonPicture>
 			<CommonPicture>СохранитьФайлКак</CommonPicture>
-			<CommonPicture>СправкаВНачало</CommonPicture>
-			<CommonPicture>СправкаПереходВниз</CommonPicture>
-			<CommonPicture>СправочникПВХКоннекторВверх</CommonPicture>
-			<CommonPicture>СправочникПВХКоннекторВерхНиз</CommonPicture>
-			<CommonPicture>СправочникПВХКоннекторЛево</CommonPicture>
-			<CommonPicture>СправочникПВХКоннекторЛевоВерх</CommonPicture>
-			<CommonPicture>СправочникПВХКоннекторЛевоНиз</CommonPicture>
-			<CommonPicture>СправочникПВХКоннекторНиз</CommonPicture>
-			<CommonPicture>СправочникПВХПомеченНаУдалениеКоннекторВерх</CommonPicture>
-			<CommonPicture>СправочникПВХПомеченНаУдалениеКоннекторВерхНиз</CommonPicture>
-			<CommonPicture>СправочникПВХПомеченНаУдалениеКоннекторЛево</CommonPicture>
-			<CommonPicture>СправочникПВХПомеченНаУдалениеКоннекторЛевоВерх</CommonPicture>
-			<CommonPicture>СправочникПВХПомеченНаУдалениеКоннекторЛевоНиз</CommonPicture>
-			<CommonPicture>СправочникПВХПомеченНаУдалениеКоннекторНиз</CommonPicture>
 			<CommonPicture>Среднее</CommonPicture>
 			<CommonPicture>СтатусыДокумента</CommonPicture>
 			<CommonPicture>СтрелкаВверх</CommonPicture>
 			<CommonPicture>СтрелкаВлево</CommonPicture>
 			<CommonPicture>СтрелкаВниз</CommonPicture>
 			<CommonPicture>СтрелкаВнизЗеленая</CommonPicture>
-			<CommonPicture>СтрелкаВнизСправка</CommonPicture>
 			<CommonPicture>СтрелкаВправо</CommonPicture>
 			<CommonPicture>СтрелкаВправоЗеленая</CommonPicture>
-			<CommonPicture>Структура</CommonPicture>
 			<CommonPicture>СтруктураМетаданных</CommonPicture>
-			<CommonPicture>СтруктураПодчиненности</CommonPicture>
 			<CommonPicture>Сумма</CommonPicture>
-			<CommonPicture>ТипБулево</CommonPicture>
-			<CommonPicture>ТипГруппа</CommonPicture>
-			<CommonPicture>ТипДата</CommonPicture>
-			<CommonPicture>ТипДерево</CommonPicture>
-			<CommonPicture>ТипИдентификатор</CommonPicture>
-			<CommonPicture>ТипКонстанта</CommonPicture>
-			<CommonPicture>ТипМакрос</CommonPicture>
-			<CommonPicture>ТипОшибка</CommonPicture>
-			<CommonPicture>ТипСоставной</CommonPicture>
-			<CommonPicture>ТипСписок</CommonPicture>
-			<CommonPicture>ТипСсылка</CommonPicture>
-			<CommonPicture>ТипСтрока</CommonPicture>
-			<CommonPicture>ТипФильтр</CommonPicture>
-			<CommonPicture>ТипФункция</CommonPicture>
-			<CommonPicture>ТипЧисло</CommonPicture>
-			<CommonPicture>ТипыМакетов</CommonPicture>
 			<CommonPicture>ТолстаяГраницаВокруг</CommonPicture>
 			<CommonPicture>ТолстаяГраницаСверху</CommonPicture>
 			<CommonPicture>ТолстаяГраницаСнизу</CommonPicture>
@@ -539,25 +376,18 @@
 			<CommonPicture>ФорматWord</CommonPicture>
 			<CommonPicture>ФорматWord2007</CommonPicture>
 			<CommonPicture>ФорматПустой</CommonPicture>
-			<CommonPicture>Фотокамера</CommonPicture>
 			<CommonPicture>ЦветТекста</CommonPicture>
 			<CommonPicture>ЦветФона</CommonPicture>
-			<CommonPicture>ШиринаКолонки</CommonPicture>
-			<CommonPicture>Шрифт</CommonPicture>
-			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
-			<CommonPicture>ЯндексКарты</CommonPicture>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
 			<SessionParameter>ВерсияРасширений</SessionParameter>
 			<SessionParameter>ВыполняетсяОбновлениеИБ</SessionParameter>
-			<SessionParameter>ИнтерактивнаяПроверкаЗаполненияКонтактнойИнформации</SessionParameter>
 			<SessionParameter>КлючДанныхПовторногоИспользования</SessionParameter>
 			<SessionParameter>ОсновнойЯзык</SessionParameter>
 			<SessionParameter>ОтмененныеДлительныеОперации</SessionParameter>
 			<SessionParameter>ПараметрыКлиентаНаСервере</SessionParameter>
 			<SessionParameter>ПараметрыОбработчикаОбновления</SessionParameter>
 			<SessionParameter>ПодключенныеРасширения</SessionParameter>
-			<SessionParameter>РаботаСВнешнимиРесурсамиЗаблокирована</SessionParameter>
 			<SessionParameter>ТекущийВнешнийПользователь</SessionParameter>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<SessionParameter>УстановленныеРасширения</SessionParameter>
@@ -568,51 +398,28 @@
 			<Role>БазовыеПраваВнешнихПользователейБСП</Role>
 			<Role>БазовыеПраваПТБ</Role>
 			<Role>ВыводНаПринтерФайлБуферОбмена</Role>
-			<Role>ДобавлениеИзменениеАдресныхСведений</Role>
-			<Role>ДобавлениеИзменениеБанков</Role>
-			<Role>ДобавлениеИзменениеВариантовОтчетов</Role>
-			<Role>ДобавлениеИзменениеВидовКонтактнойИнформации</Role>
 			<Role>ДобавлениеИзменениеВнешнихПользователей</Role>
-			<Role>ДобавлениеИзменениеЛичныхВариантовОтчетов</Role>
-			<Role>ДобавлениеИзменениеПапокИФайлов</Role>
-			<Role>ДобавлениеИзменениеПапокИФайловВнешнимиПользователями</Role>
 			<Role>ДобавлениеИзменениеПользователей</Role>
-			<Role>ДобавлениеИзменениеУчетныхЗаписейЭлектроннойПочты</Role>
 			<Role>ЗапускAutomation</Role>
 			<Role>ЗапускВебКлиента</Role>
 			<Role>ЗапускВнешнегоСоединения</Role>
 			<Role>ЗапускМобильногоКлиента</Role>
 			<Role>ЗапускТолстогоКлиента</Role>
 			<Role>ЗапускТонкогоКлиента</Role>
-			<Role>ИзменениеМакетовПечатныхФорм</Role>
 			<Role>ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</Role>
 			<Role>ИспользованиеПоискаВБазеЗнанийConfluence</Role>
-			<Role>ИспользованиеУниверсальногоОтчета</Role>
-			<Role>НастройкаСинхронизацииФайлов</Role>
 			<Role>ОбновлениеКонфигурацииБазыДанных</Role>
 			<Role>ОтправкаСообщенийВТехПоддержку</Role>
 			<Role>ПолныеПрава</Role>
 			<Role>ПросмотрЖурналаРегистрации</Role>
 			<Role>ПросмотрОписанияИзмененийПрограммы</Role>
-			<Role>ПросмотрОтчетаДвиженияДокумента</Role>
-			<Role>ПросмотрСвязанныеДокументы</Role>
-			<Role>РедактированиеПечатныхФорм</Role>
 			<Role>РежимВсеФункции</Role>
 			<Role>Роль1</Role>
 			<Role>СохранениеДанныхПользователя</Role>
 			<Role>УдаленныйДоступБазоваяФункциональность</Role>
-			<Role>ЧтениеВариантовОтчетов</Role>
 			<Role>ЧтениеВнешнихПользователей</Role>
-			<Role>ЧтениеУчетныхЗаписейЭлектроннойПочты</Role>
 			<CommonTemplate>CaptureScreen</CommonTemplate>
-			<CommonTemplate>ИнструкцияПоСозданиюФаксимильнойПодписиИПечати</CommonTemplate>
-			<CommonTemplate>КомпонентаTWAIN</CommonTemplate>
-			<CommonTemplate>КомпонентаПечатиQRКода</CommonTemplate>
-			<CommonTemplate>КомпонентаПоискаСтрок</CommonTemplate>
 			<CommonTemplate>ПолучениеДереваОбработчиковОбновления</CommonTemplate>
-			<CommonTemplate>СтруктураПодчиненности</CommonTemplate>
-			<FilterCriterion>СвязанныеДокументы</FilterCriterion>
-			<FilterCriterion>ФайлыВТоме</FilterCriterion>
 			<CommonModule>JSON</CommonModule>
 			<CommonModule>АдминистрированиеКластера</CommonModule>
 			<CommonModule>АдминистрированиеКластераCOM</CommonModule>
@@ -620,27 +427,8 @@
 			<CommonModule>АдминистрированиеКластераRAS</CommonModule>
 			<CommonModule>АдминистрированиеКластераRASКлиентСервер</CommonModule>
 			<CommonModule>АдминистрированиеКластераКлиентСервер</CommonModule>
-			<CommonModule>АдресныйКлассификатор</CommonModule>
-			<CommonModule>АдресныйКлассификаторКлиент</CommonModule>
-			<CommonModule>АдресныйКлассификаторПовтИсп</CommonModule>
-			<CommonModule>АдресныйКлассификаторСлужебный</CommonModule>
-			<CommonModule>АнализЖурналаРегистрацииКлиент</CommonModule>
-			<CommonModule>АнализЖурналаРегистрацииСлужебный</CommonModule>
-			<CommonModule>БлокировкаРаботыСВнешнимиРесурсами</CommonModule>
-			<CommonModule>ВариантыОтчетов</CommonModule>
-			<CommonModule>ВариантыОтчетовВызовСервера</CommonModule>
-			<CommonModule>ВариантыОтчетовКлиент</CommonModule>
-			<CommonModule>ВариантыОтчетовКлиентСервер</CommonModule>
-			<CommonModule>ВариантыОтчетовПереопределяемый</CommonModule>
-			<CommonModule>ВариантыОтчетовПовтИсп</CommonModule>
-			<CommonModule>ВариантыОтчетовСлужебный</CommonModule>
-			<CommonModule>ВариантыОтчетовСлужебныйКлиент</CommonModule>
-			<CommonModule>ВариантыОтчетовСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ВнешниеПользователи</CommonModule>
 			<CommonModule>ВнешниеПользователиКлиент</CommonModule>
-			<CommonModule>ГрупповоеИзменениеОбъектов</CommonModule>
-			<CommonModule>ГрупповоеИзменениеОбъектовКлиент</CommonModule>
-			<CommonModule>ГрупповоеИзменениеОбъектовПереопределяемый</CommonModule>
 			<CommonModule>ГрупповоеРедактированиеТабличныхЧастейКлиент</CommonModule>
 			<CommonModule>ГрупповоеРедактированиеТабличныхЧастейСервер</CommonModule>
 			<CommonModule>ДлительныеОперации</CommonModule>
@@ -651,8 +439,6 @@
 			<CommonModule>ЖурналРегистрации</CommonModule>
 			<CommonModule>ЖурналРегистрацииВызовСервера</CommonModule>
 			<CommonModule>ЖурналРегистрацииКлиент</CommonModule>
-			<CommonModule>ЗаполнениеОбъектов</CommonModule>
-			<CommonModule>ЗаполнениеОбъектовПереопределяемый</CommonModule>
 			<CommonModule>ИнтеграцияConfluence</CommonModule>
 			<CommonModule>ИнтеграцияConfluenceВызовСервераПовтИсп</CommonModule>
 			<CommonModule>ИнтеграцияConfluenceКлиентСервер</CommonModule>
@@ -669,8 +455,6 @@
 			<CommonModule>ИнтернетСервисыКлиентСервер</CommonModule>
 			<CommonModule>ИнтернетСервисыПереопределяемый</CommonModule>
 			<CommonModule>ИнтернетСервисыПовтИсп</CommonModule>
-			<CommonModule>НастройкаПорядкаЭлементов</CommonModule>
-			<CommonModule>НастройкаПорядкаЭлементовСлужебный</CommonModule>
 			<CommonModule>НастройкиПрограммыПереопределяемый</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыАСУСО</CommonModule>
@@ -684,9 +468,6 @@
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебный</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебныйВызовСервера</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебныйПовтИсп</CommonModule>
-			<CommonModule>ОбновлениеКонфигурации</CommonModule>
-			<CommonModule>ОбновлениеКонфигурацииВызовСервера</CommonModule>
-			<CommonModule>ОбновлениеКонфигурацииКлиент</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ОбщегоНазначенияАСУСО</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
@@ -700,32 +481,8 @@
 			<CommonModule>ОбщегоНазначенияПТБКлиентСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияСлужебныйКлиент</CommonModule>
 			<CommonModule>ОбщегоНазначенияСлужебныйКлиентСервер</CommonModule>
-			<CommonModule>ОрганизацииПереопределяемый</CommonModule>
-			<CommonModule>ОрганизацииСервер</CommonModule>
-			<CommonModule>ОтчетОДвиженияхДокументаПереопределяемый</CommonModule>
-			<CommonModule>ОтчетОДвиженияхДокументаСлужебныйКлиент</CommonModule>
-			<CommonModule>ОтчетыКлиент</CommonModule>
-			<CommonModule>ОтчетыКлиентПереопределяемый</CommonModule>
-			<CommonModule>ОтчетыКлиентСервер</CommonModule>
-			<CommonModule>ОтчетыПереопределяемый</CommonModule>
-			<CommonModule>ОтчетыСервер</CommonModule>
 			<CommonModule>ПараметрыПлатформыКлиентСервер</CommonModule>
-			<CommonModule>ПодключаемыеКоманды</CommonModule>
-			<CommonModule>ПодключаемыеКомандыВызовСервера</CommonModule>
-			<CommonModule>ПодключаемыеКомандыКлиент</CommonModule>
-			<CommonModule>ПодключаемыеКомандыКлиентПовтИсп</CommonModule>
-			<CommonModule>ПодключаемыеКомандыКлиентСервер</CommonModule>
-			<CommonModule>ПодключаемыеКомандыПереопределяемый</CommonModule>
-			<CommonModule>ПодключаемыеКомандыПовтИсп</CommonModule>
 			<CommonModule>ПодсистемыКонфигурацииПереопределяемый</CommonModule>
-			<CommonModule>ПоискИУдалениеДублей</CommonModule>
-			<CommonModule>ПоискИУдалениеДублейКлиент</CommonModule>
-			<CommonModule>ПоискИУдалениеДублейПереопределяемый</CommonModule>
-			<CommonModule>ПолучениеФайловИзИнтернета</CommonModule>
-			<CommonModule>ПолучениеФайловИзИнтернетаКлиент</CommonModule>
-			<CommonModule>ПолучениеФайловИзИнтернетаКлиентСервер</CommonModule>
-			<CommonModule>ПолучениеФайловИзИнтернетаСлужебный</CommonModule>
-			<CommonModule>ПолучениеФайловИзИнтернетаСлужебныйВызовСервера</CommonModule>
 			<CommonModule>Пользователи</CommonModule>
 			<CommonModule>ПользователиКлиент</CommonModule>
 			<CommonModule>ПользователиКлиентСервер</CommonModule>
@@ -738,48 +495,10 @@
 			<CommonModule>ПомощникЗаполненияПТБКлиент</CommonModule>
 			<CommonModule>ПомощникЗаполненияПТБКлиентСервер</CommonModule>
 			<CommonModule>ПроведениеСервер</CommonModule>
-			<CommonModule>РаботаСАдресами</CommonModule>
-			<CommonModule>РаботаСАдресамиКлиент</CommonModule>
-			<CommonModule>РаботаСАдресамиКлиентСервер</CommonModule>
-			<CommonModule>РаботаСБанками</CommonModule>
-			<CommonModule>РаботаСБанкамиГлобальный</CommonModule>
-			<CommonModule>РаботаСБанкамиКлиент</CommonModule>
-			<CommonModule>РаботаСБанкамиПереопределяемый</CommonModule>
-			<CommonModule>РаботаСБанкамиСлужебный</CommonModule>
-			<CommonModule>РаботаСПочтовымиСообщениями</CommonModule>
-			<CommonModule>РаботаСПочтовымиСообщениямиВызовСервера</CommonModule>
-			<CommonModule>РаботаСПочтовымиСообщениямиКлиент</CommonModule>
-			<CommonModule>РаботаСПочтовымиСообщениямиКлиентПереопределяемый</CommonModule>
-			<CommonModule>РаботаСПочтовымиСообщениямиПереопределяемый</CommonModule>
-			<CommonModule>РаботаСПочтовымиСообщениямиСлужебный</CommonModule>
-			<CommonModule>РаботаСФайлами</CommonModule>
-			<CommonModule>РаботаСФайламиВТомахСлужебный</CommonModule>
-			<CommonModule>РаботаСФайламиКлиент</CommonModule>
-			<CommonModule>РаботаСФайламиКлиентПереопределяемый</CommonModule>
-			<CommonModule>РаботаСФайламиКлиентСервер</CommonModule>
-			<CommonModule>РаботаСФайламиПереопределяемый</CommonModule>
-			<CommonModule>РаботаСФайламиСлужебный</CommonModule>
-			<CommonModule>РаботаСФайламиСлужебныйВызовСервера</CommonModule>
-			<CommonModule>РаботаСФайламиСлужебныйКлиент</CommonModule>
-			<CommonModule>РаботаСФайламиСлужебныйКлиентПовтИсп</CommonModule>
-			<CommonModule>РаботаСФайламиСлужебныйКлиентСервер</CommonModule>
-			<CommonModule>РаботаСФайламиСлужебныйПовтИсп</CommonModule>
 			<CommonModule>РаботаСФормамиПТБ</CommonModule>
 			<CommonModule>РаботаСФормамиПТБКлиентСервер</CommonModule>
 			<CommonModule>РегламентированныеДанныеКлиентСервер</CommonModule>
-			<CommonModule>РегламентныеЗаданияКлиент</CommonModule>
-			<CommonModule>РегламентныеЗаданияПереопределяемый</CommonModule>
 			<CommonModule>РегламентныеЗаданияСервер</CommonModule>
-			<CommonModule>РегламентныеЗаданияСлужебный</CommonModule>
-			<CommonModule>СоединенияИБ</CommonModule>
-			<CommonModule>СоединенияИБВызовСервера</CommonModule>
-			<CommonModule>СоединенияИБГлобальный</CommonModule>
-			<CommonModule>СоединенияИБКлиент</CommonModule>
-			<CommonModule>СоединенияИБКлиентСервер</CommonModule>
-			<CommonModule>СоединенияИБПереопределяемый</CommonModule>
-			<CommonModule>СозданиеНаОсновании</CommonModule>
-			<CommonModule>СозданиеНаОснованииПереопределяемый</CommonModule>
-			<CommonModule>СозданиеНаОснованииПовтИсп</CommonModule>
 			<CommonModule>СтандартныеПодсистемыВызовСервера</CommonModule>
 			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиент</CommonModule>
@@ -793,30 +512,9 @@
 			<CommonModule>СтроковыеФункцииКлиентСерверРФ</CommonModule>
 			<CommonModule>СтроковыеФункцииПТБКлиентСервер</CommonModule>
 			<CommonModule>СтроковыеФункцииПТБСлужебныйКлиентСерверПовтИсп</CommonModule>
-			<CommonModule>СтруктураПодчиненностиПереопределяемый</CommonModule>
-			<CommonModule>СтруктураПодчиненностиСлужебный</CommonModule>
 			<CommonModule>ТестированиеРолейПТБ</CommonModule>
 			<CommonModule>ТестированиеРолейПТБКлиентСервер</CommonModule>
 			<CommonModule>ТестированиеРолейПТБПереопределяемый</CommonModule>
-			<CommonModule>УправлениеКолонтитулами</CommonModule>
-			<CommonModule>УправлениеКонтактнойИнформацией</CommonModule>
-			<CommonModule>УправлениеКонтактнойИнформациейКлиент</CommonModule>
-			<CommonModule>УправлениеКонтактнойИнформациейКлиентСервер</CommonModule>
-			<CommonModule>УправлениеКонтактнойИнформациейПереопределяемый</CommonModule>
-			<CommonModule>УправлениеКонтактнойИнформациейСлужебный</CommonModule>
-			<CommonModule>УправлениеКонтактнойИнформациейСлужебныйВызовСервера</CommonModule>
-			<CommonModule>УправлениеКонтактнойИнформациейСлужебныйПовтИсп</CommonModule>
-			<CommonModule>УправлениеПечатью</CommonModule>
-			<CommonModule>УправлениеПечатьюMSWordКлиент</CommonModule>
-			<CommonModule>УправлениеПечатьюOOWriterКлиент</CommonModule>
-			<CommonModule>УправлениеПечатьюВызовСервера</CommonModule>
-			<CommonModule>УправлениеПечатьюКлиент</CommonModule>
-			<CommonModule>УправлениеПечатьюКлиентПереопределяемый</CommonModule>
-			<CommonModule>УправлениеПечатьюКлиентСервер</CommonModule>
-			<CommonModule>УправлениеПечатьюПереопределяемый</CommonModule>
-			<CommonModule>УправлениеПечатьюРФ</CommonModule>
-			<CommonModule>УправлениеПечатьюСлужебный</CommonModule>
-			<CommonModule>УправлениеПечатьюСлужебныйКлиент</CommonModule>
 			<CommonModule>ФайловаяСистема</CommonModule>
 			<CommonModule>ФайловаяСистемаКлиент</CommonModule>
 			<CommonModule>ФайловаяСистемаСлужебныйКлиент</CommonModule>
@@ -824,54 +522,28 @@
 			<CommonModule>ФизическиеЛицаКлиентСервер</CommonModule>
 			<ExchangePlan>ОбменConfluence</ExchangePlan>
 			<ExchangePlan>ОбновлениеИнформационнойБазы</ExchangePlan>
-			<XDTOPackage>Patch</XDTOPackage>
 			<XDTOPackage>wsПакетСообщениеАСУСО</XDTOPackage>
 			<XDTOPackage>wsПакетСообщениеАСУСО_1_1</XDTOPackage>
-			<XDTOPackage>Адрес</XDTOPackage>
-			<XDTOPackage>АдресныйКлассификатор</XDTOPackage>
-			<XDTOPackage>КонтактнаяИнформация</XDTOPackage>
 			<WebService>InterfaceVersion</WebService>
 			<HTTPService>SlackConnector</HTTPService>
-			<EventSubscription>ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</EventSubscription>
-			<EventSubscription>ВариантыОтчетовПриУдаленииПользователя</EventSubscription>
-			<EventSubscription>ВключитьРегламентноеЗаданиеПриИзмененииФункциональнойОпции</EventSubscription>
-			<EventSubscription>ВыполнитьДействияПередЗаписьюПрисоединенногоФайла</EventSubscription>
-			<EventSubscription>ВыполнитьДействияПередУдалениемПрисоединенногоФайла</EventSubscription>
 			<EventSubscription>ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</EventSubscription>
-			<EventSubscription>ВыполнитьДействияПриЗаписиПрисоединенногоФайла</EventSubscription>
-			<EventSubscription>ЗаполнитьЗначениеРеквизитаУпорядочивания</EventSubscription>
-			<EventSubscription>ЗаполнитьКонтактнуюИнформацию</EventSubscription>
 			<EventSubscription>ЗапретитьПометкуУдаленияПредопределенныхЭлементов</EventSubscription>
 			<EventSubscription>ЗапретитьУдалениеПредопределенныхЭлементов</EventSubscription>
-			<EventSubscription>КонтактнаяИнформацияОбработкаПроверкиЗаполнения</EventSubscription>
 			<EventSubscription>ОбновитьВнешнегоПользователя</EventSubscription>
-			<EventSubscription>ОбновитьКонтактнуюИнформацию</EventSubscription>
 			<EventSubscription>ОбновлениеВерсииИБПередУдалениемСсылочногоОбъекта</EventSubscription>
-			<EventSubscription>ОбработкаПроверкиЗаполненияПрисоединенногоФайла</EventSubscription>
 			<EventSubscription>ОбъектИнтеграцииConfluenceПриЗаписи</EventSubscription>
 			<EventSubscription>ПриОтправкеДанныхГлавному</EventSubscription>
 			<EventSubscription>ПриОтправкеДанныхПодчиненному</EventSubscription>
 			<EventSubscription>ПриПолученииДанныхОтГлавного</EventSubscription>
 			<EventSubscription>ПриПолученииДанныхОтПодчиненного</EventSubscription>
-			<EventSubscription>СброситьЗначениеРеквизитаУпорядочивания</EventSubscription>
-			<EventSubscription>СкопироватьРеквизитыВерсииФайловВФайл</EventSubscription>
-			<EventSubscription>УстановитьПометкуУдаленияПрисоединенныхФайлов</EventSubscription>
 			<ScheduledJob>ЗагрузкаИзмененныхДанныхАСУСО</ScheduledJob>
-			<ScheduledJob>ИзвлечениеТекста</ScheduledJob>
-			<ScheduledJob>ИсправлениеУстаревшихАдресов</ScheduledJob>
 			<ScheduledJob>КонтрольАктивностиПользователей</ScheduledJob>
-			<ScheduledJob>ОбновлениеПредопределенныхВариантовОтчетов</ScheduledJob>
 			<ScheduledJob>ОтложенноеОбновлениеИБ</ScheduledJob>
-			<ScheduledJob>ОчисткаНенужныхФайлов</ScheduledJob>
 			<ScheduledJob>ПолнаяЗагрузкаДанныхАСУСО</ScheduledJob>
-			<ScheduledJob>СинхронизацияФайлов</ScheduledJob>
 			<ScheduledJob>УдалениеУстаревшихПараметровРаботыВерсийРасширений</ScheduledJob>
-			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьВнешнихПользователей</FunctionalOption>
 			<FunctionalOption>ИспользоватьГруппыПользователей</FunctionalOption>
 			<FunctionalOption>ИспользоватьИнтернетСервисы</FunctionalOption>
-			<FunctionalOption>ИспользоватьСинхронизациюФайлов</FunctionalOption>
-			<FunctionalOption>ИсточникДанныхАдресногоКлассификатора</FunctionalOption>
 			<FunctionalOption>ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</FunctionalOption>
 			<FunctionalOption>ОтложенноеОбновлениеЗавершеноУспешно</FunctionalOption>
 			<FunctionalOption>РаботаВАвтономномРежиме</FunctionalOption>
@@ -880,101 +552,54 @@
 			<FunctionalOption>СтандартныеПодсистемыВАвтономномРежиме</FunctionalOption>
 			<FunctionalOption>СтандартныеПодсистемыВЛокальномРежиме</FunctionalOption>
 			<FunctionalOption>СтандартныеПодсистемыВМоделиСервиса</FunctionalOption>
-			<FunctionalOption>ХранитьФайлыВТомахНаДиске</FunctionalOption>
-			<DefinedType>ВладелецКонтактнойИнформации</DefinedType>
-			<DefinedType>ВладелецПрисоединенныхФайлов</DefinedType>
-			<DefinedType>ВладелецПрисоединенныхФайловОбъект</DefinedType>
-			<DefinedType>ВладелецФайлов</DefinedType>
 			<DefinedType>ВнешнийПользователь</DefinedType>
 			<DefinedType>ВнешнийПользовательОбъект</DefinedType>
 			<DefinedType>МестоХраненияФункциональныхОпций</DefinedType>
-			<DefinedType>ОбъектСНастраиваемымПорядком</DefinedType>
 			<DefinedType>ОбъектыИнтеграцииConfluence</DefinedType>
 			<DefinedType>ОбъектыИнтеграцииConfluenceОбъект</DefinedType>
 			<DefinedType>Организация</DefinedType>
 			<DefinedType>Подразделение</DefinedType>
 			<DefinedType>Пользователь</DefinedType>
-			<DefinedType>ПрисоединенныйФайл</DefinedType>
-			<DefinedType>ПрисоединенныйФайлОбъект</DefinedType>
 			<DefinedType>ФизическоеЛицо</DefinedType>
 			<CommonCommand>ВремяТекущегоСеанса</CommonCommand>
-			<CommonCommand>ВсеФайлы</CommonCommand>
-			<CommonCommand>НастройкаКолонтитулов</CommonCommand>
-			<CommonCommand>НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</CommonCommand>
-			<CommonCommand>ПанельОтчетовАдминистрирование</CommonCommand>
-			<CommonCommand>ПерсональнаяНастройкаПроксиСервера</CommonCommand>
 			<CommonCommand>ПредупрежденияПриЗавершенииРаботы</CommonCommand>
-			<CommonCommand>ПрисоединенныеФайлы</CommonCommand>
-			<CommonCommand>РазместитьФайлыНачальногоОбраза</CommonCommand>
-			<CommonCommand>РедактируемыеФайлы</CommonCommand>
 			<CommonCommand>СведенияОПользователе</CommonCommand>
-			<CommonCommand>СвязанныеДокументы</CommonCommand>
 			<CommonCommand>СменитьПароль</CommonCommand>
-			<CommonCommand>СозданиеНачальногоОбразаСФайлами</CommonCommand>
 			<CommonCommand>УстановитьРасширениеДляРаботыС1СПредприятием</CommonCommand>
-			<CommonCommand>ФайлыВТоме</CommonCommand>
 			<CommandGroup>Информация</CommandGroup>
 			<CommandGroup>Органайзер</CommandGroup>
-			<CommandGroup>Печать</CommandGroup>
 			<CommandGroup>ТехническаяПоддержка</CommandGroup>
 			<Constant>АдресДляВосстановленияПароляУчетнойЗаписи</Constant>
 			<Constant>АдресПубликацииИнформационнойБазыВИнтернете</Constant>
 			<Constant>АдресПубликацииИнформационнойБазыВЛокальнойСети</Constant>
-			<Constant>ВерсияКлассификатораБанков</Constant>
 			<Constant>ГлавныйУзел</Constant>
 			<Constant>ДетализироватьОбновлениеИБВЖурналеРегистрации</Constant>
 			<Constant>ЗаголовокСистемы</Constant>
 			<Constant>ЗапретитьОтображениеНебезопасногоСодержимогоВПисьмах</Constant>
-			<Constant>ЗапрещатьЗагрузкуФайловПоРасширению</Constant>
 			<Constant>ИдентификаторИнформационнойБазы</Constant>
-			<Constant>ИзвлекатьТекстыФайловНаСервере</Constant>
 			<Constant>ИспользоватьВнешнихПользователей</Constant>
 			<Constant>ИспользоватьГруппыПользователей</Constant>
 			<Constant>ИспользоватьИнтернетСервисы</Constant>
 			<Constant>ИспользоватьРазделениеПоОбластямДанных</Constant>
-			<Constant>ИсточникДанныхАдресногоКлассификатора</Constant>
 			<Constant>КоличествоПотоковОбновленияИнформационнойБазы</Constant>
-			<Constant>МаксимальныйРазмерФайла</Constant>
-			<Constant>МаксимальныйРазмерФайлаОбластиДанных</Constant>
 			<Constant>МодераторСообщенийТехПоддержке</Constant>
-			<Constant>НастройкаПроксиСервера</Constant>
 			<Constant>НастройкиВходаПользователей</Constant>
-			<Constant>НастройкиКолонтитулов</Constant>
 			<Constant>НеИспользоватьРазделениеПоОбластямДанных</Constant>
 			<Constant>ОсновнойЯзык</Constant>
 			<Constant>ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</Constant>
 			<Constant>ОтложенноеОбновлениеЗавершеноУспешно</Constant>
 			<Constant>ПараметрыАдминистрированияИБ</Constant>
-			<Constant>ПараметрыАдресногоКлассификатора</Constant>
-			<Constant>ПараметрыБлокировкиРаботыСВнешнимиРесурсами</Constant>
 			<Constant>ПараметрыОбращенияВОтделТехническойПоддержки</Constant>
-			<Constant>ПараметрыХраненияФайловВИБ</Constant>
 			<Constant>СведенияОБлокируемыхОбъектах</Constant>
 			<Constant>СведенияОбОбновленииИБ</Constant>
-			<Constant>СинхронизироватьФайлы</Constant>
-			<Constant>СоздаватьПодкаталогиСИменамиВладельцев</Constant>
-			<Constant>СписокЗапрещенныхРасширений</Constant>
-			<Constant>СписокЗапрещенныхРасширенийОбластиДанных</Constant>
-			<Constant>СписокРасширенийТекстовыхФайлов</Constant>
-			<Constant>СписокРасширенийФайловOpenDocument</Constant>
-			<Constant>СписокРасширенийФайловOpenDocumentОбластиДанных</Constant>
-			<Constant>СпособХраненияФайлов</Constant>
-			<Constant>СтатусОбновленияКонфигурации</Constant>
-			<Constant>ХранитьФайлыВТомахНаДиске</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
-			<CommonForm>БлокировкаРаботыСВнешнимиРесурсами</CommonForm>
-			<CommonForm>ВводЗначенийСпискомСФлажками</CommonForm>
-			<CommonForm>ВводНаРазныхЯзыках</CommonForm>
 			<CommonForm>Вопрос</CommonForm>
 			<CommonForm>ВопросОбУстановкеВнешнейКомпоненты</CommonForm>
 			<CommonForm>ВопросОбУстановкеРасширенияРаботыСФайлами</CommonForm>
 			<CommonForm>ВосстановлениеПаролей</CommonForm>
 			<CommonForm>ВосстановлениеСвязиСГлавнымУзлом</CommonForm>
-			<CommonForm>ВспомогательнаяФормаНастроекОтчета</CommonForm>
 			<CommonForm>ВходВПрограммуЗапрещен</CommonForm>
-			<CommonForm>ВыборДействияПриОбнаруженииОтличийФайла</CommonForm>
 			<CommonForm>ВыборОбъектовМетаданных</CommonForm>
-			<CommonForm>ВыборПутиКАрхивуФайловТомов</CommonForm>
 			<CommonForm>ВыборТиповПользователей</CommonForm>
 			<CommonForm>ВыборУзловПлановОбмена</CommonForm>
 			<CommonForm>ВыборФорматаВложений</CommonForm>
@@ -982,182 +607,81 @@
 			<CommonForm>ДлительнаяОперация</CommonForm>
 			<CommonForm>ДополнительныеПараметрыПроксиСервера</CommonForm>
 			<CommonForm>КонтрольДинамическогоОбновления</CommonForm>
-			<CommonForm>НапоминаниеПриРедактировании</CommonForm>
-			<CommonForm>НастройкаКолонтитулов</CommonForm>
-			<CommonForm>НастройкаКомандПечати</CommonForm>
 			<CommonForm>НастройкаПараметровОбращенияВОтделТехническойПоддержки</CommonForm>
-			<CommonForm>НастройкаРабочегоКаталога</CommonForm>
 			<CommonForm>НастройкиВходаПользователей</CommonForm>
 			<CommonForm>НовыйПароль</CommonForm>
 			<CommonForm>ОписаниеИзмененийПрограммы</CommonForm>
-			<CommonForm>ОтправкаСообщения</CommonForm>
-			<CommonForm>ПанельОтчетов</CommonForm>
-			<CommonForm>ПараметрыАдминистрированияПрограммы</CommonForm>
-			<CommonForm>ПараметрыПроксиСервера</CommonForm>
-			<CommonForm>ПечатьДокументов</CommonForm>
-			<CommonForm>ПодготовкаНовогоПисьма</CommonForm>
 			<CommonForm>ПредупреждениеБезопасности</CommonForm>
 			<CommonForm>ПредупрежденияПриЗавершенииРаботы</CommonForm>
 			<CommonForm>ПустойРабочийСтол</CommonForm>
 			<CommonForm>Расширения</CommonForm>
 			<CommonForm>РедактированиеТабличногоДокумента</CommonForm>
 			<CommonForm>РедактированиеТабличныхЧастей</CommonForm>
-			<CommonForm>СвязанныеДокументы</CommonForm>
 			<CommonForm>СменаПароля</CommonForm>
-			<CommonForm>СозданиеНачальногоОбразаСФайлами</CommonForm>
-			<CommonForm>СохранениеПечатнойФормы</CommonForm>
 			<CommonForm>СравнениеТабличныхДокументов</CommonForm>
-			<CommonForm>УстановленныеИсправления</CommonForm>
-			<CommonForm>ФайлыВТоме</CommonForm>
-			<CommonForm>ФормаВариантаОтчета</CommonForm>
 			<CommonForm>ФормаВыбораПоляОтбораКомпоновкиПТБ</CommonForm>
-			<CommonForm>ФормаНастроекОтчета</CommonForm>
 			<CommonForm>ФормаНастройкиОтбораКомпоновкиПТБ</CommonForm>
-			<CommonForm>ФормаОтчета</CommonForm>
 			<Catalog>БазыЗнанийConfluence</Catalog>
-			<Catalog>ВариантыОтчетов</Catalog>
 			<Catalog>ВерсииРасширений</Catalog>
-			<Catalog>ВерсииФайлов</Catalog>
-			<Catalog>ВидыКонтактнойИнформации</Catalog>
 			<Catalog>ВнешниеПользователи</Catalog>
 			<Catalog>ГруппыВнешнихПользователей</Catalog>
 			<Catalog>ГруппыПользователей</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
 			<Catalog>ИдентификаторыОбъектовРасширений</Catalog>
-			<Catalog>КлассификаторБанков</Catalog>
 			<Catalog>Организации</Catalog>
-			<Catalog>ПапкиФайлов</Catalog>
 			<Catalog>Пользователи</Catalog>
-			<Catalog>ПользовательскиеНастройкиОтчетов</Catalog>
-			<Catalog>ПредопределенныеВариантыОтчетов</Catalog>
-			<Catalog>ПредопределенныеВариантыОтчетовРасширений</Catalog>
-			<Catalog>СтраныМира</Catalog>
-			<Catalog>ТомаХраненияФайлов</Catalog>
-			<Catalog>УчетныеЗаписиСинхронизацииФайлов</Catalog>
-			<Catalog>УчетныеЗаписиЭлектроннойПочты</Catalog>
-			<Catalog>Файлы</Catalog>
 			<Document>ТестГрупповоеРедактированиеТЧ</Document>
 			<Document>ТестовыйДокументАСУСО</Document>
 			<Document>ТестовыйДокументПомощникЗаполненияПТБ</Document>
-			<Enum>ВариантыОчисткиФайлов</Enum>
-			<Enum>ВариантыСжатияTIFF</Enum>
 			<Enum>ВидыНастроекИнтеграцииSlack</Enum>
 			<Enum>ВидыСообщенийВТехническуюПоддержку</Enum>
-			<Enum>ДействияСФайламиПоДвойномуЩелчку</Enum>
-			<Enum>ДоступныеПериодыОтчета</Enum>
-			<Enum>ПериодОчисткиФайлов</Enum>
-			<Enum>РазмерыБумаги</Enum>
-			<Enum>РазрешенияСканированногоИзображения</Enum>
 			<Enum>РежимыВыполненияОбработчиков</Enum>
 			<Enum>РежимыВыполненияОтложенныхОбработчиков</Enum>
 			<Enum>СпособВыводаОтчета</Enum>
-			<Enum>СпособыОткрытияФайлаНаПросмотр</Enum>
-			<Enum>СпособыПоворотаИзображения</Enum>
 			<Enum>СпособыРедактированияЭлектронныхПисем</Enum>
-			<Enum>СпособыСравненияВерсийФайлов</Enum>
-			<Enum>СтатусыИзвлеченияТекстаФайлов</Enum>
 			<Enum>СтатусыОбработчиковОбновления</Enum>
 			<Enum>СтатусыСообщенийВТехническуюПоддержку</Enum>
 			<Enum>ТипыДанныхConfluence</Enum>
 			<Enum>ТипыДанныхКэшаПрограммныхИнтерфейсов</Enum>
-			<Enum>ТипыКонтактнойИнформации</Enum>
-			<Enum>ТипыОтчетов</Enum>
-			<Enum>ТипыТекстовЭлектронныхПисем</Enum>
-			<Enum>ТипыФайловДляВстроенногоРедактора</Enum>
-			<Enum>ТипыХраненияФайлов</Enum>
-			<Enum>ФорматыСканированногоИзображения</Enum>
-			<Enum>ФорматыСохраненияОтчетов</Enum>
-			<Enum>ФорматыХраненияМногостраничныхФайлов</Enum>
-			<Enum>ФорматыХраненияОдностраничныхФайлов</Enum>
-			<Enum>ЦветностиИзображения</Enum>
-			<Report>АнализЖурналаРегистрации</Report>
-			<Report>ДвиженияДокумента</Report>
 			<Report>ДвиженияДокументаПТБ</Report>
-			<Report>МестаИспользованияСсылок</Report>
-			<Report>ОбъемНенужныхФайлов</Report>
-			<Report>ПроверкаЦелостностиТома</Report>
 			<Report>ПрогрессОтложенногоОбновления</Report>
 			<Report>СведенияОПользователях</Report>
 			<Report>СообщенияВТехПоддержкуПТБ</Report>
-			<Report>УниверсальныйОтчет</Report>
-			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
-			<DataProcessor>АктивныеПользователи</DataProcessor>
-			<DataProcessor>БлокировкаРаботыПользователей</DataProcessor>
-			<DataProcessor>ВводКонтактнойИнформации</DataProcessor>
-			<DataProcessor>ГрупповоеИзменениеРеквизитов</DataProcessor>
 			<DataProcessor>ЖурналРегистрации</DataProcessor>
-			<DataProcessor>ЗагрузкаКлассификатораБанков</DataProcessor>
-			<DataProcessor>ЗаменаИОбъединениеЭлементов</DataProcessor>
 			<DataProcessor>НастройкаИнтеграцииSlack</DataProcessor>
 			<DataProcessor>НастройкиПользователей</DataProcessor>
 			<DataProcessor>НерекомендуемаяВерсияПлатформы</DataProcessor>
 			<DataProcessor>ОписаниеОбработчиковОбновления</DataProcessor>
 			<DataProcessor>ПанельАдминистрированияБСП</DataProcessor>
-			<DataProcessor>ПереносФайлов</DataProcessor>
 			<DataProcessor>ПоискВБазеЗнанийConfluence</DataProcessor>
-			<DataProcessor>ПоискИУдалениеДублей</DataProcessor>
-			<DataProcessor>РаботаСФайлами</DataProcessor>
-			<DataProcessor>РасширенныйВводКонтактнойИнформации</DataProcessor>
-			<DataProcessor>РегламентныеИФоновыеЗадания</DataProcessor>
 			<DataProcessor>РезультатыОбновленияПрограммы</DataProcessor>
 			<DataProcessor>РекомендацияПоПовышениюСкоростиРаботы</DataProcessor>
-			<DataProcessor>Сканирование</DataProcessor>
 			<DataProcessor>ТестДлительныеОперацииПТБ</DataProcessor>
 			<DataProcessor>ТестИнтеграцииСConfluence</DataProcessor>
 			<DataProcessor>ТестированиеРолейКонфигурации</DataProcessor>
 			<DataProcessor>ТестОбщегоНазначенияПТБКлиентСервер</DataProcessor>
 			<DataProcessor>ТестСтроковыеФункцииПТБ</DataProcessor>
-			<DataProcessor>УстановкаОбновлений</DataProcessor>
-			<InformationRegister>АдресныеОбъекты</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
-			<InformationRegister>БлокировкиСеансовОбластейДанных</InformationRegister>
 			<InformationRegister>ВерсииПодсистем</InformationRegister>
 			<InformationRegister>ДанныеОбработанныеВЦентральномУзлеРИБ</InformationRegister>
-			<InformationRegister>ДвоичныеДанныеФайлов</InformationRegister>
-			<InformationRegister>ДомаЗданияСтроения</InformationRegister>
-			<InformationRegister>ДополнительныеАдресныеСведения</InformationRegister>
-			<InformationRegister>ЗагруженныеВерсииАдресныхСведений</InformationRegister>
-			<InformationRegister>ЗемельныеУчастки</InformationRegister>
 			<InformationRegister>ИдентификаторыБазыЗнанийConfluence</InformationRegister>
 			<InformationRegister>ИдентификаторыОбъектовВерсийРасширений</InformationRegister>
-			<InformationRegister>ИсторияАдресныхОбъектов</InformationRegister>
 			<InformationRegister>ИсторияВыполненияHTTPЗапросов</InformationRegister>
 			<InformationRegister>ИсторияИзмененияОбъектов</InformationRegister>
-			<InformationRegister>КодировкиФайлов</InformationRegister>
 			<InformationRegister>КэшПрограммныхИнтерфейсов</InformationRegister>
-			<InformationRegister>НаличиеФайлов</InformationRegister>
-			<InformationRegister>НастройкиВариантовОтчетов</InformationRegister>
 			<InformationRegister>НастройкиИнтеграцииConfluence</InformationRegister>
 			<InformationRegister>НастройкиИнтеграцииSlack</InformationRegister>
-			<InformationRegister>НастройкиКомандПечати</InformationRegister>
-			<InformationRegister>НастройкиОчисткиФайлов</InformationRegister>
-			<InformationRegister>НастройкиСинхронизацииФайлов</InformationRegister>
-			<InformationRegister>НомераОтсканированныхФайлов</InformationRegister>
 			<InformationRegister>ОбновлениеКлючейДоступаТекущиеЗадания</InformationRegister>
 			<InformationRegister>ОбработчикиОбновления</InformationRegister>
 			<InformationRegister>ОбработчикиОбновленияОбщихДанных</InformationRegister>
-			<InformationRegister>ОбщиеПоставляемыеМакетыПечати</InformationRegister>
-			<InformationRegister>ОриентирыАдресныхОбъектов</InformationRegister>
 			<InformationRegister>ПараметрыРаботыВерсийРасширений</InformationRegister>
 			<InformationRegister>ПараметрыРаботыПрограммы</InformationRegister>
-			<InformationRegister>ПользовательскиеМакетыПечати</InformationRegister>
-			<InformationRegister>ПоставляемыеМакетыПечати</InformationRegister>
 			<InformationRegister>ПотокиОбновления</InformationRegister>
-			<InformationRegister>ПредопределенныеВариантыОтчетовВерсийРасширений</InformationRegister>
-			<InformationRegister>ПричиныИзмененияАдресныхСведений</InformationRegister>
-			<InformationRegister>РабочиеКаталогиФайлов</InformationRegister>
 			<InformationRegister>СведенияОПользователях</InformationRegister>
-			<InformationRegister>СведенияОФайлах</InformationRegister>
-			<InformationRegister>СвязиАдресныхОбъектов</InformationRegister>
-			<InformationRegister>СлужебныеАдресныеСведения</InformationRegister>
 			<InformationRegister>СообщенияВТехническуюПоддержку</InformationRegister>
 			<InformationRegister>СоставыГруппПользователей</InformationRegister>
 			<InformationRegister>СостоянияПросмотраОписаний</InformationRegister>
-			<InformationRegister>СтатусыСинхронизацииФайловСОблачнымСервисом</InformationRegister>
-			<InformationRegister>УдалитьХранимыеФайлыВерсий</InformationRegister>
-			<InformationRegister>УровниСокращенийАдресныхСведений</InformationRegister>
-			<InformationRegister>ФайлыВРабочемКаталоге</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

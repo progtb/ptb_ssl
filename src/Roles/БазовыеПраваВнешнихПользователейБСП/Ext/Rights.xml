@@ -4,108 +4,11 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>InformationRegister.НаличиеФайлов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВариантыОтчетов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляОбъекта("")
-#Иначе
-ВариантыОтчетов ГДЕ (ВариантыОтчетов.Пользовательский = ЛОЖЬ
-			ИЛИ ВариантыОтчетов.ТолькоДляАвтора = ЛОЖЬ
-			ИЛИ ВариантыОтчетов.Автор = &amp;АвторизованныйПользователь)
-#КонецЕсли</condition>
-			</restrictionByCondition>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СлужебныеАдресныеСведения</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.НомераОтсканированныхФайлов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.АдресПубликацииИнформационнойБазыВИнтернете</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.СоздаватьПодкаталогиСИменамиВладельцев</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДомаЗданияСтроения</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.ПанельОтчетов</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -134,17 +37,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.СпособХраненияФайлов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>SessionParameter.ТекущийПользователь</name>
 		<right>
 			<name>Get</name>
@@ -152,54 +44,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.ФормаВариантаОтчета</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ВерсияКлассификатораБанков</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВариантыОтчетов.Command.Открыть</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.СписокРасширенийФайловOpenDocumentОбластиДанных</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -216,21 +61,6 @@
 		<name>CommonForm.ВыборУзловПлановОбмена</name>
 		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ПредопределенныеВариантыОтчетовРасширений</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -264,13 +94,6 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.ПараметрыПроксиСервера</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ОбработчикиОбновления</name>
 		<right>
 			<name>Read</name>
@@ -289,71 +112,9 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.СписокЗапрещенныхРасширенийОбластиДанных</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ПричиныИзмененияАдресныхСведений</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>SessionParameter.ВыполняетсяОбновлениеИБ</name>
 		<right>
 			<name>Get</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.СписокРасширенийТекстовыхФайлов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.СписокРасширенийФайловOpenDocument</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.ВводНаРазныхЯзыках</name>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -383,61 +144,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ВводКонтактнойИнформации</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ПользовательскиеНастройкиОтчетов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляОбъекта("")
-#Иначе
-ГДЕ Пользователь = &amp;АвторизованныйПользователь
-#КонецЕсли</condition>
-			</restrictionByCondition>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляОбъекта("")
-#Иначе
-ГДЕ Пользователь = &amp;АвторизованныйПользователь
-#КонецЕсли</condition>
-			</restrictionByCondition>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляОбъекта("")
-#Иначе
-ГДЕ Пользователь = &amp;АвторизованныйПользователь
-#КонецЕсли</condition>
-			</restrictionByCondition>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>SessionParameter.АвторизованныйПользователь</name>
 		<right>
 			<name>Get</name>
@@ -445,25 +151,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.ФормаНастроекОтчета</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.ОтложенноеОбновлениеЗавершеноУспешно</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ИзвлекатьТекстыФайловНаСервере</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -481,17 +169,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.МаксимальныйРазмерФайла</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>SessionParameter.ВерсияРасширений</name>
 		<right>
 			<name>Get</name>
@@ -499,92 +176,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ДополнительныеАдресныеСведения</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.РасширенныйВводКонтактнойИнформации</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОриентирыАдресныхОбъектов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.СменаПароля</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ЗаменаИОбъединениеЭлементов</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыКонтактнойИнформации</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СтраныМира</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.СтатусОбновленияКонфигурации</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -609,43 +201,7 @@
 		</right>
 	</object>
 	<object>
-		<name>SessionParameter.ИнтерактивнаяПроверкаЗаполненияКонтактнойИнформации</name>
-		<right>
-			<name>Get</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Set</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ПользовательскиеМакетыПечати</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.ПодготовкаНовогоПисьма</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.НапоминаниеПриРедактировании</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -704,25 +260,11 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.ПечатьДокументов</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.НеИспользоватьРазделениеПоОбластямДанных</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.ФормаОтчета</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -751,29 +293,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ПредопределенныеВариантыОтчетов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonCommand.СменитьПароль</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.ВспомогательнаяФормаНастроекОтчета</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -809,25 +329,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.НастройкаРабочегоКаталога</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.КонтрольДинамическогоОбновления</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.МаксимальныйРазмерФайлаОбластиДанных</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -841,21 +343,6 @@
 		</right>
 		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.УчетныеЗаписиСинхронизацииФайлов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -886,118 +373,9 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.КлассификаторБанков</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.ВыборДействияПриОбнаруженииОтличийФайла</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.СписокЗапрещенныхРасширений</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ИсторияАдресныхОбъектов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СвязиАдресныхОбъектов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>SessionParameter.ПараметрыОбработчикаОбновления</name>
 		<right>
 			<name>Get</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.НастройкиВариантовОтчетов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляРегистра("ИдентификаторыОбъектовМетаданных.РегистрСведенийНастройкиВариантовОтчетов", "Вариант", "Пользователь", "", "", "")
-#Иначе
-ТекущаяТаблица
-ГДЕ Пользователь = &amp;АвторизованныйПользователь
-	ИЛИ Пользователь = НЕОПРЕДЕЛЕНО
-	ИЛИ Вариант.Автор = &amp;АвторизованныйПользователь
-	ИЛИ ИСТИНА В (
-			ВЫБРАТЬ ПЕРВЫЕ 1
-				ИСТИНА
-			ИЗ
-				РегистрСведений.СоставыГруппПользователей КАК СоставыГруппПользователей
-			ГДЕ
-				СоставыГруппПользователей.ГруппаПользователей = ТекущаяТаблица.Пользователь
-				И СоставыГруппПользователей.Пользователь = &amp;АвторизованныйПользователь)
-#КонецЕсли</condition>
-			</restrictionByCondition>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляРегистра("ИдентификаторыОбъектовМетаданных.РегистрСведенийНастройкиВариантовОтчетов", "Вариант", "Пользователь", "", "", "")
-#Иначе
-ТекущаяТаблица
-ГДЕ Пользователь = &amp;АвторизованныйПользователь
-	ИЛИ Пользователь = НЕОПРЕДЕЛЕНО
-	ИЛИ Вариант.Автор = &amp;АвторизованныйПользователь
-	ИЛИ ИСТИНА В (
-			ВЫБРАТЬ ПЕРВЫЕ 1
-				ИСТИНА
-			ИЗ
-				РегистрСведений.СоставыГруппПользователей КАК СоставыГруппПользователей
-			ГДЕ
-				СоставыГруппПользователей.ГруппаПользователей = ТекущаяТаблица.Пользователь
-				И СоставыГруппПользователей.Пользователь = &amp;АвторизованныйПользователь)
-#КонецЕсли</condition>
-			</restrictionByCondition>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ПрисоединенныеФайлы</name>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1025,35 +403,6 @@
 		</right>
 		<right>
 			<name>AnalyticsSystemClient</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.УровниСокращенийАдресныхСведений</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.СозданиеНачальногоОбразаСФайлами</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Report.МестаИспользованияСсылок</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1091,17 +440,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ХранитьФайлыВТомахНаДиске</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.СведенияОбОбновленииИБ</name>
 		<right>
 			<name>Read</name>
@@ -1113,25 +451,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.ВводЗначенийСпискомСФлажками</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ЗемельныеУчастки</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1178,27 +498,9 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ГрупповоеИзменениеРеквизитов</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>SessionParameter.УстановленныеРасширения</name>
 		<right>
 			<name>Get</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ПерсональнаяНастройкаПроксиСервера</name>
-		<right>
-			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1221,65 +523,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.КодировкиФайлов</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ИсточникДанныхАдресногоКлассификатора</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.АдресныеОбъекты</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>SessionParameter.РаботаСВнешнимиРесурсамиЗаблокирована</name>
-		<right>
-			<name>Get</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ПараметрыХраненияФайловВИБ</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.ДлительнаяОперация</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.СохранениеПечатнойФормы</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1304,17 +548,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ПоискИУдалениеДублей</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.ИдентификаторИнформационнойБазы</name>
 		<right>
 			<name>Read</name>
@@ -1326,25 +559,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.ВыборПутиКАрхивуФайловТомов</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.НовыйПароль</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ЗагруженныеВерсииАдресныхСведений</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>

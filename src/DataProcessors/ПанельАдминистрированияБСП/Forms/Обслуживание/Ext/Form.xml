@@ -67,12 +67,12 @@
 				</Button>
 				<Button name="ОбработкаАктивныеПользователиОткрыть" id="1446">
 					<Type>Hyperlink</Type>
-					<CommandName>DataProcessor.АктивныеПользователи.StandardCommand.Open</CommandName>
+					<CommandName>0:a22d1a4f-cb7c-4bcc-b258-ecca282fb071</CommandName>
 					<ExtendedTooltip name="ОбработкаАктивныеПользователиОткрытьExtendedTooltip" id="1639"/>
 				</Button>
 				<Button name="ОбработкаБлокировкаСоединенийСИнформационнойБазойОткрыть" id="1447">
 					<Type>Hyperlink</Type>
-					<CommandName>DataProcessor.БлокировкаРаботыПользователей.StandardCommand.Open</CommandName>
+					<CommandName>0:2a479b8f-7569-43d0-8ca3-9001d6ec57f0</CommandName>
 					<ExtendedTooltip name="ОбработкаБлокировкаСоединенийСИнформационнойБазойОткрытьExtendedTooltip" id="1640"/>
 				</Button>
 				<Button name="ОбработкаУдалениеПомеченныхОбъектовОткрыть" id="1448">
@@ -106,7 +106,7 @@
 					<ChildItems>
 						<Button name="ОбщаяКомандаПанельОтчетовАдминистрирование" id="1795">
 							<Type>Hyperlink</Type>
-							<CommandName>CommonCommand.ПанельОтчетовАдминистрирование</CommandName>
+							<CommandName>0:a4d767a1-d2e6-4e0a-ab35-9207eef54998</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОбщаяКомандаПанельОтчетовАдминистрированиеРасширеннаяПодсказка" id="1796">
 								<TextColor>style:ПоясняющийТекст</TextColor>
@@ -212,7 +212,7 @@
 							<ChildItems>
 								<Button name="ОбработкаРегламентныеИФоновыеЗадания" id="1502">
 									<Type>Hyperlink</Type>
-									<CommandName>DataProcessor.РегламентныеИФоновыеЗадания.Command.РегламентныеИФоновыеЗадания</CommandName>
+									<CommandName>0:10543f9a-4e3f-427a-b36a-9c66709dd6fb</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОбработкаРегламентныеИФоновыеЗаданияExtendedTooltip" id="1645">
 										<Title formatted="false">
@@ -828,7 +828,7 @@
 					<ChildItems>
 						<Button name="ОбработкаГрупповоеИзменениеОбъектовГрупповоеИзменениеРеквизитов" id="1778">
 							<Type>Hyperlink</Type>
-							<CommandName>DataProcessor.ГрупповоеИзменениеРеквизитов.Command.ГрупповоеИзменениеРеквизитов</CommandName>
+							<CommandName>0:90385850-d37b-4b2e-ac87-95c17f32197c</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОбработкаГрупповоеИзменениеОбъектовГрупповоеИзменениеРеквизитовРасширеннаяПодсказка" id="1779">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -872,7 +872,7 @@
 					<ChildItems>
 						<Button name="ОбработкаПоискИУдалениеДублейПоискИУдалениеДублей" id="2093">
 							<Type>Hyperlink</Type>
-							<CommandName>DataProcessor.ПоискИУдалениеДублей.Command.ПоискИУдалениеДублей</CommandName>
+							<CommandName>0:8fa21575-177f-4b7c-94b5-dfeefe737cb4</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОбработкаПоискИУдалениеДублейПоискИУдалениеДублейРасширеннаяПодсказка" id="2094">
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -917,7 +917,7 @@
 							<ChildItems>
 								<Button name="УстановкаОбновлений" id="2103">
 									<Type>Hyperlink</Type>
-									<CommandName>DataProcessor.УстановкаОбновлений.StandardCommand.Open</CommandName>
+									<CommandName>0:4a749e8c-cb35-4bc4-9b31-fb5bc0eab474</CommandName>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -944,7 +944,7 @@
 							<ChildItems>
 								<Button name="УстановленныеИсправленияОткрыть" id="2225">
 									<Type>Hyperlink</Type>
-									<CommandName>CommonForm.УстановленныеИсправления.StandardCommand.Open</CommandName>
+									<CommandName>100:46e313f7-54da-4884-89e8-cdba6ae30d30</CommandName>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>

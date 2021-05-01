@@ -73,7 +73,7 @@
 							<ChildItems>
 								<Button name="ОткрытьМакетыПечатныхФорм" id="1380">
 									<Type>Hyperlink</Type>
-									<CommandName>InformationRegister.ПользовательскиеМакетыПечати.StandardCommand.OpenList</CommandName>
+									<CommandName>0:876e31ff-ab7b-4ea4-b491-161963727dd1</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьМакетыПечатныхФормExtendedTooltip" id="1606">
 										<Title formatted="false">
@@ -109,7 +109,7 @@
 							<ChildItems>
 								<Button name="ПодменюПечать" id="1682">
 									<Type>Hyperlink</Type>
-									<CommandName>CommonForm.НастройкаКомандПечати.StandardCommand.Open</CommandName>
+									<CommandName>100:144676de-f369-49f1-bb21-d60e073936df</CommandName>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -190,7 +190,7 @@
 							<ChildItems>
 								<Button name="ОткрытьВариантыОтчетов" id="1391">
 									<Type>Hyperlink</Type>
-									<CommandName>Catalog.ВариантыОтчетов.StandardCommand.OpenList</CommandName>
+									<CommandName>0:0adf02da-940a-4bfc-afa5-59605494a169</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьВариантыОтчетовExtendedTooltip" id="1610">
 										<Title formatted="false">
@@ -242,7 +242,7 @@
 							<ChildItems>
 								<Button name="УниверсальныйОтчет" id="1678">
 									<Type>Hyperlink</Type>
-									<CommandName>Report.УниверсальныйОтчет.StandardCommand.Open</CommandName>
+									<CommandName>0:339e8cba-a92e-42f6-8d00-3b8b56ce3b0f</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="УниверсальныйОтчетРасширеннаяПодсказка" id="1679">
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -263,7 +263,7 @@
 							<ChildItems>
 								<Button name="НастройкаКолонтитулов" id="1694">
 									<Type>Hyperlink</Type>
-									<CommandName>CommonCommand.НастройкаКолонтитулов</CommandName>
+									<CommandName>0:9043894d-f89a-459f-a4ea-77fe3633aa91</CommandName>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>

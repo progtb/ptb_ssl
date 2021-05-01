@@ -47,10 +47,6 @@
 						<v8:content>Отчеты</v8:content>
 					</v8:item>
 				</Title>
-				<Picture>
-					<xr:Ref>CommonPicture.Отчеты</xr:Ref>
-					<xr:LoadTransparent>false</xr:LoadTransparent>
-				</Picture>
 				<Representation>PictureAndText</Representation>
 				<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="359"/>
 				<ChildItems>

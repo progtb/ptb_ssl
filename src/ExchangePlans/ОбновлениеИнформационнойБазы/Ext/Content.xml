@@ -1,35 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ExchangePlanContent xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
 	<Item>
-		<Metadata>InformationRegister.НаличиеФайлов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.УдалитьХранимыеФайлыВерсий</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Constant.ПараметрыАдминистрированияИБ</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog.ВариантыОтчетов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.СлужебныеАдресныеСведения</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.НомераОтсканированныхФайлов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.НастройкаПроксиСервера</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -37,27 +9,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.ДомаЗданияСтроения</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Constant.ЗапретитьОтображениеНебезопасногоСодержимогоВПисьмах</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.ВерсияКлассификатораБанков</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.СписокРасширенийФайловOpenDocumentОбластиДанных</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.НастройкиСинхронизацииФайлов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -65,15 +17,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog.ПредопределенныеВариантыОтчетовРасширений</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Catalog.ИдентификаторыОбъектовМетаданных</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.ФайлыВРабочемКаталоге</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -85,27 +29,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Constant.СписокЗапрещенныхРасширенийОбластиДанных</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.ПричиныИзмененияАдресныхСведений</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Catalog.ВерсииРасширений</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.СписокРасширенийТекстовыхФайлов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.СписокРасширенийФайловOpenDocument</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -117,35 +41,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog.ПользовательскиеНастройкиОтчетов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Constant.ОтложенноеОбновлениеЗавершеноУспешно</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.ИзвлекатьТекстыФайловНаСервере</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog.УчетныеЗаписиЭлектроннойПочты</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.МаксимальныйРазмерФайла</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.ПараметрыБлокировкиРаботыСВнешнимиРесурсами</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.ДополнительныеАдресныеСведения</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.ОриентирыАдресныхОбъектов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -153,27 +49,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Constant.ПараметрыАдресногоКлассификатора</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog.ВидыКонтактнойИнформации</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog.СтраныМира</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.СтатусОбновленияКонфигурации</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.ОбновлениеКлючейДоступаТекущиеЗадания</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.СведенияОФайлах</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -185,10 +61,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.ПользовательскиеМакетыПечати</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -197,15 +69,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Catalog.ПапкиФайлов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.КэшПрограммныхИнтерфейсов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.НастройкиКомандПечати</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -214,10 +78,6 @@
 	</Item>
 	<Item>
 		<Metadata>Constant.СведенияОБлокируемыхОбъектах</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog.ПредопределенныеВариантыОтчетов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -233,19 +93,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.НастройкиОчисткиФайлов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.МаксимальныйРазмерФайлаОбластиДанных</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Constant.ИспользоватьВнешнихПользователей</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog.УчетныеЗаписиСинхронизацииФайлов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -257,35 +105,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Constant.НастройкиКолонтитулов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Constant.ИспользоватьГруппыПользователей</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog.КлассификаторБанков</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.СписокЗапрещенныхРасширений</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.ИсторияАдресныхОбъектов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.СвязиАдресныхОбъектов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.НастройкиВариантовОтчетов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.УровниСокращенийАдресныхСведений</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -301,15 +121,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Constant.ХранитьФайлыВТомахНаДиске</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Constant.СведенияОбОбновленииИБ</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.ОбщиеПоставляемыеМакетыПечати</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -321,15 +133,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.ЗемельныеУчастки</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Constant.ЭтоАвтономноеРабочееМесто</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog.ТомаХраненияФайлов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -341,39 +145,7 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.КодировкиФайлов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog.Файлы</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.ИсточникДанныхАдресногоКлассификатора</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.АдресныеОбъекты</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Constant.СинхронизироватьФайлы</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>Catalog.ВерсииФайлов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.ДвоичныеДанныеФайлов</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.ОбработчикиОбновленияОбщихДанных</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.РабочиеКаталогиФайлов</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -385,23 +157,11 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>InformationRegister.ПоставляемыеМакетыПечати</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.БезопасноеХранилищеДанных</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.СведенияОПользователях</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.БлокировкиСеансовОбластейДанных</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
-		<Metadata>InformationRegister.ЗагруженныеВерсииАдресныхСведений</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 </ExchangePlanContent>

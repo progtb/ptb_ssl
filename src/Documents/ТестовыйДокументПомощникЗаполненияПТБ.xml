@@ -295,21 +295,21 @@
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="6ea75372-0050-420b-bf4d-1de0f2bbd403">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ТестовыйДокументПомощникЗаполненияПТБ.Банки" category="TabularSection">
+					<xr:GeneratedType name="DocumentTabularSection.ТестовыйДокументПомощникЗаполненияПТБ.ОбъектыМетаданных" category="TabularSection">
 						<xr:TypeId>c3fec27a-9254-4457-a9a8-f6dfe1c12e26</xr:TypeId>
 						<xr:ValueId>87ee1dad-d84a-4cd3-ac02-c8a2e9612fa6</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ТестовыйДокументПомощникЗаполненияПТБ.Банки" category="TabularSectionRow">
+					<xr:GeneratedType name="DocumentTabularSectionRow.ТестовыйДокументПомощникЗаполненияПТБ.ОбъектыМетаданных" category="TabularSectionRow">
 						<xr:TypeId>69bad4c7-d767-4367-a961-94671f956855</xr:TypeId>
 						<xr:ValueId>2a477b26-6555-4e99-afb7-67ef1ac39afb</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>Банки</Name>
+					<Name>ОбъектыМетаданных</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Банки</v8:content>
+							<v8:content>Объекты метаданных</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -347,16 +347,16 @@
 				<ChildObjects>
 					<Attribute uuid="f5fd26d8-2b2e-46a5-9740-526fe709c70b">
 						<Properties>
-							<Name>Банк</Name>
+							<Name>ОбъектМетаданных</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Банк</v8:content>
+									<v8:content>Объект метаданных</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.КлассификаторБанков</v8:Type>
+								<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>

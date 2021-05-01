@@ -204,7 +204,7 @@
 							<ChildItems>
 								<Button name="ОткрытьПараметрыПроксиСервера" id="1686">
 									<Type>Hyperlink</Type>
-									<CommandName>CommonForm.ПараметрыПроксиСервера.StandardCommand.Open</CommandName>
+									<CommandName>100:4399c19a-ddba-42e9-88b4-c5c28abad237</CommandName>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -311,7 +311,7 @@
 			<ChildItems>
 				<Button name="ОткрытьВидыКонтактнойИнформации" id="1640">
 					<Type>Hyperlink</Type>
-					<CommandName>Catalog.ВидыКонтактнойИнформации.StandardCommand.OpenList</CommandName>
+					<CommandName>0:782cb93d-36e6-4923-b2b6-75caa3459cd6</CommandName>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<ExtendedTooltip name="ОткрытьВидыКонтактнойИнформацииExtendedTooltip" id="1866">
 						<Title formatted="false">
@@ -710,7 +710,6 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>НаборКонстант.ИзвлекатьТекстыФайловНаСервере</Field>
 				<Field>НаборКонстант.ИспользоватьРазделениеПоОбластямДанных</Field>
 			</UseAlways>
 		</Attribute>

@@ -29,26 +29,26 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыПользователей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВнешниеПользователи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыВнешнихПользователей</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТомаХраненияФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">d912e472-9553-4b96-8b16-7aaff6c14239</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ОписаниеИзмененийПрограммы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УстановкаОбновлений</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.АвтоматическоеИзвлечениеТекстов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">4a749e8c-cb35-4bc4-9b31-fb5bc0eab474</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">3326bbcb-b277-44db-a252-2448119e8146</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РазделАдминистрирование48</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПанельАдминистрированияБСП</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НомераОтсканированныхФайлов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ГрупповоеИзменениеРеквизитов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">0ddeed48-b98a-47c3-84a2-2eac065be06c</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">e1b94dcf-ec37-4b2d-a7af-120eeee40944</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РезультатыОбновленияПрограммы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.СведенияОПользователях</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПереносФайлов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.ОбъемНенужныхФайлов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПоискИУдалениеДублей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">9ef5dd5e-1f26-4187-90a0-a3ac7aaabc1d</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">97ec899d-a2a0-4691-83ff-25b78dd49ef6</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">f4554046-493e-4960-94df-0a8b9d02f474</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПрогрессОтложенногоОбновления</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.Расширения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НастройкиОчисткиФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">a6be80f7-d6aa-4371-a180-3d355080d849</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ВремяТекущегоСеанса</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.НастройкиВходаПользователей</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АдресныеОбъекты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.УстановленныеИсправления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">e9f393e5-04d3-4330-afb0-aa73caf0c5cd</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">46e313f7-54da-4884-89e8-cdba6ae30d30</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

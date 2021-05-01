@@ -341,10 +341,10 @@
 					</xr:CharacteristicValues>
 				</xr:Characteristic>
 				<xr:Characteristic>
-					<xr:CharacteristicTypes from="Catalog.ВидыКонтактнойИнформации">
-						<xr:KeyField>Catalog.ВидыКонтактнойИнформации.StandardAttribute.Ref</xr:KeyField>
-						<xr:TypesFilterField>Catalog.ВидыКонтактнойИнформации.StandardAttribute.Parent</xr:TypesFilterField>
-						<xr:TypesFilterValue xsi:type="xr:DesignTimeRef">Catalog.ВидыКонтактнойИнформации.СправочникПользователи</xr:TypesFilterValue>
+					<xr:CharacteristicTypes from="">
+						<xr:KeyField>-8</xr:KeyField>
+						<xr:TypesFilterField>-4</xr:TypesFilterField>
+						<xr:TypesFilterValue xsi:type="xr:DesignTimeRef">fc1d5c1f-385f-493f-a538-f80a12c7cb6f.8cbaa30d-faab-45ad-880e-84f8b421f448</xr:TypesFilterValue>
 					</xr:CharacteristicTypes>
 					<xr:CharacteristicValues from="Catalog.Пользователи.TabularSection.КонтактнаяИнформация">
 						<xr:ObjectField>Catalog.Пользователи.TabularSection.КонтактнаяИнформация.StandardAttribute.Ref</xr:ObjectField>
@@ -1122,7 +1122,11 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:EnumRef.ТипыКонтактнойИнформации</v8:Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>10</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -1164,7 +1168,11 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.ВидыКонтактнойИнформации</v8:Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>10</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -1620,7 +1628,11 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.ВидыКонтактнойИнформации</v8:Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>10</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
