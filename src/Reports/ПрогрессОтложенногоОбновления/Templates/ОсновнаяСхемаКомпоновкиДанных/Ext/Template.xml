@@ -308,7 +308,7 @@
 								<dcsset:appearance>
 									<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 										<dcscor:parameter>ЦветТекста</dcscor:parameter>
-										<dcscor:value xsi:type="v8ui:Color">style:ГруппаВариантовОтчетовЦвет</dcscor:value>
+										<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
 									</dcscor:item>
 								</dcsset:appearance>
 								<dcsset:useInOverall>DontUse</dcsset:useInOverall>
@@ -365,7 +365,7 @@
 									<dcsset:appearance>
 										<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 											<dcscor:parameter>ЦветТекста</dcscor:parameter>
-											<dcscor:value xsi:type="v8ui:Color">style:ГруппаВариантовОтчетовЦвет</dcscor:value>
+											<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
 										</dcscor:item>
 									</dcsset:appearance>
 									<dcsset:useInOverall>DontUse</dcsset:useInOverall>
@@ -438,7 +438,7 @@
 										<dcsset:appearance>
 											<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 												<dcscor:parameter>ЦветТекста</dcscor:parameter>
-												<dcscor:value xsi:type="v8ui:Color">style:ГруппаВариантовОтчетовЦвет</dcscor:value>
+												<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
 											</dcscor:item>
 										</dcsset:appearance>
 										<dcsset:useInOverall>DontUse</dcsset:useInOverall>

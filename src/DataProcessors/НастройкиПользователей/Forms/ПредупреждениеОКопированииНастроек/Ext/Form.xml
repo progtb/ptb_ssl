@@ -43,12 +43,6 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаОткрытыеКопируемыеФормы" id="23">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открытые копируемые формы</v8:content>
-				</v8:item>
-			</Title>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОткрытыеКопируемыеФормыРасширеннаяПодсказка" id="24"/>
@@ -74,12 +68,6 @@
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаАктивныеПользователи" id="7">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Активные пользователи</v8:content>
-				</v8:item>
-			</Title>
 			<Group>Vertical</Group>
 			<Representation>NormalSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
@@ -119,12 +107,6 @@
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Действие" id="1">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Действие</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -134,12 +116,6 @@
 			</Type>
 		</Attribute>
 		<Attribute name="ОткрытыеКопируемыеФормы" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Открытые копируемые формы</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>

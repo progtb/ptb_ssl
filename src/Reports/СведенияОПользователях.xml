@@ -27,7 +27,7 @@
 			<DefaultSettingsForm/>
 			<AuxiliarySettingsForm/>
 			<DefaultVariantForm/>
-			<VariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</VariantsStorage>
+			<VariantsStorage/>
 			<SettingsStorage/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<ExtendedPresentation/>

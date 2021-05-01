@@ -17,31 +17,10 @@
 			<Content/>
 		</Properties>
 		<ChildObjects>
-			<Subsystem>АдресныйКлассификатор</Subsystem>
 			<Subsystem>БазоваяФункциональность</Subsystem>
-			<Subsystem>Банки</Subsystem>
-			<Subsystem>ВариантыОтчетов</Subsystem>
-			<Subsystem>ГрупповоеИзменениеОбъектов</Subsystem>
-			<Subsystem>ДополнительныеОтчетыИОбработки</Subsystem>
-			<Subsystem>ЗавершениеРаботыПользователей</Subsystem>
-			<Subsystem>ЗаполнениеОбъектов</Subsystem>
-			<Subsystem>АнализЖурналаРегистрации</Subsystem>
-			<Subsystem>НастройкаПорядкаЭлементов</Subsystem>
 			<Subsystem>НастройкиПрограммы</Subsystem>
 			<Subsystem>ОбновлениеВерсииИБ</Subsystem>
-			<Subsystem>ОбновлениеКонфигурации</Subsystem>
-			<Subsystem>Организации</Subsystem>
-			<Subsystem>ОтчетОДвиженияхДокумента</Subsystem>
-			<Subsystem>Печать</Subsystem>
-			<Subsystem>ПодключаемыеКоманды</Subsystem>
-			<Subsystem>ПоискИУдалениеДублей</Subsystem>
-			<Subsystem>ПолучениеФайловИзИнтернета</Subsystem>
 			<Subsystem>Пользователи</Subsystem>
-			<Subsystem>РаботаСПочтовымиСообщениями</Subsystem>
-			<Subsystem>РаботаСФайлами</Subsystem>
-			<Subsystem>РегламентныеЗадания</Subsystem>
-			<Subsystem>СтруктураПодчиненности</Subsystem>
-			<Subsystem>КонтактнаяИнформация</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>
