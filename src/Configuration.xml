@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ПрогТехБизнес</Vendor>
-			<Version>1.0.3.11</Version>
+			<Version>1.0.3.13</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -186,6 +186,10 @@
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>BarcodeScanning</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>AllFilesAccess</app:functionality>
 					<app:use>false</app:use>
 				</app:functionality>
 			</UsedMobileApplicationFunctionalities>
