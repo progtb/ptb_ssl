@@ -23,6 +23,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Роль1</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ТестГрупповоеРедактированиеТЧ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РегистрОстатки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ТестовыйДокументПроведение</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
