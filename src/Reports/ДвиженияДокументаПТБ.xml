@@ -117,6 +117,7 @@
 					<Comment>Отчет по движениям документа</Comment>
 					<Group>FormCommandBarImportant</Group>
 					<CommandParameterType>
+						<v8:Type>cfg:DocumentRef.ТестовыйДокументПроведение</v8:Type>
 						<v8:Type>cfg:DocumentRef.ТестовыйДокументПомощникЗаполненияПТБ</v8:Type>
 						<v8:Type>cfg:DocumentRef.ТестовыйДокументАСУСО</v8:Type>
 					</CommandParameterType>

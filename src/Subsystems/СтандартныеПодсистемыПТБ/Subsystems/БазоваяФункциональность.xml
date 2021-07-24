@@ -26,6 +26,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСФормамиПТБКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПараметрыПлатформыКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.БазовыеПраваПТБ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПроведениеСерверПТБ</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

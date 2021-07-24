@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ПрогТехБизнес</Vendor>
-			<Version>1.0.3.14</Version>
+			<Version>1.0.4.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -454,8 +454,8 @@
 			<CommonModule>ИнтернетСервисы</CommonModule>
 			<CommonModule>ИнтернетСервисыВызовСервера</CommonModule>
 			<CommonModule>ИнтернетСервисыКлиентСервер</CommonModule>
-			<CommonModule>ИнтернетСервисыПереопределяемый</CommonModule>
 			<CommonModule>ИнтернетСервисыКлиентСерверПовтИсп</CommonModule>
+			<CommonModule>ИнтернетСервисыПереопределяемый</CommonModule>
 			<CommonModule>НастройкиПрограммыПереопределяемый</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыАСУСО</CommonModule>
@@ -495,7 +495,7 @@
 			<CommonModule>ПомощникЗаполненияПТБ</CommonModule>
 			<CommonModule>ПомощникЗаполненияПТБКлиент</CommonModule>
 			<CommonModule>ПомощникЗаполненияПТБКлиентСервер</CommonModule>
-			<CommonModule>ПроведениеСервер</CommonModule>
+			<CommonModule>ПроведениеСерверПТБ</CommonModule>
 			<CommonModule>РаботаСФормамиПТБ</CommonModule>
 			<CommonModule>РаботаСФормамиПТБКлиентСервер</CommonModule>
 			<CommonModule>РегламентированныеДанныеКлиентСервер</CommonModule>
@@ -634,6 +634,7 @@
 			<Document>ТестГрупповоеРедактированиеТЧ</Document>
 			<Document>ТестовыйДокументАСУСО</Document>
 			<Document>ТестовыйДокументПомощникЗаполненияПТБ</Document>
+			<Document>ТестовыйДокументПроведение</Document>
 			<Enum>ВидыНастроекИнтеграцииSlack</Enum>
 			<Enum>ВидыСообщенийВТехническуюПоддержку</Enum>
 			<Enum>РежимыВыполненияОбработчиков</Enum>
@@ -683,6 +684,7 @@
 			<InformationRegister>СообщенияВТехническуюПоддержку</InformationRegister>
 			<InformationRegister>СоставыГруппПользователей</InformationRegister>
 			<InformationRegister>СостоянияПросмотраОписаний</InformationRegister>
+			<AccumulationRegister>РегистрОстатки</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
