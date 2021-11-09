@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Table name="ФормулыРасчета" id="7">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ФормулыРасчета</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ФормулыРасчетаКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="ФормулыРасчетаКоманднаяПанель" id="9">
+				<ChildItems>
+					<Button name="ФормулыРасчетаОбновитьРасчет" id="55">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОбновитьРасчет</CommandName>
+						<ExtendedTooltip name="ФормулыРасчетаОбновитьРасчетРасширеннаяПодсказка" id="56"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ФормулыРасчетаРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="ФормулыРасчетаСтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>ФормулыРасчета</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ФормулыРасчетаСтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ФормулыРасчетаСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ФормулыРасчетаСостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>ФормулыРасчета</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ФормулыРасчетаСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ФормулыРасчетаСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ФормулыРасчетаУправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>ФормулыРасчета</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ФормулыРасчетаУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ФормулыРасчетаУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">ФормулыРасчетаВыбор</Event>
+				<Event name="BeforeDeleteRow">ФормулыРасчетаПередУдалением</Event>
+				<Event name="OnStartEdit">ФормулыРасчетаПриНачалеРедактирования</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="ФормулыРасчетаНомерСтроки" id="20">
+					<DataPath>Объект.ФормулыРасчета.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ФормулыРасчетаНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ФормулыРасчетаНомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="ФормулыРасчетаПредставление" id="41">
+					<DataPath>Объект.ФормулыРасчета.Представление</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ФормулыРасчетаПредставлениеКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ФормулыРасчетаПредставлениеРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<ColumnGroup name="ФормулыРасчетаГруппаЗначение" id="44">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Формулы расчета группа значение</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Формулы расчета группа значение</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ФормулыРасчетаГруппаЗначениеРасширеннаяПодсказка" id="45"/>
+					<ChildItems>
+						<InputField name="ФормулыРасчетаСумма" id="46">
+							<DataPath>Объект.ФормулыРасчета.Сумма</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>15</Width>
+							<ContextMenu name="ФормулыРасчетаСуммаКонтекстноеМеню" id="47"/>
+							<ExtendedTooltip name="ФормулыРасчетаСуммаРасширеннаяПодсказка" id="48"/>
+							<Events>
+								<Event name="OnChange">ФормулыРасчетаСуммаПриИзменении</Event>
+							</Events>
+						</InputField>
+						<LabelField name="ФормулыРасчетаРасчетПредставление" id="49">
+							<DataPath>Объект.ФормулыРасчета.РасчетПредставление</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Формула</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>15</Width>
+							<Hiperlink>true</Hiperlink>
+							<TextColor>web:Gray</TextColor>
+							<Font ref="style:NormalTextFont" height="9" bold="false" italic="true" underline="false" strikeout="false" kind="StyleItem"/>
+							<ContextMenu name="ФормулыРасчетаРасчетПредставлениеКонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="ФормулыРасчетаРасчетПредставлениеРасширеннаяПодсказка" id="51"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<InputField name="ФормулыРасчетаИдентификатор" id="52">
+					<DataPath>Объект.ФормулыРасчета.Идентификатор</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoCellHeight>true</AutoCellHeight>
+					<Width>10</Width>
+					<ContextMenu name="ФормулыРасчетаИдентификаторКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ФормулыРасчетаИдентификаторРасширеннаяПодсказка" id="54"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ТестовыйДокументРаботаСФормулами</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОбновитьРасчет" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить расчет</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить расчет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьРасчет</Action>
+		</Command>
+	</Commands>
+</Form>
