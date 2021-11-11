@@ -1001,6 +1001,17 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="ЗапретитьПоказатель" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запретить показатель</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ЗаписатьИЗакрыть" id="1">
@@ -1074,6 +1085,11 @@
 		</Parameter>
 		<Parameter name="Формулы">
 			<Type/>
+		</Parameter>
+		<Parameter name="ЗапретитьПоказатель">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Parameter>
 	</Parameters>
 </Form>
