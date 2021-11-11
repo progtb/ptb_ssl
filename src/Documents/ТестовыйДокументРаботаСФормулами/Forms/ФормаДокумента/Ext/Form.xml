@@ -20,6 +20,13 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<CheckBoxField name="ТолькоПросмотрФормулы" id="57">
+			<DataPath>ТолькоПросмотрФормулы</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ТолькоПросмотрФормулыКонтекстноеМеню" id="58"/>
+			<ExtendedTooltip name="ТолькоПросмотрФормулыРасширеннаяПодсказка" id="59"/>
+		</CheckBoxField>
 		<Table name="ФормулыРасчета" id="7">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -155,6 +162,17 @@
 			<UseAlways>
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
+		</Attribute>
+		<Attribute name="ТолькоПросмотрФормулы" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Только просмотр формулы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
