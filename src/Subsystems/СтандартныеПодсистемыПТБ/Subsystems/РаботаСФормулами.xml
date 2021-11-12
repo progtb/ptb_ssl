@@ -20,6 +20,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РаботаСФормулами</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСФормуламиКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСФормуламиСлужебныйВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСФормуламиПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСФормуламиКлиентПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">b8fdc201-f935-4634-be6c-7041c2486e71</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ПоказательФормулы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
