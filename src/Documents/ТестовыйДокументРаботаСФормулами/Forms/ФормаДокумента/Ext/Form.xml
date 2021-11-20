@@ -130,8 +130,6 @@
 							<EditMode>EnterOnInput</EditMode>
 							<Width>15</Width>
 							<Hiperlink>true</Hiperlink>
-							<TextColor>web:Gray</TextColor>
-							<Font ref="style:NormalTextFont" height="9" bold="false" italic="true" underline="false" strikeout="false" kind="StyleItem"/>
 							<ContextMenu name="ФормулыРасчетаРасчетПредставлениеКонтекстноеМеню" id="50"/>
 							<ExtendedTooltip name="ФормулыРасчетаРасчетПредставлениеРасширеннаяПодсказка" id="51"/>
 						</LabelField>
