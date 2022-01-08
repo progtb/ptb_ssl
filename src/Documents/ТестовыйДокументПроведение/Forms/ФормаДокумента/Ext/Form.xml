@@ -99,6 +99,9 @@
 				<ContextMenu name="ТабличнаяЧастьУправлениеПоискомКонтекстноеМеню" id="29"/>
 				<ExtendedTooltip name="ТабличнаяЧастьУправлениеПоискомРасширеннаяПодсказка" id="30"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="BeforeDeleteRow">ТабличнаяЧастьПередУдалением</Event>
+			</Events>
 			<ChildItems>
 				<LabelField name="ТабличнаяЧастьНомерСтроки" id="31">
 					<DataPath>Объект.ТабличнаяЧасть.LineNumber</DataPath>
