@@ -29,6 +29,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПроведениеСерверПТБ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ФайловаяСистемаКлиентАсинх</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РаботаСФормамиПТБКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияПТБКлиент</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
