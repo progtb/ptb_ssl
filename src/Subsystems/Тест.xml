@@ -26,6 +26,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.РегистрОстатки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ТестовыйДокументПроведение</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ТестовыйДокументРаботаСФормулами</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестСериализацииИнтернетСервисы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестКлиентСервер</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

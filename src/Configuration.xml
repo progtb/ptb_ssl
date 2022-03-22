@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ПрогТехБизнес</Vendor>
-			<Version>1.0.7.1</Version>
+			<Version>1.0.7.2</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -318,6 +318,7 @@
 			<CommonPicture>ОтправитьЭлектронноеПисьмо</CommonPicture>
 			<CommonPicture>Ошибка32</CommonPicture>
 			<CommonPicture>Папка</CommonPicture>
+			<CommonPicture>ПиктограммыТиповДанных</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>ПодменюСервис</CommonPicture>
 			<CommonPicture>Подсистема</CommonPicture>
@@ -462,9 +463,11 @@
 			<CommonModule>ИнтеграцияПодсистемБСППовтИсп</CommonModule>
 			<CommonModule>ИнтернетСервисы</CommonModule>
 			<CommonModule>ИнтернетСервисыВызовСервера</CommonModule>
+			<CommonModule>ИнтернетСервисыКлиентПереопределяемый</CommonModule>
 			<CommonModule>ИнтернетСервисыКлиентСервер</CommonModule>
 			<CommonModule>ИнтернетСервисыКлиентСерверПовтИсп</CommonModule>
 			<CommonModule>ИнтернетСервисыПереопределяемый</CommonModule>
+			<CommonModule>КонструкторПредставленияКлиентСервер</CommonModule>
 			<CommonModule>НастройкиПрограммыПереопределяемый</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыАСУСО</CommonModule>
@@ -686,6 +689,8 @@
 			<DataProcessor>ТестированиеРолейКонфигурации</DataProcessor>
 			<DataProcessor>ТестОбщегоНазначенияПТБКлиентСервер</DataProcessor>
 			<DataProcessor>ТестСтроковыеФункцииПТБ</DataProcessor>
+			<DataProcessor>ТестСериализацииИнтернетСервисы</DataProcessor>
+			<DataProcessor>ТестКлиентСервер</DataProcessor>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
 			<InformationRegister>ВерсииПодсистем</InformationRegister>
