@@ -691,6 +691,7 @@
 			<DataProcessor>ТестСтроковыеФункцииПТБ</DataProcessor>
 			<DataProcessor>ТестСериализацииИнтернетСервисы</DataProcessor>
 			<DataProcessor>ТестКлиентСервер</DataProcessor>
+			<DataProcessor>ТестКопияДанныхФормы</DataProcessor>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
 			<InformationRegister>ВерсииПодсистем</InformationRegister>

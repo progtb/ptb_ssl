@@ -28,6 +28,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ТестовыйДокументРаботаСФормулами</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестСериализацииИнтернетСервисы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестКопияДанныхФормы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
