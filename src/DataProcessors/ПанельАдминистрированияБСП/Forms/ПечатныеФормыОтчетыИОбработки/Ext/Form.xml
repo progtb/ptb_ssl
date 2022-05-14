@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<Customizable>false</Customizable>
 	<CommandSet>
 		<ExcludedCommand>Abort</ExcludedCommand>
@@ -23,6 +23,7 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаЗаголовок" id="1580">
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаЗаголовокExtendedTooltip" id="1600"/>
@@ -53,11 +54,13 @@
 		</UsualGroup>
 		<UsualGroup name="ГруппаКолонки" id="1658">
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКолонкиРасширеннаяПодсказка" id="1659"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаПечать" id="1627">
+					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
 					<ChildItemsWidth>Equal</ChildItemsWidth>
 					<ShowTitle>false</ShowTitle>
@@ -67,6 +70,7 @@
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаМакетыПечатныхФормРасширеннаяПодсказка" id="1663"/>
@@ -103,6 +107,7 @@
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПодменюПечатьРасширеннаяПодсказка" id="1665"/>
@@ -130,6 +135,7 @@
 								<UsualGroup name="ГруппаАвтоматическийПеревод" id="1709">
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаАвтоматическийПереводРасширеннаяПодсказка" id="1710">
@@ -176,6 +182,7 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаВариантыРассылки" id="1575">
+					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
 					<ChildItemsWidth>Equal</ChildItemsWidth>
 					<ShowTitle>false</ShowTitle>
@@ -184,6 +191,7 @@
 						<UsualGroup name="ГруппаОтчеты" id="1674">
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтчетыРасширеннаяПодсказка" id="1675"/>
@@ -206,6 +214,7 @@
 						<UsualGroup name="ГруппаРассылкиОтчетов" id="1676">
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаРассылкиОтчетовРасширеннаяПодсказка" id="1677"/>
@@ -228,6 +237,7 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаУниверсальныйОтчетРасширения" id="1641">
+					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
 					<ChildItemsWidth>Equal</ChildItemsWidth>
 					<ShowTitle>false</ShowTitle>
@@ -236,6 +246,7 @@
 						<UsualGroup name="ГруппаУниверсальныйОтчет" id="1670">
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаУниверсальныйОтчетРасширеннаяПодсказка" id="1671"/>
@@ -257,6 +268,7 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаНастройкаКолонтитулов" id="1692">
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНастройкаКолонтитуловРасширеннаяПодсказка" id="1693"/>
@@ -285,6 +297,7 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаРасширенияИВнешниеКомпоненты" id="1690">
+					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
 					<ChildItemsWidth>Equal</ChildItemsWidth>
 					<ShowTitle>false</ShowTitle>
@@ -293,6 +306,7 @@
 						<UsualGroup name="ГруппаРасширения" id="1672">
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаРасширенияРасширеннаяПодсказка" id="1673"/>
@@ -315,6 +329,7 @@
 						<UsualGroup name="ГруппаВнешниеКомпоненты" id="1686">
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВнешниеКомпонентыРасширеннаяПодсказка" id="1687"/>
@@ -337,6 +352,7 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаДополнительныеОтчетыИОбработки" id="1593">
+					<Behavior>Usual</Behavior>
 					<Representation>NormalSeparation</Representation>
 					<ChildItemsWidth>Equal</ChildItemsWidth>
 					<ShowTitle>false</ShowTitle>
@@ -345,6 +361,7 @@
 						<UsualGroup name="ГруппаДополнительныеОтчетыИОбработкиИспользование" id="1666">
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДополнительныеОтчетыИОбработкиИспользованиеРасширеннаяПодсказка" id="1667"/>
@@ -377,6 +394,7 @@
 						<UsualGroup name="ГруппаДополнительныеОтчетыИОбработкиНастройка" id="1668">
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДополнительныеОтчетыИОбработкиНастройкаРасширеннаяПодсказка" id="1669"/>
@@ -403,12 +421,14 @@
 		</UsualGroup>
 		<UsualGroup name="ГруппаСостояниеОригиналовПервичныхДокументов" id="1696">
 			<HorizontalStretch>false</HorizontalStretch>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаСостояниеОригиналовПервичныхДокументовРасширеннаяПодсказка" id="1697"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаСостояниеОригиналовПервичныхДокументовИспользование" id="1698">
 					<Width>43</Width>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСостояниеОригиналовПервичныхДокументовИспользованиеРасширеннаяПодсказка" id="1699"/>
@@ -440,6 +460,7 @@
 				</UsualGroup>
 				<UsualGroup name="ГруппаСостояниеОригиналовПервичныхДокументовНастройка" id="1703">
 					<Width>43</Width>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСостояниеОригиналовПервичныхДокументовНастройкаРасширеннаяПодсказка" id="1704"/>

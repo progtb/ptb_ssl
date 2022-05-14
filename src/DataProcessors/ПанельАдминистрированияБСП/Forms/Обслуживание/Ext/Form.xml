@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<Customizable>false</Customizable>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
@@ -26,6 +26,7 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаЗаголовок" id="1574">
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаЗаголовокExtendedTooltip" id="1632"/>
@@ -56,6 +57,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаЧастотныйСервис" id="1431">
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаЧастотныйСервисExtendedTooltip" id="1637"/>
@@ -100,6 +102,7 @@
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОтчетыАдминистратораРасширеннаяПодсказка" id="1717"/>
@@ -115,6 +118,7 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаДополнительныеОтчетыИОбработки" id="1730">
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаДополнительныеОтчетыИОбработкиРасширеннаяПодсказка" id="1731"/>
@@ -123,6 +127,7 @@
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДополнительныеОтчетыПоАдминистрированиюРасширеннаяПодсказка" id="1733"/>
@@ -152,6 +157,7 @@
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДополнительныеОбработкиПоАдминистрированиюРасширеннаяПодсказка" id="1740"/>
@@ -198,6 +204,7 @@
 			<ExtendedTooltip name="ГруппаРегламентныеОперацииExtendedTooltip" id="1642"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаРегламентныеЗадания" id="1586">
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаРегламентныеЗаданияРасширеннаяПодсказка" id="1643"/>
@@ -206,6 +213,7 @@
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОбработкаРегламентныеИФоновыеЗаданияExtendedTooltip" id="1644"/>
@@ -229,6 +237,7 @@
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаБлокировкаРаботыСВнешнимиРесурсамиРасширеннаяПодсказка" id="2024"/>
@@ -255,6 +264,7 @@
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОбработкаУправлениеИтогамиИАгрегатамиОткрытьExtendedTooltip" id="1651"/>
@@ -297,6 +307,7 @@
 					<EnableContentChange>true</EnableContentChange>
 					<HorizontalStretch>true</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаВыборСпособаРезервногоКопированияРасширеннаяПодсказка" id="2115"/>
@@ -348,6 +359,7 @@
 							<ExtendedTooltip name="СтраницаНаЛокальномКомпьютереРасширеннаяПодсказка" id="2122"/>
 							<ChildItems>
 								<UsualGroup name="ГруппаНаЛокальномКомпьютере" id="2123">
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНаЛокальномКомпьютереРасширеннаяПодсказка" id="2124"/>
@@ -356,6 +368,7 @@
 											<Width>43</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаРезервногоКопированияРасширеннаяПодсказка" id="1659"/>
@@ -406,6 +419,7 @@
 											<Width>43</Width>
 											<HorizontalStretch>false</HorizontalStretch>
 											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаНастройкаРезервногоКопированияExtendedTooltip" id="1666"/>
@@ -432,6 +446,7 @@
 									<Visible>false</Visible>
 									<Width>86</Width>
 									<HorizontalStretch>false</HorizontalStretch>
+									<Behavior>Usual</Behavior>
 									<Representation>NormalSeparation</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаНеобходимоОтключитьОблачныйАрхивРасширеннаяПодсказка" id="2136"/>
@@ -507,6 +522,7 @@
 												<UsualGroup name="ГруппаПрогрессПроверкиОблачногоАрхива" id="2152">
 													<EnableContentChange>true</EnableContentChange>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаПрогрессПроверкиОблачногоАрхиваРасширеннаяПодсказка" id="2153"/>
@@ -545,6 +561,7 @@
 											<ExtendedTooltip name="СтраницаОблачныйАрхивНеПодключеноРасширеннаяПодсказка" id="2161"/>
 											<ChildItems>
 												<UsualGroup name="ГруппаСервисОблачныйАрхивНеПодключен" id="2162">
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаСервисОблачныйАрхивНеПодключенРасширеннаяПодсказка" id="2163"/>
@@ -643,6 +660,7 @@
 											<ChildItems>
 												<UsualGroup name="ГруппаОблачныйАрхивСохранениеВосстановление" id="2182">
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаОблачныйАрхивСохранениеВосстановлениеРасширеннаяПодсказка" id="2183"/>
@@ -651,6 +669,7 @@
 															<Width>43</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаОблачныйАрхивРезервноеКопированиеПрограммыРасширеннаяПодсказка" id="2185"/>
@@ -683,6 +702,7 @@
 															<Width>43</Width>
 															<HorizontalStretch>false</HorizontalStretch>
 															<Group>Vertical</Group>
+															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<ExtendedTooltip name="ГруппаОблачныйАрхивВосстановлениеРезервнойКопииРасширеннаяПодсказка" id="2192"/>
@@ -720,6 +740,7 @@
 													<Width>43</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<Group>Vertical</Group>
+													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ГруппаОблачныйАрхивНастройкаРезервногоКопированияРасширеннаяПодсказка" id="2200"/>
@@ -822,6 +843,7 @@
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОбработкаГрупповоеИзменениеОбъектовРасширеннаяПодсказка" id="1758"/>
@@ -866,6 +888,7 @@
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаПоискИУдалениеДублейРасширеннаяПодсказка" id="1789"/>
@@ -904,6 +927,7 @@
 			<ExtendedTooltip name="ГруппаРезультатыОбновленияПрограммыРасширеннаяПодсказка" id="2042"/>
 			<ChildItems>
 				<UsualGroup name="ГруппаОбновлениеИОписаниеИзмененийПерваяСтрока" id="2043">
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОбновлениеИОписаниеИзмененийПерваяСтрокаРасширеннаяПодсказка" id="2044"/>
@@ -911,6 +935,7 @@
 						<UsualGroup name="ГруппаУстановкаОбновлений" id="2105">
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаУстановкаОбновленийРасширеннаяПодсказка" id="2106"/>
@@ -938,6 +963,7 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаУстановленныеИсправления" id="2227">
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаУстановленныеИсправленияРасширеннаяПодсказка" id="2228"/>
@@ -966,6 +992,7 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаОбновлениеИОписаниеИзмененийВтораяСтрока" id="2059">
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОбновлениеИОписаниеИзмененийВтораяСтрокаРасширеннаяПодсказка" id="2060"/>
@@ -974,6 +1001,7 @@
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОтложеннаяОбработкаДанныхРасширеннаяПодсказка" id="2053"/>
@@ -998,6 +1026,7 @@
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОткрытьОписаниеИзмененийСистемыExtendedTooltip" id="2046"/>
@@ -1020,6 +1049,7 @@
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаРезультатыОбновленияПрограммыТретьяСтрока" id="2223">
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаРезультатыОбновленияПрограммыТретьяСтрокаРасширеннаяПодсказка" id="2224"/>
@@ -1028,6 +1058,7 @@
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<Width>43</Width>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНастройкаПриоритетаОбновленияРасширеннаяПодсказка" id="2230">
@@ -1067,6 +1098,7 @@
 								</RadioButtonField>
 								<UsualGroup name="ГруппаПриоритет" id="2237">
 									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПриоритетРасширеннаяПодсказка" id="2238"/>
@@ -1121,6 +1153,7 @@
 							<Width>43</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаДетализироватьОбновлениеИБВЖурналеРегистрацииExtendedTooltip" id="2062"/>
@@ -1174,6 +1207,7 @@
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаВыполнятьЗамерыПроизводительностиExtendedTooltip" id="1673"/>
@@ -1221,6 +1255,7 @@
 					<Width>43</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаОбработкаОценкаПроизводительностиExtendedTooltip" id="1676"/>

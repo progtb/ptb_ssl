@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
@@ -93,6 +93,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаШапкаExtendedTooltip" id="95"/>
@@ -111,6 +112,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаШапкаЛеваяСторонаExtendedTooltip" id="97"/>
@@ -129,6 +131,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКодРазработчикаДатаОтправкиExtendedTooltip" id="98"/>
@@ -190,6 +193,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаШапкаПраваяСторонаExtendedTooltip" id="102"/>
@@ -276,6 +280,7 @@
 					<v8:content>Страницы данные</v8:content>
 				</v8:item>
 			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыДанныеExtendedTooltip" id="106"/>
 			<ChildItems>
 				<Page name="ГруппаИнформация" id="51">
@@ -318,6 +323,7 @@
 							</ToolTip>
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<ExtendedTooltip name="ГруппаСогласованиеExtendedTooltip" id="110"/>
 							<ChildItems>
 								<CheckBoxField name="Согласовано" id="17">
@@ -551,6 +557,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОбъектыМетаданныхExtendedTooltip" id="133"/>
@@ -642,6 +649,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаПодтвержденоРасширеннаяПодсказка" id="174"/>
@@ -697,6 +705,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
 			<Collapsed>true</Collapsed>
 			<ExtendedTooltip name="ГруппаДанныеРазработчикаExtendedTooltip" id="140"/>
 			<ChildItems>
@@ -714,6 +723,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаДанныеРазработчикаЛеваяСторонаExtendedTooltip" id="141"/>
@@ -754,6 +764,7 @@
 						</v8:item>
 					</ToolTip>
 					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаДанныеРазработчикаПраваяСторонаExtendedTooltip" id="144"/>
@@ -785,6 +796,7 @@
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаРелизExtendedTooltip" id="146"/>
