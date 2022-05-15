@@ -29,6 +29,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестСериализацииИнтернетСервисы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестКопияДанныхФормы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТестКонструкторПредставления</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
