@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ПрогТехБизнес</Vendor>
-			<Version>1.0.8.2</Version>
+			<Version>1.0.8.3</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -654,6 +654,7 @@
 			<Catalog>ИдентификаторыОбъектовРасширений</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Пользователи</Catalog>
+			<Catalog>ТестОбработкиВыбора</Catalog>
 			<Document>ТестГрупповоеРедактированиеТЧ</Document>
 			<Document>ТестовыйДокументАСУСО</Document>
 			<Document>ТестовыйДокументПомощникЗаполненияПТБ</Document>
@@ -693,6 +694,7 @@
 			<DataProcessor>ТестКлиентСервер</DataProcessor>
 			<DataProcessor>ТестКопияДанныхФормы</DataProcessor>
 			<DataProcessor>ТестКонструкторПредставления</DataProcessor>
+			<DataProcessor>ТестОбработкаПолученияДанныхВыбора</DataProcessor>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
 			<InformationRegister>ВерсииПодсистем</InformationRegister>
