@@ -3,8 +3,8 @@
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>None</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
-	<ReportResult xsi:type="xs:decimal">3</ReportResult>
-	<DetailsData xsi:type="xs:decimal">0</DetailsData>
+	<ReportResult>СпособВыводаОтчета</ReportResult>
+	<DetailsData>0</DetailsData>
 	<ReportFormType>Main</ReportFormType>
 	<AutoShowState>ShowOnComposition</AutoShowState>
 	<ReportResultViewMode>Auto</ReportResultViewMode>
