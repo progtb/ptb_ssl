@@ -440,6 +440,7 @@
 			<CommonModule>ВнешниеПользователи</CommonModule>
 			<CommonModule>ВнешниеПользователиКлиент</CommonModule>
 			<CommonModule>ГрупповоеРедактированиеТабличныхЧастейКлиент</CommonModule>
+			<CommonModule>ГрупповоеРедактированиеТабличныхЧастейКлиентСервер</CommonModule>
 			<CommonModule>ГрупповоеРедактированиеТабличныхЧастейСервер</CommonModule>
 			<CommonModule>ДлительныеОперации</CommonModule>
 			<CommonModule>ДлительныеОперацииВызовСервера</CommonModule>
@@ -640,7 +641,6 @@
 			<CommonForm>ПустойРабочийСтол</CommonForm>
 			<CommonForm>Расширения</CommonForm>
 			<CommonForm>РедактированиеТабличногоДокумента</CommonForm>
-			<CommonForm>РедактированиеТабличныхЧастей</CommonForm>
 			<CommonForm>СменаПароля</CommonForm>
 			<CommonForm>СравнениеТабличныхДокументов</CommonForm>
 			<CommonForm>ФормаВыбораПоляОтбораКомпоновкиПТБ</CommonForm>
@@ -678,6 +678,7 @@
 			<Report>ПрогрессОтложенногоОбновления</Report>
 			<Report>СведенияОПользователях</Report>
 			<Report>СообщенияВТехПоддержкуПТБ</Report>
+			<DataProcessor>ГрупповоеРедактированиеТабличныхЧастейПТБ</DataProcessor>
 			<DataProcessor>ЖурналРегистрации</DataProcessor>
 			<DataProcessor>НастройкаИнтеграцииSlack</DataProcessor>
 			<DataProcessor>НастройкиПользователей</DataProcessor>
@@ -691,13 +692,13 @@
 			<DataProcessor>ТестДлительныеОперацииПТБ</DataProcessor>
 			<DataProcessor>ТестИнтеграцииСConfluence</DataProcessor>
 			<DataProcessor>ТестированиеРолейКонфигурации</DataProcessor>
-			<DataProcessor>ТестОбщегоНазначенияПТБКлиентСервер</DataProcessor>
-			<DataProcessor>ТестСтроковыеФункцииПТБ</DataProcessor>
-			<DataProcessor>ТестСериализацииИнтернетСервисы</DataProcessor>
 			<DataProcessor>ТестКлиентСервер</DataProcessor>
-			<DataProcessor>ТестКопияДанныхФормы</DataProcessor>
 			<DataProcessor>ТестКонструкторПредставления</DataProcessor>
+			<DataProcessor>ТестКопияДанныхФормы</DataProcessor>
 			<DataProcessor>ТестОбработкаПолученияДанныхВыбора</DataProcessor>
+			<DataProcessor>ТестОбщегоНазначенияПТБКлиентСервер</DataProcessor>
+			<DataProcessor>ТестСериализацииИнтернетСервисы</DataProcessor>
+			<DataProcessor>ТестСтроковыеФункцииПТБ</DataProcessor>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
 			<InformationRegister>ВерсииПодсистем</InformationRegister>

@@ -172,13 +172,13 @@
 							<EditMode>EnterOnInput</EditMode>
 							<ChoiceParameterLinks>
 								<xr:Link>
-									<xr:Name>Отбор.Выходной</xr:Name>
-									<xr:DataPath xsi:type="xs:string">Выходной</xr:DataPath>
+									<xr:Name>Отбор.Зависимость</xr:Name>
+									<xr:DataPath xsi:type="xs:string">ВладелецНаФорме</xr:DataPath>
 									<xr:ValueChange>Clear</xr:ValueChange>
 								</xr:Link>
 								<xr:Link>
-									<xr:Name>Отбор.Владелец</xr:Name>
-									<xr:DataPath xsi:type="xs:string">Объект.РеквизитВладелец</xr:DataPath>
+									<xr:Name>Отбор.Выходной</xr:Name>
+									<xr:DataPath xsi:type="xs:string">Выходной</xr:DataPath>
 									<xr:ValueChange>Clear</xr:ValueChange>
 								</xr:Link>
 							</ChoiceParameterLinks>
@@ -188,8 +188,19 @@
 						<InputField name="Дерево1" id="43">
 							<DataPath>Дерево.а</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<MinValue xsi:type="xs:decimal">12</MinValue>
+							<MaxValue xsi:type="xs:decimal">500</MaxValue>
 							<ContextMenu name="Дерево1КонтекстноеМеню" id="44"/>
 							<ExtendedTooltip name="Дерево1РасширеннаяПодсказка" id="45"/>
+						</InputField>
+						<InputField name="Дерево6Стр" id="69">
+							<DataPath>Дерево.Стр</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<PasswordMode>true</PasswordMode>
+							<MultiLine>true</MultiLine>
+							<Mask>##.##</Mask>
+							<ContextMenu name="Дерево6СтрКонтекстноеМеню" id="70"/>
+							<ExtendedTooltip name="Дерево6СтрРасширеннаяПодсказка" id="71"/>
 						</InputField>
 					</ChildItems>
 				</Table>
@@ -240,9 +251,9 @@
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>10</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
 				</Column>
@@ -256,6 +267,21 @@
 					<Type>
 						<v8:Type>cfg:CatalogRef.ТестГрупповоеРедактированиеТЧОсновной</v8:Type>
 						<v8:Type>cfg:CatalogRef.ТестГрупповоеРедактированиеТЧПодчиненный</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Стр" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Стр</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Column>
 			</Columns>

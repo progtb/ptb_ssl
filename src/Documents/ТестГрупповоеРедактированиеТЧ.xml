@@ -284,7 +284,7 @@
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks>
 								<xr:Link>
-									<xr:Name>РеквизитВладелец</xr:Name>
+									<xr:Name>Отбор.Зависимость</xr:Name>
 									<xr:DataPath xsi:type="xs:string">Document.ТестГрупповоеРедактированиеТЧ.Attribute.РеквизитВладелец</xr:DataPath>
 									<xr:ValueChange>Clear</xr:ValueChange>
 								</xr:Link>
