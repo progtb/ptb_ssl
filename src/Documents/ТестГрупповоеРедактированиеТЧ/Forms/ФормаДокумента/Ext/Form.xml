@@ -109,12 +109,6 @@
 							<ContextMenu name="ТаблицаОбъектаНомерСтрокиКонтекстноеМеню" id="21"/>
 							<ExtendedTooltip name="ТаблицаОбъектаНомерСтрокиРасширеннаяПодсказка" id="22"/>
 						</LabelField>
-						<InputField name="Цена" id="23">
-							<DataPath>Объект.ТаблицаОбъекта.Цена</DataPath>
-							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="ЦенаКонтекстноеМеню" id="24"/>
-							<ExtendedTooltip name="ЦенаРасширеннаяПодсказка" id="25"/>
-						</InputField>
 						<InputField name="ТаблицаОбъектаРеквизитОсновной" id="66">
 							<DataPath>Объект.ТаблицаОбъекта.РеквизитОсновной</DataPath>
 							<EditMode>EnterOnInput</EditMode>
@@ -127,8 +121,29 @@
 							<ContextMenu name="ТРеквизит1КонтекстноеМеню" id="47"/>
 							<ExtendedTooltip name="ТРеквизит1РасширеннаяПодсказка" id="48"/>
 						</InputField>
+						<ColumnGroup name="ТаблицаОбъектаГруппа1" id="74">
+							<ExtendedTooltip name="ТаблицаОбъектаГруппа1РасширеннаяПодсказка" id="75"/>
+							<ChildItems>
+								<InputField name="Цена" id="23">
+									<DataPath>Объект.ТаблицаОбъекта.Цена</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЦенаКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="ЦенаРасширеннаяПодсказка" id="25"/>
+								</InputField>
+								<InputField name="ТаблицаОбъектаЦена" id="76">
+									<DataPath>Объект.ТаблицаОбъекта.Цена</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТаблицаОбъектаЦенаКонтекстноеМеню" id="77"/>
+									<ExtendedTooltip name="ТаблицаОбъектаЦенаРасширеннаяПодсказка" id="78"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
 					</ChildItems>
 				</Table>
+				<UsualGroup name="Группа3" id="81">
+					<Behavior>Usual</Behavior>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="82"/>
+				</UsualGroup>
 				<Table name="Дерево6" id="30">
 					<Representation>Tree</Representation>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -137,7 +152,13 @@
 					<FileDragMode>AsFile</FileDragMode>
 					<DataPath>Дерево</DataPath>
 					<ContextMenu name="Дерево6КонтекстноеМеню" id="31"/>
-					<AutoCommandBar name="Дерево6КоманднаяПанель" id="32"/>
+					<AutoCommandBar name="Дерево6КоманднаяПанель" id="32">
+						<ChildItems>
+							<ButtonGroup name="Дерево6Группа1" id="72">
+								<ExtendedTooltip name="Дерево6Группа1РасширеннаяПодсказка" id="73"/>
+							</ButtonGroup>
+						</ChildItems>
+					</AutoCommandBar>
 					<ExtendedTooltip name="Дерево6РасширеннаяПодсказка" id="33"/>
 					<SearchStringAddition name="Дерево6СтрокаПоиска" id="34">
 						<AdditionSource>
@@ -167,24 +188,6 @@
 						<Event name="OnActivateCell">ДеревоПриАктивизацииЯчейки</Event>
 					</Events>
 					<ChildItems>
-						<InputField name="Дерево6Реквизит2" id="52">
-							<DataPath>Дерево.Реквизит2</DataPath>
-							<EditMode>EnterOnInput</EditMode>
-							<ChoiceParameterLinks>
-								<xr:Link>
-									<xr:Name>Отбор.Зависимость</xr:Name>
-									<xr:DataPath xsi:type="xs:string">ВладелецНаФорме</xr:DataPath>
-									<xr:ValueChange>Clear</xr:ValueChange>
-								</xr:Link>
-								<xr:Link>
-									<xr:Name>Отбор.Выходной</xr:Name>
-									<xr:DataPath xsi:type="xs:string">Выходной</xr:DataPath>
-									<xr:ValueChange>Clear</xr:ValueChange>
-								</xr:Link>
-							</ChoiceParameterLinks>
-							<ContextMenu name="Дерево6Реквизит2КонтекстноеМеню" id="53"/>
-							<ExtendedTooltip name="Дерево6Реквизит2РасширеннаяПодсказка" id="54"/>
-						</InputField>
 						<InputField name="Дерево1" id="43">
 							<DataPath>Дерево.а</DataPath>
 							<EditMode>EnterOnInput</EditMode>
@@ -202,10 +205,77 @@
 							<ContextMenu name="Дерево6СтрКонтекстноеМеню" id="70"/>
 							<ExtendedTooltip name="Дерево6СтрРасширеннаяПодсказка" id="71"/>
 						</InputField>
+						<ColumnGroup name="Дерево6Группа2" id="79">
+							<ExtendedTooltip name="Дерево6Группа2РасширеннаяПодсказка" id="80"/>
+							<ChildItems>
+								<InputField name="Дерево6Реквизит2" id="52">
+									<DataPath>Дерево.Реквизит2</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceParameterLinks>
+										<xr:Link>
+											<xr:Name>Отбор.Зависимость</xr:Name>
+											<xr:DataPath xsi:type="xs:string">ВладелецНаФорме</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+										<xr:Link>
+											<xr:Name>Отбор.Выходной</xr:Name>
+											<xr:DataPath xsi:type="xs:string">Выходной</xr:DataPath>
+											<xr:ValueChange>Clear</xr:ValueChange>
+										</xr:Link>
+									</ChoiceParameterLinks>
+									<ContextMenu name="Дерево6Реквизит2КонтекстноеМеню" id="53"/>
+									<ExtendedTooltip name="Дерево6Реквизит2РасширеннаяПодсказка" id="54"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
 					</ChildItems>
 				</Table>
 			</ChildItems>
 		</UsualGroup>
+		<Table name="СписокЗначений" id="83">
+			<Representation>List</Representation>
+			<Header>false</Header>
+			<HorizontalLines>false</HorizontalLines>
+			<VerticalLines>false</VerticalLines>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<DataPath>СписокЗначений</DataPath>
+			<RowPictureDataPath>СписокЗначений.Picture</RowPictureDataPath>
+			<ContextMenu name="СписокЗначенийКонтекстноеМеню" id="84"/>
+			<AutoCommandBar name="СписокЗначенийКоманднаяПанель" id="85"/>
+			<ExtendedTooltip name="СписокЗначенийРасширеннаяПодсказка" id="86"/>
+			<SearchStringAddition name="СписокЗначенийСтрокаПоиска" id="87">
+				<AdditionSource>
+					<Item>СписокЗначений</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокЗначенийСтрокаПоискаКонтекстноеМеню" id="88"/>
+				<ExtendedTooltip name="СписокЗначенийСтрокаПоискаРасширеннаяПодсказка" id="89"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокЗначенийСостояниеПросмотра" id="90">
+				<AdditionSource>
+					<Item>СписокЗначений</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокЗначенийСостояниеПросмотраКонтекстноеМеню" id="91"/>
+				<ExtendedTooltip name="СписокЗначенийСостояниеПросмотраРасширеннаяПодсказка" id="92"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокЗначенийУправлениеПоиском" id="93">
+				<AdditionSource>
+					<Item>СписокЗначений</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокЗначенийУправлениеПоискомКонтекстноеМеню" id="94"/>
+				<ExtendedTooltip name="СписокЗначенийУправлениеПоискомРасширеннаяПодсказка" id="95"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="СписокЗначенийЗначение" id="96">
+					<DataPath>СписокЗначений.Value</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокЗначенийЗначениеКонтекстноеМеню" id="97"/>
+					<ExtendedTooltip name="СписокЗначенийЗначениеРасширеннаяПодсказка" id="98"/>
+				</InputField>
+			</ChildItems>
+		</Table>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -317,6 +387,17 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СписокЗначений" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список значений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
