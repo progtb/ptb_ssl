@@ -32,8 +32,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияПТБКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПиктограммыТиповДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.КонструкторПредставленияКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">fbbb6e1d-f6ec-4a0f-9a1a-08c1db9bea90</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">8c2b4d67-ddd3-4cc1-868b-c5298731ab3e</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">8fb94eab-453c-4720-a070-5d2a27afc5de</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
