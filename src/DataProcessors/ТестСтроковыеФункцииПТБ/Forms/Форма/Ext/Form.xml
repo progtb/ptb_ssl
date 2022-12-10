@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаНаСервере" id="41">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.НаСервере</CommandName>
+				<ExtendedTooltip name="ФормаНаСервереРасширеннаяПодсказка" id="42"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
@@ -23,18 +31,6 @@
 			<Representation>StrongSeparation</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="11"/>
-			<ChildItems>
-				<Button name="ТестСтрокаВBase64" id="6">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ТестСтрокаВBase64</CommandName>
-					<ExtendedTooltip name="ТестСтрокаВBase64РасширеннаяПодсказка" id="7"/>
-				</Button>
-				<Button name="ТестBase64ВСтроку" id="8">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ТестBase64ВСтроку</CommandName>
-					<ExtendedTooltip name="ТестBase64ВСтрокуРасширеннаяПодсказка" id="9"/>
-				</Button>
-			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаСравнениеПредложений" id="20">
 			<Title>
@@ -70,15 +66,120 @@
 					<ContextMenu name="П2КонтекстноеМеню" id="18"/>
 					<ExtendedTooltip name="П2РасширеннаяПодсказка" id="19"/>
 				</InputField>
+				<LabelField name="СтрокаРезультат" id="3">
+					<DataPath>СтрокаРезультат</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="СтрокаРезультатКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="СтрокаРезультатРасширеннаяПодсказка" id="5"/>
+				</LabelField>
 			</ChildItems>
 		</UsualGroup>
-		<LabelField name="СтрокаРезультат" id="3">
-			<DataPath>СтрокаРезультат</DataPath>
-			<TitleLocation>None</TitleLocation>
-			<AutoMaxWidth>false</AutoMaxWidth>
-			<ContextMenu name="СтрокаРезультатКонтекстноеМеню" id="4"/>
-			<ExtendedTooltip name="СтрокаРезультатРасширеннаяПодсказка" id="5"/>
-		</LabelField>
+		<UsualGroup name="ГруппаКодировка" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кодировка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кодировка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>StrongSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКодировкаРасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаТестКодировка1" id="30">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа тест кодировка1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа тест кодировка1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаТестКодировка1РасширеннаяПодсказка" id="31"/>
+					<ChildItems>
+						<InputField name="СтрокаКодировка1" id="22">
+							<DataPath>СтрокаКодировка1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Строка 1</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="СтрокаКодировка1КонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="СтрокаКодировка1РасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<Button name="ТестЗакодировать" id="32">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ТестЗакодировать</CommandName>
+							<ExtendedTooltip name="ТестЗакодироватьРасширеннаяПодсказка" id="33"/>
+						</Button>
+						<Button name="ТестСтрокаВBase64" id="6">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ТестСтрокаВBase64</CommandName>
+							<ExtendedTooltip name="ТестСтрокаВBase64РасширеннаяПодсказка" id="7"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="Кодировка" id="38">
+					<DataPath>Кодировка</DataPath>
+					<DropListButton>true</DropListButton>
+					<ContextMenu name="КодировкаКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="КодировкаРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<UsualGroup name="ГруппаТестКодировка2" id="34">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа тест кодировка2</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа тест кодировка2</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаТестКодировка2РасширеннаяПодсказка" id="35"/>
+					<ChildItems>
+						<InputField name="СтрокаКодировка2" id="25">
+							<DataPath>СтрокаКодировка2</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Строка 2</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<ContextMenu name="СтрокаКодировка2КонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="СтрокаКодировка2РасширеннаяПодсказка" id="27"/>
+						</InputField>
+						<Button name="ТестBase64ВСтроку" id="8">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ТестBase64ВСтроку</CommandName>
+							<ExtendedTooltip name="ТестBase64ВСтрокуРасширеннаяПодсказка" id="9"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -122,6 +223,51 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>П2</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СтрокаКодировка1" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Строка кодировка1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СтрокаКодировка2" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Строка кодировка2</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Кодировка" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кодировка</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -181,6 +327,50 @@
 			</ToolTip>
 			<Action>ТестСравненияПредложений</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ТестЗакодировать" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закодировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест закодировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ТестЗакодировать</Action>
+		</Command>
+		<Command name="ТестДекодировать" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Декодировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест декодировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ТестДекодировать</Action>
+		</Command>
+		<Command name="НаСервере" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>На сервере</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>На сервере</v8:content>
+				</v8:item>
+			</ToolTip>
 		</Command>
 	</Commands>
 </Form>
