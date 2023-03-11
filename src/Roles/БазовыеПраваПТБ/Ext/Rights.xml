@@ -18,6 +18,20 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.ИнформацияОПрограммеБСППТБ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ИнформацияОПрограммеБСППТБ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.РаботаСФормулами</name>
 		<right>
 			<name>Use</name>
