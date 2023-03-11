@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>ПрогТехБизнес</Vendor>
-			<Version>1.0.8.8</Version>
+			<Version>1.0.9.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -240,7 +240,6 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Администрирование</Subsystem>
-			<Subsystem>МодульАСУСО</Subsystem>
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<Subsystem>СтандартныеПодсистемыПТБ</Subsystem>
@@ -307,6 +306,7 @@
 			<CommonPicture>Комментарий</CommonPicture>
 			<CommonPicture>КурсивноеНачертание</CommonPicture>
 			<CommonPicture>ЛоготипConfluence</CommonPicture>
+			<CommonPicture>ЛоготипБСП_ПТБ</CommonPicture>
 			<CommonPicture>Максимум</CommonPicture>
 			<CommonPicture>Минимум</CommonPicture>
 			<CommonPicture>НезавершившаясяПроверка</CommonPicture>
@@ -419,18 +419,14 @@
 			<Role>ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</Role>
 			<Role>ИспользованиеПоискаВБазеЗнанийConfluence</Role>
 			<Role>ОбновлениеКонфигурацииБазыДанных</Role>
-			<Role>ОтправкаСообщенийВТехПоддержку</Role>
 			<Role>ПолныеПрава</Role>
 			<Role>ПросмотрЖурналаРегистрации</Role>
 			<Role>ПросмотрОписанияИзмененийПрограммы</Role>
 			<Role>РежимВсеФункции</Role>
-			<Role>Роль1</Role>
 			<Role>СохранениеДанныхПользователя</Role>
 			<Role>УдаленныйДоступБазоваяФункциональность</Role>
 			<Role>ЧтениеВнешнихПользователей</Role>
-			<CommonTemplate>CaptureScreen</CommonTemplate>
 			<CommonTemplate>ПолучениеДереваОбработчиковОбновления</CommonTemplate>
-			<CommonModule>JSON</CommonModule>
 			<CommonModule>АдминистрированиеКластера</CommonModule>
 			<CommonModule>АдминистрированиеКластераCOM</CommonModule>
 			<CommonModule>АдминистрированиеКластераCOMКлиентСервер</CommonModule>
@@ -466,12 +462,10 @@
 			<CommonModule>ИнтернетСервисыВызовСервера</CommonModule>
 			<CommonModule>ИнтернетСервисыКлиентПереопределяемый</CommonModule>
 			<CommonModule>ИнтернетСервисыКлиентСервер</CommonModule>
-			<CommonModule>ИнтернетСервисыКлиентСерверПовтИсп</CommonModule>
 			<CommonModule>ИнтернетСервисыПереопределяемый</CommonModule>
 			<CommonModule>КонструкторПредставленияКлиентСервер</CommonModule>
 			<CommonModule>НастройкиПрограммыПереопределяемый</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазы</CommonModule>
-			<CommonModule>ОбновлениеИнформационнойБазыАСУСО</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыБСП</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыВызовСервера</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыГлобальный</CommonModule>
@@ -483,7 +477,6 @@
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебныйВызовСервера</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
-			<CommonModule>ОбщегоНазначенияАСУСО</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
 			<CommonModule>ОбщегоНазначенияГлобальный</CommonModule>
 			<CommonModule>ОбщегоНазначенияКлиент</CommonModule>
@@ -494,6 +487,7 @@
 			<CommonModule>ОбщегоНазначенияПТБ</CommonModule>
 			<CommonModule>ОбщегоНазначенияПТБКлиент</CommonModule>
 			<CommonModule>ОбщегоНазначенияПТБКлиентСервер</CommonModule>
+			<CommonModule>ОбщегоНазначенияПТБПовтИсп</CommonModule>
 			<CommonModule>ОбщегоНазначенияСлужебныйКлиент</CommonModule>
 			<CommonModule>ОбщегоНазначенияСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ПараметрыПлатформыКлиентСервер</CommonModule>
@@ -546,8 +540,6 @@
 			<CommonModule>ФизическиеЛицаКлиентСервер</CommonModule>
 			<ExchangePlan>ОбменConfluence</ExchangePlan>
 			<ExchangePlan>ОбновлениеИнформационнойБазы</ExchangePlan>
-			<XDTOPackage>wsПакетСообщениеАСУСО</XDTOPackage>
-			<XDTOPackage>wsПакетСообщениеАСУСО_1_1</XDTOPackage>
 			<WebService>InterfaceVersion</WebService>
 			<HTTPService>SlackConnector</HTTPService>
 			<EventSubscription>ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</EventSubscription>
@@ -560,10 +552,8 @@
 			<EventSubscription>ПриОтправкеДанныхПодчиненному</EventSubscription>
 			<EventSubscription>ПриПолученииДанныхОтГлавного</EventSubscription>
 			<EventSubscription>ПриПолученииДанныхОтПодчиненного</EventSubscription>
-			<ScheduledJob>ЗагрузкаИзмененныхДанныхАСУСО</ScheduledJob>
 			<ScheduledJob>КонтрольАктивностиПользователей</ScheduledJob>
 			<ScheduledJob>ОтложенноеОбновлениеИБ</ScheduledJob>
-			<ScheduledJob>ПолнаяЗагрузкаДанныхАСУСО</ScheduledJob>
 			<ScheduledJob>УдалениеУстаревшихПараметровРаботыВерсийРасширений</ScheduledJob>
 			<FunctionalOption>ИспользоватьВнешнихПользователей</FunctionalOption>
 			<FunctionalOption>ИспользоватьГруппыПользователей</FunctionalOption>
@@ -587,13 +577,13 @@
 			<DefinedType>Пользователь</DefinedType>
 			<DefinedType>ФизическоеЛицо</DefinedType>
 			<CommonCommand>ВремяТекущегоСеанса</CommonCommand>
+			<CommonCommand>ИнформацияОПрограммеБСППТБ</CommonCommand>
 			<CommonCommand>ПредупрежденияПриЗавершенииРаботы</CommonCommand>
 			<CommonCommand>СведенияОПользователе</CommonCommand>
 			<CommonCommand>СменитьПароль</CommonCommand>
 			<CommonCommand>УстановитьРасширениеДляРаботыС1СПредприятием</CommonCommand>
 			<CommandGroup>Информация</CommandGroup>
 			<CommandGroup>Органайзер</CommandGroup>
-			<CommandGroup>ТехническаяПоддержка</CommandGroup>
 			<Constant>АдресДляВосстановленияПароляУчетнойЗаписи</Constant>
 			<Constant>АдресПубликацииИнформационнойБазыВИнтернете</Constant>
 			<Constant>АдресПубликацииИнформационнойБазыВЛокальнойСети</Constant>
@@ -607,14 +597,12 @@
 			<Constant>ИспользоватьИнтернетСервисы</Constant>
 			<Constant>ИспользоватьРазделениеПоОбластямДанных</Constant>
 			<Constant>КоличествоПотоковОбновленияИнформационнойБазы</Constant>
-			<Constant>МодераторСообщенийТехПоддержке</Constant>
 			<Constant>НастройкиВходаПользователей</Constant>
 			<Constant>НеИспользоватьРазделениеПоОбластямДанных</Constant>
 			<Constant>ОсновнойЯзык</Constant>
 			<Constant>ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</Constant>
 			<Constant>ОтложенноеОбновлениеЗавершеноУспешно</Constant>
 			<Constant>ПараметрыАдминистрированияИБ</Constant>
-			<Constant>ПараметрыОбращенияВОтделТехническойПоддержки</Constant>
 			<Constant>СведенияОБлокируемыхОбъектах</Constant>
 			<Constant>СведенияОбОбновленииИБ</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
@@ -631,8 +619,8 @@
 			<CommonForm>ГруппыПользователей</CommonForm>
 			<CommonForm>ДлительнаяОперация</CommonForm>
 			<CommonForm>ДополнительныеПараметрыПроксиСервера</CommonForm>
+			<CommonForm>ИнформацияОПрограммеБСППТБ</CommonForm>
 			<CommonForm>КонтрольДинамическогоОбновления</CommonForm>
-			<CommonForm>НастройкаПараметровОбращенияВОтделТехническойПоддержки</CommonForm>
 			<CommonForm>НастройкиВходаПользователей</CommonForm>
 			<CommonForm>НовыйПароль</CommonForm>
 			<CommonForm>ОписаниеИзмененийПрограммы</CommonForm>
@@ -664,20 +652,15 @@
 			<Document>ТестовыйДокументПроведение</Document>
 			<Document>ТестовыйДокументРаботаСФормулами</Document>
 			<Enum>ВидыНастроекИнтеграцииSlack</Enum>
-			<Enum>ВидыСообщенийВТехническуюПоддержку</Enum>
 			<Enum>РежимыВыполненияОбработчиков</Enum>
 			<Enum>РежимыВыполненияОтложенныхОбработчиков</Enum>
-			<Enum>СпособВыводаОтчета</Enum>
 			<Enum>СпособыРасчетаПоказателяФормулы</Enum>
 			<Enum>СпособыРедактированияЭлектронныхПисем</Enum>
 			<Enum>СтатусыОбработчиковОбновления</Enum>
-			<Enum>СтатусыСообщенийВТехническуюПоддержку</Enum>
 			<Enum>ТипыДанныхConfluence</Enum>
 			<Enum>ТипыДанныхКэшаПрограммныхИнтерфейсов</Enum>
-			<Report>ДвиженияДокументаПТБ</Report>
 			<Report>ПрогрессОтложенногоОбновления</Report>
 			<Report>СведенияОПользователях</Report>
-			<Report>СообщенияВТехПоддержкуПТБ</Report>
 			<DataProcessor>ГрупповоеРедактированиеТабличныхЧастейПТБ</DataProcessor>
 			<DataProcessor>ЖурналРегистрации</DataProcessor>
 			<DataProcessor>НастройкаИнтеграцииSlack</DataProcessor>
@@ -706,7 +689,6 @@
 			<InformationRegister>ИдентификаторыБазыЗнанийConfluence</InformationRegister>
 			<InformationRegister>ИдентификаторыОбъектовВерсийРасширений</InformationRegister>
 			<InformationRegister>ИсторияВыполненияHTTPЗапросов</InformationRegister>
-			<InformationRegister>ИсторияИзмененияОбъектов</InformationRegister>
 			<InformationRegister>КэшПрограммныхИнтерфейсов</InformationRegister>
 			<InformationRegister>НастройкиИнтеграцииConfluence</InformationRegister>
 			<InformationRegister>НастройкиИнтеграцииSlack</InformationRegister>
@@ -717,9 +699,7 @@
 			<InformationRegister>ПараметрыРаботыПрограммы</InformationRegister>
 			<InformationRegister>ПотокиОбновления</InformationRegister>
 			<InformationRegister>СведенияОПользователях</InformationRegister>
-			<InformationRegister>СообщенияВТехническуюПоддержку</InformationRegister>
 			<InformationRegister>СоставыГруппПользователей</InformationRegister>
-			<InformationRegister>СостоянияПросмотраОписаний</InformationRegister>
 			<AccumulationRegister>РегистрОстатки</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
