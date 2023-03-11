@@ -19,9 +19,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИспользоватьИнтернетСервисы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетСервисы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетСервисыКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.JSON</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">1eac485d-564b-4f33-b753-751ee4c957d1</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьИнтернетСервисы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетСервисыКлиентСерверПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">c5a748ae-c2cf-4f06-8b93-134c49e49242</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияВыполненияHTTPЗапросов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетСервисыПереопределяемый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтернетСервисыВызовСервера</xr:Item>
