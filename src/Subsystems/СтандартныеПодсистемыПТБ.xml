@@ -21,7 +21,6 @@
 			<Subsystem>ГрупповоеРедактированиеТабличныхЧастей</Subsystem>
 			<Subsystem>ДлительныеОперации</Subsystem>
 			<Subsystem>ИнтеграцияConfluence</Subsystem>
-			<Subsystem>ИнтеграцияSlack</Subsystem>
 			<Subsystem>ИнтернетСервисы</Subsystem>
 			<Subsystem>ПомощникЗаполнения</Subsystem>
 			<Subsystem>ПроведениеДокументов</Subsystem>

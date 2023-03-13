@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -31,6 +31,12 @@
 	</Events>
 	<ChildItems>
 		<Pages name="ОтчетИлиПредупреждение" id="66">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет или предупреждение</v8:content>
+				</v8:item>
+			</Title>
 			<PagesRepresentation>None</PagesRepresentation>
 			<ExtendedTooltip name="ОтчетИлиПредупреждениеExtendedTooltip" id="118"/>
 			<ChildItems>
@@ -44,6 +50,12 @@
 					<ExtendedTooltip name="ОтображатьОтчетExtendedTooltip" id="119"/>
 					<ChildItems>
 						<UsualGroup name="БыстрыйПоиск" id="50">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Быстрый поиск</v8:content>
+								</v8:item>
+							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -97,6 +109,12 @@
 							</ChildItems>
 						</UsualGroup>
 						<CommandBar name="КоманднаяПанель" id="51">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель</v8:content>
+								</v8:item>
+							</Title>
 							<CommandSource>Form</CommandSource>
 							<ExtendedTooltip name="КоманднаяПанельExtendedTooltip" id="123"/>
 							<ChildItems>
@@ -180,6 +198,11 @@
 											<CommandName>Form.Command.ОчиститьВсеНастройки</CommandName>
 											<ExtendedTooltip name="ОчиститьВсеНастройкиExtendedTooltip" id="134"/>
 										</Button>
+										<Button name="ОчиститьУстаревшиеНастройки" id="233">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.ОчиститьУстаревшиеНастройки</CommandName>
+											<ExtendedTooltip name="ОчиститьУстаревшиеНастройкиРасширеннаяПодсказка" id="234"/>
+										</Button>
 										<Button name="ОчиститьНастройкиОтчетовИВнешнегоВида" id="100">
 											<Type>CommandBarButton</Type>
 											<CommandName>Form.Command.ОчиститьНастройкиОтчетовИВнешнегоВида</CommandName>
@@ -200,6 +223,12 @@
 													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 													<ExtendedTooltip name="ОчиститьНастройкиВсехПользователейExtendedTooltip" id="138"/>
 												</Button>
+												<Button name="ОчиститьУстаревшиеНастройкиВсехПользователей" id="235">
+													<Type>CommandBarButton</Type>
+													<CommandName>Form.Command.ОчиститьУстаревшиеНастройкиВсехПользователей</CommandName>
+													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+													<ExtendedTooltip name="ОчиститьУстаревшиеНастройкиВсехПользователейРасширеннаяПодсказка" id="236"/>
+												</Button>
 											</ChildItems>
 										</ButtonGroup>
 									</ChildItems>
@@ -218,10 +247,22 @@
 							</ChildItems>
 						</CommandBar>
 						<Pages name="СтраницыДлительнаяОперация" id="211">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы длительная операция</v8:content>
+								</v8:item>
+							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыДлительнаяОперацияРасширеннаяПодсказка" id="212"/>
 							<ChildItems>
 								<Page name="СтраницаДлительнаяОперация" id="213">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница длительная операция</v8:content>
+										</v8:item>
+									</Title>
 									<Group>HorizontalIfPossible</Group>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="СтраницаДлительнаяОперацияРасширеннаяПодсказка" id="214"/>
@@ -249,10 +290,22 @@
 									</ChildItems>
 								</Page>
 								<Page name="СтраницаНастройки" id="215">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница настройки</v8:content>
+										</v8:item>
+									</Title>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="СтраницаНастройкиРасширеннаяПодсказка" id="216"/>
 									<ChildItems>
 										<Pages name="ВидыНастроек" id="13">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Виды настроек</v8:content>
+												</v8:item>
+											</Title>
 											<PagesRepresentation>TabsOnTop</PagesRepresentation>
 											<ExtendedTooltip name="ВидыНастроекExtendedTooltip" id="141"/>
 											<Events>
@@ -282,6 +335,12 @@
 															<EnableDrag>true</EnableDrag>
 															<FileDragMode>AsFile</FileDragMode>
 															<DataPath>ВнешнийВид</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Внешний вид</v8:content>
+																</v8:item>
+															</Title>
 															<CommandSet>
 																<ExcludedCommand>Add</ExcludedCommand>
 																<ExcludedCommand>Change</ExcludedCommand>
@@ -384,6 +443,12 @@
 															</Events>
 															<ChildItems>
 																<ColumnGroup name="ВнешнийВидКартинкаНастройкаПометка" id="38">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Внешний вид картинка настройка пометка</v8:content>
+																		</v8:item>
+																	</Title>
 																	<Group>InCell</Group>
 																	<ExtendedTooltip name="ВнешнийВидКартинкаНастройкаПометкаExtendedTooltip" id="151"/>
 																	<ChildItems>
@@ -431,6 +496,12 @@
 															<EnableDrag>true</EnableDrag>
 															<FileDragMode>AsFile</FileDragMode>
 															<DataPath>НастройкиОтчетов</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Настройки отчетов дерево</v8:content>
+																</v8:item>
+															</Title>
 															<CommandSet>
 																<ExcludedCommand>Add</ExcludedCommand>
 																<ExcludedCommand>Change</ExcludedCommand>
@@ -533,6 +604,12 @@
 															</Events>
 															<ChildItems>
 																<ColumnGroup name="НастройкиОтчетовКартинкаНастройкаПометка" id="28">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Настройки отчетов картинка настройка пометка</v8:content>
+																		</v8:item>
+																	</Title>
 																	<Group>InCell</Group>
 																	<ExtendedTooltip name="НастройкиОтчетовКартинкаНастройкаПометкаExtendedTooltip" id="163"/>
 																	<ChildItems>
@@ -581,6 +658,12 @@
 															<EnableDrag>true</EnableDrag>
 															<FileDragMode>AsFile</FileDragMode>
 															<DataPath>ПрочиеНастройки</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Прочие настройки</v8:content>
+																</v8:item>
+															</Title>
 															<CommandSet>
 																<ExcludedCommand>Add</ExcludedCommand>
 																<ExcludedCommand>Change</ExcludedCommand>
@@ -683,6 +766,12 @@
 															</Events>
 															<ChildItems>
 																<ColumnGroup name="ПрочиеНастройкиКартинкаНастройкаПометка" id="81">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Прочие настройки картинка настройка пометка</v8:content>
+																		</v8:item>
+																	</Title>
 																	<Group>InCell</Group>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ПрочиеНастройкиКартинкаНастройкаПометкаExtendedTooltip" id="175"/>
@@ -725,6 +814,12 @@
 					<ExtendedTooltip name="ОтображатьПредупреждениеExtendedTooltip" id="180"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаПредупреждениеИКартинка" id="73">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Предупреждение и картинка</v8:content>
+								</v8:item>
+							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -771,6 +866,12 @@
 					<ExtendedTooltip name="НедостаточноПравРасширеннаяПодсказка" id="224"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаНедостаточноПрав" id="225">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Недостаточно прав</v8:content>
+								</v8:item>
+							</Title>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -1375,6 +1476,39 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОчиститьНастройкиВыбраннымПользователям</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОчиститьУстаревшиеНастройки" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Устаревшие настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить устаревшие настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьУстаревшиеНастройки</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОчиститьУстаревшиеНастройкиВсехПользователей" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Устаревшие настройки у всех пользователей</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить устаревшие настройки у всех пользователей</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьУстаревшиеНастройкиВсехПользователей</Action>
+			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>

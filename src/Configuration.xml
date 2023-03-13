@@ -52,8 +52,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АдминистраторСистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
-			<Vendor>ПрогТехБизнес</Vendor>
-			<Version>1.0.9.1</Version>
+			<Vendor>ООО "ПрогТехБизнес"</Vendor>
+			<Version>1.1.0.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -207,19 +207,19 @@
 			<BriefInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Библиотека ПТБ, редакция 1.0</v8:content>
+					<v8:content>Библиотека ПТБ, редакция 1.1</v8:content>
 				</v8:item>
 			</BriefInformation>
 			<DetailedInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Библиотека ПТБ, редакция 1.0</v8:content>
+					<v8:content>Библиотека ПТБ, редакция 1.1</v8:content>
 				</v8:item>
 			</DetailedInformation>
 			<Copyright>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Copyright © ООО "ПрогТехБизнес", 2007-2022</v8:content>
+					<v8:content>Copyright © ООО "ПрогТехБизнес", 2007-2023</v8:content>
 				</v8:item>
 			</Copyright>
 			<VendorInformationAddress>
@@ -234,7 +234,7 @@
 			<ModalityUseMode>UseWithWarnings</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_16</CompatibilityMode>
+			<CompatibilityMode>Version8_3_19</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
@@ -263,8 +263,6 @@
 			<StyleItem>ЦветРазделаПанелиФункций</StyleItem>
 			<StyleItem>ЦветФонаГруппыПомощникЗаполнения</StyleItem>
 			<StyleItem>ЦветФонаПредупреждения</StyleItem>
-			<CommonPicture>Slack16</CommonPicture>
-			<CommonPicture>Slack32</CommonPicture>
 			<CommonPicture>ВидыОпераций</CommonPicture>
 			<CommonPicture>Вопрос32</CommonPicture>
 			<CommonPicture>ВосклицательныйЗнакКрасный</CommonPicture>
@@ -294,7 +292,6 @@
 			<CommonPicture>ИерархическийСписок</CommonPicture>
 			<CommonPicture>ИзменитьШрифт</CommonPicture>
 			<CommonPicture>ИнтернетПоддержкаПользователей</CommonPicture>
-			<CommonPicture>Информация</CommonPicture>
 			<CommonPicture>Информация32</CommonPicture>
 			<CommonPicture>ИнформацияПоНедоступнымПолям</CommonPicture>
 			<CommonPicture>Количество</CommonPicture>
@@ -308,6 +305,76 @@
 			<CommonPicture>ЛоготипConfluence</CommonPicture>
 			<CommonPicture>ЛоготипБСП_ПТБ</CommonPicture>
 			<CommonPicture>Максимум</CommonPicture>
+			<CommonPicture>МетаданныеHTTPСервисы</CommonPicture>
+			<CommonPicture>МетаданныеHTTPСервисыШаблоныURL</CommonPicture>
+			<CommonPicture>МетаданныеHTTPСервисыШаблоныURLМетоды</CommonPicture>
+			<CommonPicture>МетаданныеWebСервисы</CommonPicture>
+			<CommonPicture>МетаданныеWebСервисыОперации</CommonPicture>
+			<CommonPicture>МетаданныеWebСервисыОперацииПараметры</CommonPicture>
+			<CommonPicture>МетаданныеWSСсылки</CommonPicture>
+			<CommonPicture>МетаданныеБизнесПроцессы</CommonPicture>
+			<CommonPicture>МетаданныеБоты</CommonPicture>
+			<CommonPicture>МетаданныеВнешниеИсточникиДанных</CommonPicture>
+			<CommonPicture>МетаданныеВнешниеИсточникиКубы</CommonPicture>
+			<CommonPicture>МетаданныеВнешниеИсточникиТаблицы</CommonPicture>
+			<CommonPicture>МетаданныеВнешниеИсточникиТаблицыИзмерений</CommonPicture>
+			<CommonPicture>МетаданныеВнешниеИсточникиФункции</CommonPicture>
+			<CommonPicture>МетаданныеГрафы</CommonPicture>
+			<CommonPicture>МетаданныеГруппыКоманд</CommonPicture>
+			<CommonPicture>МетаданныеДокументы</CommonPicture>
+			<CommonPicture>МетаданныеЖурналыДокументов</CommonPicture>
+			<CommonPicture>МетаданныеЗадачи</CommonPicture>
+			<CommonPicture>МетаданныеЗначениеПеречисления</CommonPicture>
+			<CommonPicture>МетаданныеИзмерения</CommonPicture>
+			<CommonPicture>МетаданныеКоманды</CommonPicture>
+			<CommonPicture>МетаданныеКонстанты</CommonPicture>
+			<CommonPicture>МетаданныеКонфигурация</CommonPicture>
+			<CommonPicture>МетаданныеКритерииОтбора</CommonPicture>
+			<CommonPicture>МетаданныеМакеты</CommonPicture>
+			<CommonPicture>МетаданныеОбработки</CommonPicture>
+			<CommonPicture>МетаданныеОбщие</CommonPicture>
+			<CommonPicture>МетаданныеОбщиеКартинки</CommonPicture>
+			<CommonPicture>МетаданныеОбщиеКоманды</CommonPicture>
+			<CommonPicture>МетаданныеОбщиеМакеты</CommonPicture>
+			<CommonPicture>МетаданныеОбщиеМодули</CommonPicture>
+			<CommonPicture>МетаданныеОбщиеРеквизиты</CommonPicture>
+			<CommonPicture>МетаданныеОбщиеФормы</CommonPicture>
+			<CommonPicture>МетаданныеОпределяемыеТипы</CommonPicture>
+			<CommonPicture>МетаданныеОпределяемыйТип</CommonPicture>
+			<CommonPicture>МетаданныеОтчеты</CommonPicture>
+			<CommonPicture>МетаданныеПакетыXDTO</CommonPicture>
+			<CommonPicture>МетаданныеПараметрыСеанса</CommonPicture>
+			<CommonPicture>МетаданныеПараметрыФункциональныхОпций</CommonPicture>
+			<CommonPicture>МетаданныеПерерасчеты</CommonPicture>
+			<CommonPicture>МетаданныеПеречисления</CommonPicture>
+			<CommonPicture>МетаданныеПланыВидовРасчета</CommonPicture>
+			<CommonPicture>МетаданныеПланыВидовХарактеристик</CommonPicture>
+			<CommonPicture>МетаданныеПланыОбмена</CommonPicture>
+			<CommonPicture>МетаданныеПланыСчетов</CommonPicture>
+			<CommonPicture>МетаданныеПодпискиНаСобытия</CommonPicture>
+			<CommonPicture>МетаданныеПодсистемы</CommonPicture>
+			<CommonPicture>МетаданныеПоследовательности</CommonPicture>
+			<CommonPicture>МетаданныеПризнакиУчета</CommonPicture>
+			<CommonPicture>МетаданныеПризнакиУчетаСубконто</CommonPicture>
+			<CommonPicture>МетаданныеРегистрыБухгалтерии</CommonPicture>
+			<CommonPicture>МетаданныеРегистрыНакопления</CommonPicture>
+			<CommonPicture>МетаданныеРегистрыРасчета</CommonPicture>
+			<CommonPicture>МетаданныеРегистрыСведений</CommonPicture>
+			<CommonPicture>МетаданныеРегламентныеЗадания</CommonPicture>
+			<CommonPicture>МетаданныеРеквизиты</CommonPicture>
+			<CommonPicture>МетаданныеРеквизитыАдресации</CommonPicture>
+			<CommonPicture>МетаданныеРесурсы</CommonPicture>
+			<CommonPicture>МетаданныеРоли</CommonPicture>
+			<CommonPicture>МетаданныеСправочники</CommonPicture>
+			<CommonPicture>МетаданныеСтандартныеРеквизиты</CommonPicture>
+			<CommonPicture>МетаданныеСтандартныеТабличныеЧасти</CommonPicture>
+			<CommonPicture>МетаданныеСтили</CommonPicture>
+			<CommonPicture>МетаданныеТабличныеЧасти</CommonPicture>
+			<CommonPicture>МетаданныеФормы</CommonPicture>
+			<CommonPicture>МетаданныеФункциональныеОпции</CommonPicture>
+			<CommonPicture>МетаданныеХранилищаНастроек</CommonPicture>
+			<CommonPicture>МетаданныеЭлементыСтиля</CommonPicture>
+			<CommonPicture>МетаданныеЯзыки</CommonPicture>
 			<CommonPicture>Минимум</CommonPicture>
 			<CommonPicture>НезавершившаясяПроверка</CommonPicture>
 			<CommonPicture>НетГраницы</CommonPicture>
@@ -338,6 +405,7 @@
 			<CommonPicture>РазорватьСоединение</CommonPicture>
 			<CommonPicture>Рассчитать</CommonPicture>
 			<CommonPicture>РасширениеКонфигурацииИзГлавногоУзла</CommonPicture>
+			<CommonPicture>Скачать</CommonPicture>
 			<CommonPicture>СкопироватьВБуферОбмена</CommonPicture>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>СостояниеПользователя01</CommonPicture>
@@ -357,6 +425,7 @@
 			<CommonPicture>СостоянияРасширенийКонфигурации</CommonPicture>
 			<CommonPicture>СостоянияРасширенийОшибка</CommonPicture>
 			<CommonPicture>СостоянияРасширенийПодключено</CommonPicture>
+			<CommonPicture>СохранитьКак</CommonPicture>
 			<CommonPicture>СохранитьФайлКак</CommonPicture>
 			<CommonPicture>Среднее</CommonPicture>
 			<CommonPicture>СтатусыДокумента</CommonPicture>
@@ -368,10 +437,30 @@
 			<CommonPicture>СтрелкаВправоЗеленая</CommonPicture>
 			<CommonPicture>СтруктураМетаданных</CommonPicture>
 			<CommonPicture>Сумма</CommonPicture>
+			<CommonPicture>ТипБулево</CommonPicture>
+			<CommonPicture>ТипГиперссылка</CommonPicture>
+			<CommonPicture>ТипГруппа</CommonPicture>
+			<CommonPicture>ТипДата</CommonPicture>
+			<CommonPicture>ТипДерево</CommonPicture>
+			<CommonPicture>ТипИдентификатор</CommonPicture>
+			<CommonPicture>ТипКартинка</CommonPicture>
+			<CommonPicture>ТипКонстанта</CommonPicture>
+			<CommonPicture>ТипМакрос</CommonPicture>
+			<CommonPicture>ТипНеопределено</CommonPicture>
+			<CommonPicture>ТипПапка</CommonPicture>
+			<CommonPicture>ТипСоставнойДополнительный</CommonPicture>
+			<CommonPicture>ТипСоставнойОсновной</CommonPicture>
+			<CommonPicture>ТипСписок</CommonPicture>
+			<CommonPicture>ТипСсылка</CommonPicture>
+			<CommonPicture>ТипСтрока</CommonPicture>
+			<CommonPicture>ТипФильтр</CommonPicture>
+			<CommonPicture>ТипФункция</CommonPicture>
+			<CommonPicture>ТипЧисло</CommonPicture>
 			<CommonPicture>ТолстаяГраницаВокруг</CommonPicture>
 			<CommonPicture>ТолстаяГраницаСверху</CommonPicture>
 			<CommonPicture>ТолстаяГраницаСнизу</CommonPicture>
 			<CommonPicture>УвеличитьШрифт</CommonPicture>
+			<CommonPicture>УдалитьИнформация</CommonPicture>
 			<CommonPicture>УменьшитьШрифт</CommonPicture>
 			<CommonPicture>Успешно</CommonPicture>
 			<CommonPicture>Успешно32</CommonPicture>
@@ -388,13 +477,15 @@
 			<CommonPicture>ФорматПустой</CommonPicture>
 			<CommonPicture>ЦветТекста</CommonPicture>
 			<CommonPicture>ЦветФона</CommonPicture>
+			<CommonPicture>ШтампЭлектроннойПодписи</CommonPicture>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
 			<SessionParameter>ВерсияРасширений</SessionParameter>
 			<SessionParameter>ВыполняетсяОбновлениеИБ</SessionParameter>
 			<SessionParameter>КлючДанныхПовторногоИспользования</SessionParameter>
 			<SessionParameter>ОсновнойЯзык</SessionParameter>
-			<SessionParameter>ОтмененныеДлительныеОперации</SessionParameter>
+			<SessionParameter>ОбновлениеСправочниковИдентификаторов</SessionParameter>
+			<SessionParameter>ДлительныеОперации</SessionParameter>
 			<SessionParameter>ПараметрыКлиентаНаСервере</SessionParameter>
 			<SessionParameter>ПараметрыОбработчикаОбновления</SessionParameter>
 			<SessionParameter>ПодключенныеРасширения</SessionParameter>
@@ -422,7 +513,7 @@
 			<Role>ПолныеПрава</Role>
 			<Role>ПросмотрЖурналаРегистрации</Role>
 			<Role>ПросмотрОписанияИзмененийПрограммы</Role>
-			<Role>РежимВсеФункции</Role>
+			<Role>РежимТехническогоСпециалиста</Role>
 			<Role>СохранениеДанныхПользователя</Role>
 			<Role>УдаленныйДоступБазоваяФункциональность</Role>
 			<Role>ЧтениеВнешнихПользователей</Role>
@@ -440,7 +531,6 @@
 			<CommonModule>ГрупповоеРедактированиеТабличныхЧастейСервер</CommonModule>
 			<CommonModule>ДлительныеОперации</CommonModule>
 			<CommonModule>ДлительныеОперацииВызовСервера</CommonModule>
-			<CommonModule>ДлительныеОперацииГлобальный</CommonModule>
 			<CommonModule>ДлительныеОперацииКлиент</CommonModule>
 			<CommonModule>ДлительныеОперацииПТБКлиентСервер</CommonModule>
 			<CommonModule>ЖурналРегистрации</CommonModule>
@@ -450,10 +540,6 @@
 			<CommonModule>ИнтеграцияConfluenceВызовСервераПовтИсп</CommonModule>
 			<CommonModule>ИнтеграцияConfluenceКлиентСервер</CommonModule>
 			<CommonModule>ИнтеграцияConfluenceПереопределяемый</CommonModule>
-			<CommonModule>ИнтеграцияSlack</CommonModule>
-			<CommonModule>ИнтеграцияSlackКлиентСервер</CommonModule>
-			<CommonModule>ИнтеграцияSlackПереопределяемый</CommonModule>
-			<CommonModule>ИнтеграцияSlackСлужебный</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСП</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСПКлиент</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСПКлиентПовтИсп</CommonModule>
@@ -514,6 +600,11 @@
 			<CommonModule>РаботаСФормуламиСлужебныйВызовСервера</CommonModule>
 			<CommonModule>РегламентированныеДанныеКлиентСервер</CommonModule>
 			<CommonModule>РегламентныеЗаданияСервер</CommonModule>
+			<CommonModule>СерверныеОповещения</CommonModule>
+			<CommonModule>СерверныеОповещенияГлобальный</CommonModule>
+			<CommonModule>СерверныеОповещенияКлиент</CommonModule>
+			<CommonModule>СерверныеОповещенияСлужебныйВызовСервера</CommonModule>
+			<CommonModule>СерверныеОповещенияСлужебныйПовтИсп</CommonModule>
 			<CommonModule>СтандартныеПодсистемыВызовСервера</CommonModule>
 			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиент</CommonModule>
@@ -541,7 +632,6 @@
 			<ExchangePlan>ОбменConfluence</ExchangePlan>
 			<ExchangePlan>ОбновлениеИнформационнойБазы</ExchangePlan>
 			<WebService>InterfaceVersion</WebService>
-			<HTTPService>SlackConnector</HTTPService>
 			<EventSubscription>ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</EventSubscription>
 			<EventSubscription>ЗапретитьПометкуУдаленияПредопределенныхЭлементов</EventSubscription>
 			<EventSubscription>ЗапретитьУдалениеПредопределенныхЭлементов</EventSubscription>
@@ -552,10 +642,15 @@
 			<EventSubscription>ПриОтправкеДанныхПодчиненному</EventSubscription>
 			<EventSubscription>ПриПолученииДанныхОтГлавного</EventSubscription>
 			<EventSubscription>ПриПолученииДанныхОтПодчиненного</EventSubscription>
+			<ScheduledJob>ЗаполнениеПараметровРаботыРасширений</ScheduledJob>
 			<ScheduledJob>КонтрольАктивностиПользователей</ScheduledJob>
+			<ScheduledJob>ОбработкаСервисовИнтеграции</ScheduledJob>
 			<ScheduledJob>ОтложенноеОбновлениеИБ</ScheduledJob>
+			<ScheduledJob>ОтправкаСерверныхОповещенийКлиентам</ScheduledJob>
+			<ScheduledJob>ОчисткаУстаревшихДанных</ScheduledJob>
 			<ScheduledJob>УдалениеУстаревшихПараметровРаботыВерсийРасширений</ScheduledJob>
 			<FunctionalOption>ИспользоватьВнешнихПользователей</FunctionalOption>
+			<FunctionalOption>ИспользоватьГруппыВнешнихПользователей</FunctionalOption>
 			<FunctionalOption>ИспользоватьГруппыПользователей</FunctionalOption>
 			<FunctionalOption>ИспользоватьИнтернетСервисы</FunctionalOption>
 			<FunctionalOption>ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</FunctionalOption>
@@ -589,13 +684,18 @@
 			<Constant>АдресПубликацииИнформационнойБазыВЛокальнойСети</Constant>
 			<Constant>ГлавныйУзел</Constant>
 			<Constant>ДетализироватьОбновлениеИБВЖурналеРегистрации</Constant>
+			<Constant>ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</Constant>
 			<Constant>ЗаголовокСистемы</Constant>
 			<Constant>ЗапретитьОтображениеНебезопасногоСодержимогоВПисьмах</Constant>
 			<Constant>ИдентификаторИнформационнойБазы</Constant>
 			<Constant>ИспользоватьВнешнихПользователей</Constant>
+			<Constant>ИспользоватьГруппыВнешнихПользователей</Constant>
 			<Constant>ИспользоватьГруппыПользователей</Constant>
 			<Constant>ИспользоватьИнтернетСервисы</Constant>
 			<Constant>ИспользоватьРазделениеПоОбластямДанных</Constant>
+			<Constant>КаталогВременныхФайловДляLinux</Constant>
+			<Constant>КаталогВременныхФайловДляWindows</Constant>
+			<Constant>КоличествоПотоковДлительныхОпераций</Constant>
 			<Constant>КоличествоПотоковОбновленияИнформационнойБазы</Constant>
 			<Constant>НастройкиВходаПользователей</Constant>
 			<Constant>НеИспользоватьРазделениеПоОбластямДанных</Constant>
@@ -605,6 +705,9 @@
 			<Constant>ПараметрыАдминистрированияИБ</Constant>
 			<Constant>СведенияОБлокируемыхОбъектах</Constant>
 			<Constant>СведенияОбОбновленииИБ</Constant>
+			<Constant>СостояниеОтправкиСерверныхОповещений</Constant>
+			<Constant>СтандартныеПодсистемыВАвтономномРежиме</Constant>
+			<Constant>УдалитьНастройкиВходаПользователей</Constant>
 			<Constant>ЭтоАвтономноеРабочееМесто</Constant>
 			<CommonForm>Вопрос</CommonForm>
 			<CommonForm>ВопросОбУстановкеВнешнейКомпоненты</CommonForm>
@@ -621,6 +724,7 @@
 			<CommonForm>ДополнительныеПараметрыПроксиСервера</CommonForm>
 			<CommonForm>ИнформацияОПрограммеБСППТБ</CommonForm>
 			<CommonForm>КонтрольДинамическогоОбновления</CommonForm>
+			<CommonForm>КонтрольИзмененияРолейПользователяИБ</CommonForm>
 			<CommonForm>НастройкиВходаПользователей</CommonForm>
 			<CommonForm>НовыйПароль</CommonForm>
 			<CommonForm>ОписаниеИзмененийПрограммы</CommonForm>
@@ -642,16 +746,15 @@
 			<Catalog>ИдентификаторыОбъектовРасширений</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Пользователи</Catalog>
-			<Catalog>ТестОбработкиВыбора</Catalog>
-			<Catalog>ТестГрупповоеРедактированиеТЧПодчиненный</Catalog>
 			<Catalog>ТестГрупповоеРедактированиеТЧОсновной</Catalog>
 			<Catalog>ТестГрупповоеРедактированиеТЧОсновнойВладелец</Catalog>
+			<Catalog>ТестГрупповоеРедактированиеТЧПодчиненный</Catalog>
+			<Catalog>ТестОбработкиВыбора</Catalog>
 			<Document>ТестГрупповоеРедактированиеТЧ</Document>
 			<Document>ТестовыйДокументАСУСО</Document>
 			<Document>ТестовыйДокументПомощникЗаполненияПТБ</Document>
 			<Document>ТестовыйДокументПроведение</Document>
 			<Document>ТестовыйДокументРаботаСФормулами</Document>
-			<Enum>ВидыНастроекИнтеграцииSlack</Enum>
 			<Enum>РежимыВыполненияОбработчиков</Enum>
 			<Enum>РежимыВыполненияОтложенныхОбработчиков</Enum>
 			<Enum>СпособыРасчетаПоказателяФормулы</Enum>
@@ -659,11 +762,11 @@
 			<Enum>СтатусыОбработчиковОбновления</Enum>
 			<Enum>ТипыДанныхConfluence</Enum>
 			<Enum>ТипыДанныхКэшаПрограммныхИнтерфейсов</Enum>
+			<Enum>ФорматыСохраненияОтчетов</Enum>
 			<Report>ПрогрессОтложенногоОбновления</Report>
 			<Report>СведенияОПользователях</Report>
 			<DataProcessor>ГрупповоеРедактированиеТабличныхЧастейПТБ</DataProcessor>
 			<DataProcessor>ЖурналРегистрации</DataProcessor>
-			<DataProcessor>НастройкаИнтеграцииSlack</DataProcessor>
 			<DataProcessor>НастройкиПользователей</DataProcessor>
 			<DataProcessor>НерекомендуемаяВерсияПлатформы</DataProcessor>
 			<DataProcessor>ОписаниеОбработчиковОбновления</DataProcessor>
@@ -686,18 +789,21 @@
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>
 			<InformationRegister>ВерсииПодсистем</InformationRegister>
 			<InformationRegister>ДанныеОбработанныеВЦентральномУзлеРИБ</InformationRegister>
+			<InformationRegister>ДлительныеОперации</InformationRegister>
 			<InformationRegister>ИдентификаторыБазыЗнанийConfluence</InformationRegister>
 			<InformationRegister>ИдентификаторыОбъектовВерсийРасширений</InformationRegister>
 			<InformationRegister>ИсторияВыполненияHTTPЗапросов</InformationRegister>
 			<InformationRegister>КэшПрограммныхИнтерфейсов</InformationRegister>
 			<InformationRegister>НастройкиИнтеграцииConfluence</InformationRegister>
-			<InformationRegister>НастройкиИнтеграцииSlack</InformationRegister>
 			<InformationRegister>ОбновлениеКлючейДоступаТекущиеЗадания</InformationRegister>
 			<InformationRegister>ОбработчикиОбновления</InformationRegister>
 			<InformationRegister>ОбработчикиОбновленияОбщихДанных</InformationRegister>
+			<InformationRegister>ОтправленныеСерверныеОповещения</InformationRegister>
 			<InformationRegister>ПараметрыРаботыВерсийРасширений</InformationRegister>
 			<InformationRegister>ПараметрыРаботыПрограммы</InformationRegister>
+			<InformationRegister>ПериодическиеСерверныеОповещения</InformationRegister>
 			<InformationRegister>ПотокиОбновления</InformationRegister>
+			<InformationRegister>ПрогрессОбновления</InformationRegister>
 			<InformationRegister>СведенияОПользователях</InformationRegister>
 			<InformationRegister>СоставыГруппПользователей</InformationRegister>
 			<AccumulationRegister>РегистрОстатки</AccumulationRegister>
