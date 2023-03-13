@@ -26,11 +26,6 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="0:a4d767a1-d2e6-4e0a-ab35-9207eef54998">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
 		<Command name="0:0adf02da-940a-4bfc-afa5-59605494a169">
 			<Visibility>
 				<xr:Common>false</xr:Common>
@@ -151,27 +146,32 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="0:0d89036c-af6e-4709-847c-0dab74a33d72">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="0:55bce105-51c0-452e-9eec-b960fe740db2">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="0:e9f393e5-04d3-4330-afb0-aa73caf0c5cd">
+		<Command name="0:33fa908a-5516-43c8-94d3-28c60eba8d66">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="0:be42c5c6-b604-4180-a3d7-24b2348c8d5e">
+		<Command name="0:1610e73c-58df-41cc-8349-51b920806821">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="0:6fd083fe-a132-4f63-b38f-4891004aca8a">
+		<Command name="0:1e14d062-1d5a-4939-8ce6-4d9514990376">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="0:981f6e35-64b8-4d63-b383-32ea71fcd025">
+		<Command name="0:8b5358e9-5810-45a7-a49e-fe7fe63c73f3">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -216,11 +216,6 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="0:61892a62-9381-401d-af31-9073ef2509fb">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
 		<Command name="0:f31f3dab-5796-47ac-a54d-3081f8cad817">
 			<Visibility>
 				<xr:Common>false</xr:Common>
@@ -233,7 +228,7 @@
 		</Command>
 		<Command name="0:e62e60ea-9f0c-4a7e-869f-4639f31f826c">
 			<Visibility>
-				<xr:Common>true</xr:Common>
+				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
 		<Command name="0:8fa21575-177f-4b7c-94b5-dfeefe737cb4">
@@ -256,7 +251,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="0:19add2bd-eede-4a05-901b-cf8ce49a638f">
+		<Command name="0:8fbf9432-77e8-4951-87a1-4368e3a5e117">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -521,7 +516,52 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="0:70a06a02-8fb8-4a39-9e50-b7c27c41f49f">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ВосстановлениеПаролей.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:25741b39-1c6b-4851-8584-9711d25ef05a">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="0:53fb35a7-44ab-42e7-8dba-6fa08bf5ba2c">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:bd362ff9-3dec-4a4b-9595-8609de76e842">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="100:cb81fb9f-16a2-4265-92a9-b827ca2fd588">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:f69a29cd-035f-4d16-8bec-150f563691b9">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:5736ef36-69eb-4406-a98e-1e4b4227a10d">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:6d4e26f4-4cc4-4445-ad7b-547cd0afc750">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:caa287fe-4f60-4243-a6fe-8b2bd607205f">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -545,10 +585,6 @@
 			<Placement>Auto</Placement>
 		</Command>
 		<Command name="0:d917c19e-be15-41cc-9c8a-a97c8de85309">
-			<CommandGroup>NavigationPanelImportant</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
-		<Command name="0:a4d767a1-d2e6-4e0a-ab35-9207eef54998">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -608,6 +644,10 @@
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
+		<Command name="0:a4d767a1-d2e6-4e0a-ab35-9207eef54998">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
 		<Command name="Catalog.Пользователи.StandardCommand.OpenList">
@@ -623,9 +663,6 @@
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
 		<Command name="0:d917c19e-be15-41cc-9c8a-a97c8de85309">
-			<CommandGroup>NavigationPanelImportant</CommandGroup>
-		</Command>
-		<Command name="0:a4d767a1-d2e6-4e0a-ab35-9207eef54998">
 			<CommandGroup>NavigationPanelImportant</CommandGroup>
 		</Command>
 		<Command name="0:0adf02da-940a-4bfc-afa5-59605494a169">
@@ -655,7 +692,7 @@
 		<Command name="DataProcessor.ПанельАдминистрированияБСП.Command.СинхронизацияДанных">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="0:ef257b20-da10-4cda-8b9d-7de2d68a2f71">
+		<Command name="DataProcessor.ПанельАдминистрированияБСП.Command.НастройкиРаботыСФайлами">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.ПанельАдминистрированияБСП.Command.ПечатныеФормыОтчетыИОбработки">
@@ -730,19 +767,19 @@
 		<Command name="0:55bce105-51c0-452e-9eec-b960fe740db2">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="0:e9f393e5-04d3-4330-afb0-aa73caf0c5cd">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="0:be42c5c6-b604-4180-a3d7-24b2348c8d5e">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="0:6fd083fe-a132-4f63-b38f-4891004aca8a">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="0:981f6e35-64b8-4d63-b383-32ea71fcd025">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
 		<Command name="0:068cae63-6fae-4330-96ed-1c252842aa8b">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="0:33fa908a-5516-43c8-94d3-28c60eba8d66">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="0:1610e73c-58df-41cc-8349-51b920806821">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="0:1e14d062-1d5a-4939-8ce6-4d9514990376">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="0:8b5358e9-5810-45a7-a49e-fe7fe63c73f3">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="0:4883cb3d-4ab3-4e0e-bddb-ae8852547a3c">
@@ -770,9 +807,6 @@
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>
 		<Command name="0:22577964-6af5-44af-a2f2-6049dc67c1ce">
-			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
-		</Command>
-		<Command name="0:61892a62-9381-401d-af31-9073ef2509fb">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>
 		<Command name="0:f31f3dab-5796-47ac-a54d-3081f8cad817">
@@ -946,11 +980,51 @@
 		<Command name="0:37e36a72-4f28-44c7-9c73-f4c445f7722e">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 		</Command>
+		<Command name="0:70a06a02-8fb8-4a39-9e50-b7c27c41f49f">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonForm.ВосстановлениеПаролей.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="0:25741b39-1c6b-4851-8584-9711d25ef05a">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="0:a4d767a1-d2e6-4e0a-ab35-9207eef54998">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="0:19add2bd-eede-4a05-901b-cf8ce49a638f">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="0:bcd705ba-c9ac-4e73-94b1-7632c0f06c04">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="0:8fbf9432-77e8-4951-87a1-4368e3a5e117">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="0:97ec899d-a2a0-4691-83ff-25b78dd49ef6">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="0:269ada84-71a9-4b4b-9604-caa40c5b7067">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="0:bd362ff9-3dec-4a4b-9595-8609de76e842">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="Report.ПрогрессОтложенногоОбновления.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="Report.СведенияОПользователях.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="0:339e8cba-a92e-42f6-8d00-3b8b56ce3b0f">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
 		<Group>NavigationPanelImportant</Group>
 		<Group>NavigationPanelOrdinary</Group>
 		<Group>NavigationPanelSeeAlso</Group>
 		<Group>ActionsPanelTools</Group>
+		<Group>ActionsPanelReports</Group>
 	</GroupsOrder>
 </CommandInterface>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
@@ -58,6 +58,18 @@
 				<CommandName>Form.Command.СохранитьВРепозиторийВсеОбработчики</CommandName>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="СохранитьВРепозиторийВсеОбработчикиРасширеннаяПодсказка" id="208"/>
+			</Button>
+			<Button name="СохранитьВФайл" id="253">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.СохранитьВФайл</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="СохранитьВФайлРасширеннаяПодсказка" id="254"/>
+			</Button>
+			<Button name="ЗагрузитьИзФайла" id="255">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗагрузитьИзФайла</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ЗагрузитьИзФайлаРасширеннаяПодсказка" id="256"/>
 			</Button>
 			<Button name="ПоказатьКодВыделенныхОбработчиков" id="230">
 				<Type>CommandBarButton</Type>
@@ -124,12 +136,11 @@
 						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 						<ExtendedTooltip name="РассчитатьОчередьРасширеннаяПодсказка" id="202"/>
 					</Button>
-					<Button name="ПроверитьЦиклВПорядкеОбработчиков" id="194">
+					<Button name="УстановитьАвтоПорядок" id="257">
 						<Type>CommandBarButton</Type>
-						<Visible>false</Visible>
-						<CommandName>Form.Command.ПроверитьЦиклВПорядкеОбработчиков</CommandName>
+						<CommandName>Form.Command.УстановитьАвтоПорядок</CommandName>
 						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-						<ExtendedTooltip name="ПроверитьЦиклВПорядкеОбработчиковРасширеннаяПодсказка" id="195"/>
+						<ExtendedTooltip name="УстановитьАвтоПорядокРасширеннаяПодсказка" id="258"/>
 					</Button>
 					<Button name="ПоказатьТекстыВсехМодулей" id="209">
 						<Type>CommandBarButton</Type>
@@ -830,10 +841,6 @@
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
 			<Save>
-				<Field>1/0:2e81a93c-f69b-41df-8a69-d99d6e945d2a</Field>
-				<Field>1/0:5562ee6c-aff6-4df9-a6e7-3f3bbd9e7014</Field>
-				<Field>1/0:82a1c877-ed5a-402d-8a15-c19f01a89ab0</Field>
-				<Field>1/0:a26ae31a-0cc5-40ec-b6ae-e5ac87a2fd09</Field>
 				<Field>Объект.КаталогSRC</Field>
 			</Save>
 		</Attribute>
@@ -1170,21 +1177,6 @@
 			</ToolTip>
 			<Action>ПоказатьТабличныеЧасти</Action>
 		</Command>
-		<Command name="ПроверитьЦиклВПорядкеОбработчиков" id="10">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Есть цикл в порядке обработчиков</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Проверить цикл в порядке обработчиков</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ПроверитьЦиклВПорядкеОбработчиков</Action>
-		</Command>
 		<Command name="РассчитатьОчередь" id="12">
 			<Title>
 				<v8:item>
@@ -1353,6 +1345,51 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПоказатьОбъектыОбработчика</Action>
+		</Command>
+		<Command name="СохранитьВФайл" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить в файл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить в файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьВФайл</Action>
+		</Command>
+		<Command name="ЗагрузитьИзФайла" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить из файла</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить из файла</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьИзФайла</Action>
+		</Command>
+		<Command name="УстановитьАвтоПорядок" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить автопорядок</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить авто порядок</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьАвтоПорядок</Action>
 		</Command>
 	</Commands>
 </Form>

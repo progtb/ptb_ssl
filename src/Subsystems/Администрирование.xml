@@ -38,7 +38,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.Расширения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ВремяТекущегоСеанса</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.НастройкиВходаПользователей</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ИнформацияОПрограммеБСППТБ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ВосстановлениеПаролей</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
