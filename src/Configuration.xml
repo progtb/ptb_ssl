@@ -52,7 +52,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АдминистраторСистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
-			<Vendor>ООО "ПрогТехБизнес"</Vendor>
+			<Vendor>ПрогТехБизнес</Vendor>
 			<Version>1.1.0.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
