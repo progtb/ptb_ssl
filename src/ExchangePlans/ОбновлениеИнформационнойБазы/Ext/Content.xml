@@ -13,6 +13,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ПрогрессОбновления</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.АдресДляВосстановленияПароляУчетнойЗаписи</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -45,7 +49,11 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Constant.НастройкиВходаПользователей</Metadata>
+		<Metadata>Constant.УдалитьНастройкиВходаПользователей</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Constant.ИспользоватьГруппыВнешнихПользователей</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -62,6 +70,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ДлительныеОперации</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -93,6 +105,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Constant.СтандартныеПодсистемыВАвтономномРежиме</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.ИспользоватьВнешнихПользователей</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -109,7 +125,19 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Constant.НастройкиВходаПользователей</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ПериодическиеСерверныеОповещения</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.ПараметрыРаботыВерсийРасширений</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ОтправленныеСерверныеОповещения</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
