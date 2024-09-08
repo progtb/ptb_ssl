@@ -48,6 +48,7 @@
 		</InputField>
 		<InputField name="Сумма" id="49">
 			<DataPath>Объект.Сумма</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СуммаКонтекстноеМеню" id="50"/>
 			<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="51"/>
 		</InputField>
@@ -55,7 +56,6 @@
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="27"/>
 			<ChildItems>
 				<UsualGroup name="Группа2" id="28">
